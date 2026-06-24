@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Gestión de producto y marca',
     Description:
-      'Este componente formativo orienta la gestión de la mezcla de productos, servicios y marca según el segmento de mercado. Integra conceptos de producto, branding, posicionamiento, normativa comercial y herramientas de marketing digital para apoyar la promoción, la identidad corporativa y el desarrollo de estrategias de social media marketing en contextos comerciales multicanal.',
+      'Este componente formativo orienta la gestión de la mezcla de productos, servicios y marca según el segmento de mercado. Integra conceptos de producto, <i>branding</i>, posicionamiento, normativa comercial y herramientas de <i>marketing digital</i> para apoyar la promoción, la identidad corporativa y el desarrollo de estrategias de <i>social media marketing</i> en contextos comerciales multicanal.',
     imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [

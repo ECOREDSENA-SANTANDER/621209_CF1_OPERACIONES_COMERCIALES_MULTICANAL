@@ -19,10 +19,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Gestión de producto y marca',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> comprender y aplicar conceptos relacionados con producto, marca, identificación, normativa y estrategias digitales para gestionar ofertas comerciales en entornos multicanal.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -30,290 +30,319 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            'En la gestión comercial, un producto debe entenderse principalmente como:',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Un objeto físico que siempre se vende en una tienda.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+                'Una oferta con atributos tangibles e intangibles que satisface necesidades.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'Un elemento que solo se clasifica por su precio.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'Un bien que no requiere diferenciación en el mercado.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            'Cuando una marca logra que el consumidor la asocie con confianza y prestigio, se evidencia principalmente un atributo:',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Funcional.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'Logístico.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
-              esCorrecta: true,
+              texto: 'Técnico.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
+              texto: 'Intangible.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto:
+            'Si un consumidor compara precio, calidad y diseño antes de comprar, el producto se clasifica como:',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'De conveniencia.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Industrial.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
-              esCorrecta: false,
+              texto: 'De comparación.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'De consumo inmediato.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            'En el ciclo de vida del producto, la etapa en la que se lanza al mercado y requiere inversión en promoción es:',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
-              esCorrecta: false,
+              texto: 'Introducción.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto: 'Madurez.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
+              texto: 'Declive.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Fidelización.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto:
+            'Si una empresa ofrece un mismo producto en diferentes sabores y tamaños, está trabajando la:',
+          imagen: '@/assets/actividad/imagen05.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
+              texto: 'Amplitud de la mezcla.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto: 'Consistencia de marca.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
-              esCorrecta: false,
+              texto: 'Profundidad de la mezcla.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Normativa comercial.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: 'Un momento de verdad en el servicio se presenta cuando:',
+          imagen: '@/assets/actividad/imagen6.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto: 'La empresa define únicamente el precio del producto.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto:
+                'El cliente tiene un contacto que influye en su percepción del servicio.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto: 'Se elimina la interacción con el consumidor.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: 'El producto termina su ciclo de vida.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            'El <em>branding</em> contribuye a la gestión comercial porque permite:',
+          imagen: '@/assets/actividad/imagen7.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto: 'Reducir totalmente los costos de producción.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
+              texto: 'Eliminar la necesidad de comunicación con el cliente.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto: 'Reemplazar el producto por publicidad.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
-              esCorrecta: false,
+              texto:
+                'Construir y gestionar una identidad de marca diferenciada.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+            'Cuando una marca ocupa un lugar claro en la mente del consumidor frente a la competencia, se habla de:',
+          imagen: '@/assets/actividad/imagen8.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Posicionamiento.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Embalaje.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Código de barras.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Portafolio logístico.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: 'El código de barras aporta a la gestión comercial porque:',
+          imagen: '@/assets/actividad/imagen9.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Define la personalidad visual de la marca.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Reemplaza la normativa de protección al consumidor.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Elimina la necesidad de inventarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Automatiza el registro, control y trazabilidad de productos.',
               esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            'Una ventaja de la tecnología <em>RFID</em> frente al código de barras es que permite:',
+          imagen: '@/assets/actividad/imagen10.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Usar únicamente etiquetas impresas visibles.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Evitar cualquier proceso de inventario.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Leer múltiples productos a distancia sin contacto directo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Suprimir la identificación del producto.',
               esCorrecta: false,
             },
           ],
@@ -322,103 +351,319 @@ export default {
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: 'El empaque cumple una función comercial cuando:',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto:
+                'Comunica atributos del producto y ayuda a diferenciarlo en el punto de venta.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Solo sirve para transportar grandes volúmenes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Reemplaza el envase y el embalaje en todos los casos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Evita que el producto tenga marca.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: 'El embalaje se diferencia del envase porque principalmente:',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Contiene directamente el producto para su uso.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Define los colores corporativos de la marca.',
               esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Mide las métricas digitales de una campaña.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Agrupa y protege productos durante transporte y distribución.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            'En el <em>marketing green</em>, la promoción transparente es importante para:',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Ocultar los impactos ambientales del producto.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Evitar mensajes engañosos o <em>greenwashing</em>.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Aumentar residuos en la distribución.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar el consumo responsable.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            'La norma relacionada con protección al consumidor, información, garantías y publicidad es:',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Ley 1581 de 2012.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Ley 256 de 1996.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Ley 1480 de 2011.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Decisión Andina 486 de 2000.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+
+        {
+          id: 15,
+          texto: 'Las patentes son importantes para una empresa porque:',
+          imagen: '@/assets/actividad/imagen05.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Otorgan derechos exclusivos sobre una invención durante un tiempo determinado.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Impiden desarrollar nuevos productos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Solo aplican para campañas en redes sociales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminan la necesidad de innovación.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+
+        {
+          id: 16,
+          texto:
+            'La segmentación avanzada en <em>marketing digital</em> permite:',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Publicar el mismo mensaje a todas las personas sin análisis.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Eliminar la medición de resultados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Reemplazar el análisis del consumidor por intuición.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Clasificar audiencias según variables demográficas, psicográficas y conductuales.',
               esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
-          id: 15,
+          id: 17,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            'Para comunicación empresarial y <em>networking</em> profesional, la plataforma más pertinente es:',
+          imagen: '@/assets/actividad/imagen7.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'TikTok.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: '<em>LinkedIn</em>.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Instagram.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Facebook.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+
+        {
+          id: 18,
+          texto:
+            'Si el objetivo de una campaña digital es generar compras o registros, se deben priorizar métricas de:',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Alcance.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Interacción.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Conversión.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Fidelización.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+
+        {
+          id: 19,
+          texto:
+            'Una transacción electrónica realizada entre empresas corresponde al tipo de <em>e-business</em>:',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'B2B.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'B2C.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'C2C.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'C2B.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+
+        {
+          id: 20,
+          texto: 'El <em>target</em> o mercado objetivo corresponde a:',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La totalidad de usuarios sin segmentación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Un grupo específico de consumidores al que se dirige una estrategia.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Un empaque usado para proteger productos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Una norma de propiedad industrial.',
               esCorrecta: false,
             },
           ],
