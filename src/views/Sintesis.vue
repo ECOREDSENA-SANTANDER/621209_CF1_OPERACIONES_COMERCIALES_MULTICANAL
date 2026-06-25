@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="zoom-in-left")
     p El componente formativo Gestión de producto y marca desarrolla los fundamentos del producto y su relación con la mezcla de producto como base para la gestión comercial. Además, integra el análisis de los servicios como parte de la oferta de valor, la marca como elemento diferenciador en el mercado, el #[em branding] como proceso de construcción de identidad y el posicionamiento como estrategia para ocupar un lugar claro en la mente del consumidor.
     p Asimismo, aborda elementos técnicos para la identificación, presentación y protección de los productos, como los códigos de barras, la tecnología #[em RFID], el empaque, el envase y el embalaje. También incorpora el #[em marketing green] o mercadeo verde como enfoque sostenible, la normativa comercial relacionada con la propiedad intelectual, las patentes y las invenciones, así como estrategias digitales como el #[em marketing digital], el #[em social media marketing] y el #[em e-business], orientadas a fortalecer la gestión de productos y marcas en entornos multicanal.
     

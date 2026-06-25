@@ -7,7 +7,7 @@
           span 1
         h1 Gestión estratégica del producto
     
-      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-4
+      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-4(data-aos="zoom-in-left")
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require_src('@/assets/curso/temas/Tema1/img01.png')})`}"
         )
@@ -24,18 +24,18 @@
             img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
             h3.bg1.py-3.w-card-text.text-white Ruta de la gestión estratégica del producto
       
-      PasosA.color-acento-contenido.mb-5(tipo="n")
+      PasosA.color-acento-contenido.mb-3(tipo="n")(data-aos="zoom-in-left")
         .row
           .col-md-8.mb-4.mb-md-0
             h4 Producto
             p Representa la base de la oferta comercial de una organización y permite generar valor en el mercado mediante atributos, características, referencias y tipos.
-          .col-md-3
+          .col-md-3.col-8
             figure
               img(src='@/assets/curso/temas/Tema1/pas1.svg', alt='')
 
 
         .row
-          .col-md-3.mb-4.mb-md-0
+          .col-md-3.mb-4.mb-md-0.col-8
             figure
               img(src='@/assets/curso/temas/Tema1/pas2.svg', alt='')
 
@@ -47,7 +47,7 @@
           .col-md-8.mb-4.mb-md-0
             h4 Servicios
             p Complementan la oferta comercial mediante experiencias, soluciones, cultura de servicio y momentos de verdad que influyen en la percepción del cliente.      
-          .col-md-3
+          .col-md-3.col-8
             figure
               img(src='@/assets/curso/temas/Tema1/pas3.svg', alt='')
       
@@ -55,7 +55,7 @@
       #t_1_1.titulo-segundo.mb-4(data-aos="zoom-in-left")
         h2 1.1  Producto: concepto, atributos, clasificación, características, referencias y tipos
         
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-2(data-aos="zoom-in-left")
         .col-lg-12
           img(src='@/assets/curso/temas/Tema1/img02.png', alt='')
 
@@ -67,11 +67,11 @@
             img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
             h3.bg1.py-3.w-card-text.text-white Concepto
 
-      .cajon.color-primario.p-4.mb-4
+      .cajon.color-primario.p-4.mb-4(data-aos="zoom-in-left")
         p El producto se define como un conjunto de atributos tangibles e intangibles que una empresa ofrece al mercado con el propósito de satisfacer necesidades o deseos. Desde una perspectiva técnica, no se limita a un bien físico, sino que incluye beneficios funcionales, emocionales y simbólicos que configuran la experiencia del consumidor.
         p En el contexto empresarial, el producto se diseña según el segmento de mercado y la propuesta de valor, considerando atributos como calidad, diseño y funcionalidad. Por ejemplo, una empresa de muebles para el hogar puede desarrollar productos modulares, funcionales y de diferentes tamaños, orientados a consumidores que buscan soluciones prácticas para organizar sus espacios.
 
-      .titulo-secundario.mb-4
+      .titulo-secundario.mb-4(data-aos="zoom-in-left")
         span.decorador
         h4.mb-0 Ejemplo aplicado: categorías de producto en una tienda virtual
 
@@ -82,12 +82,12 @@
         .bloque-texto-g__texto.p-4
           p.mb-0 En una tienda virtual de muebles y artículos para el hogar, el producto no se presenta como un elemento aislado, sino como parte de una categoría que facilita la búsqueda, comparación y decisión de compra. Por ejemplo, una empresa puede organizar su oferta en categorías como muebles para sala, muebles para dormitorio, mesas, sillas, almacenamiento, decoración y accesorios para oficina. Esta organización permite que el consumidor encuentre con mayor facilidad lo que necesita y compare opciones según diseño, funcionalidad, tamaño, precio o materiales.
             br
-      .titulo-secundario.mb-4
+      .titulo-secundario.mb-4(data-aos="zoom-in-left")
         span.decorador
         h4.mb-0 Organización del producto en una tienda virtual
 
-      .row.justify-content-center.mb-3
-        .col-lg-3
+      .row.justify-content-center.mb-0(data-aos="zoom-in-left")
+        .col-lg-3.col-8.mb-4.col-md-5
           img(src='@/assets/curso/temas/Tema1/img04.png', alt='')
         .col-lg-9
           TabsA.color-acento-botones.mb-5
@@ -104,7 +104,7 @@
 
       p Para ampliar la comprensión del concepto de producto, se dispone del video “El producto”, en el cual se explica cómo este puede estar representado por bienes físicos, servicios, ideas o experiencias, de acuerdo con la necesidad que busca satisfacer en el mercado.
       
-      figure.mb-4
+      figure.mb-4(data-aos="zoom-in-left")
         .video
           iframe(iframe width="560" height="315" src="https://www.youtube.com/embed/LN1eBcD5H4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
         figcaption Video: El producto
@@ -121,8 +121,8 @@
         h5 Tabla 1.
         span Atributos del producto
 
-      .row.justify-content-center.align-items-center.mb-5
-        .col-lg-9
+      .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
+        .col-lg-9.mb-4
           .tabla-a
             table
               thead
@@ -147,7 +147,7 @@
                   td Emocional
                   td Sensaciones, experiencias o conexiones que el producto genera en el consumidor.
                   td Sentido de pertenencia al usar una marca deportiva.
-        .col-lg-3
+        .col-lg-3.col-7.col-md-5
           img(src="@/assets/curso/temas/Tema1/img05.png")
 
       p Un caso representativo es el de los juegos de construcción, donde el producto trasciende el objeto físico e incorpora creatividad, aprendizaje y experiencia lúdica.
@@ -156,54 +156,54 @@
         span.decorador
         h4.mb-0 Atributos que diferencian un producto
 
-      .row.mb-4
+      .row.mb-4(data-aos="zoom-in-left")
         .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
-              .col-7
+              .col-5.col-lg-7
                 figure
                   img(src='@/assets/curso/temas/Tema1/1.svg', alt='')
             h4.text-center Atributo funcional
-            p.text-small.mb-0 Está relacionado con el desempeño, la utilidad y la solución que ofrece el producto frente a una necesidad específica.
+            p.mb-0 Está relacionado con el desempeño, la utilidad y la solución que ofrece el producto frente a una necesidad específica.
 
         .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
-              .col-7
+              .col-5.col-lg-7
                 figure
                   img(src='@/assets/curso/temas/Tema1/2.svg', alt='')
             h4.text-center Atributo tangible
-            p.text-small.mb-0 Corresponde a las características físicas que pueden percibirse, como diseño, materiales, tamaño o acabado.
+            p.mb-0 Corresponde a las características físicas que pueden percibirse, como diseño, materiales, tamaño o acabado.
 
         .col-sm-6.col-lg-3.mb-4.mb-sm-0.d-flex
           .tarjeta--boton.color-primario.text-white--hover.p-4.h-100
             .row.justify-content-center.mb-3
-              .col-7
+              .col-5.col-lg-7
                 figure
                   img(src='@/assets/curso/temas/Tema1/3.svg', alt='')
             h4.text-center Atributo intangible
-            p.text-small.mb-0 Se relaciona con el valor percibido de la marca, su reputación o el prestigio que el consumidor asocia con el producto.
+            p.mb-0 Se relaciona con el valor percibido de la marca, su reputación o el prestigio que el consumidor asocia con el producto.
 
         .col-sm-6.col-lg-3.d-flex
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
-              .col-7
+              .col-5.col-lg-7
                 figure
                   img(src='@/assets/curso/temas/Tema1/4.svg', alt='')
             h4.text-center Atributo emocional
-            p.text-small.mb-0 Incluye las sensaciones, experiencias o conexiones que el producto genera en el consumidor.
+            p.mb-0 Incluye las sensaciones, experiencias o conexiones que el producto genera en el consumidor.
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-sm-12.col-lg-7
           .d-flex.align-items-center
             img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
             h3.bg1.py-3.w-card-text.text-white Clasificación
 
-      .row.justify-content-center.align-items-center.mb-5.bg5
-        .col-lg-5
+      .row.justify-content-center.align-items-center.mb-5.bg5(data-aos="zoom-in-left")
+        .col-lg-5.d-none.d-lg-block
           img.izq(src="@/assets/curso/temas/Tema1/img06.png")
         .col-lg-7
-          p La clasificación del producto permite organizar la oferta según su uso, comportamiento de compra o finalidad, facilitando la definición de estrategias comerciales diferenciadas. Esta clasificación es clave para entender cómo el consumidor toma decisiones y cómo la empresa debe estructurar variables como precio, promoción y distribución.
-          p Los productos se clasifican principalmente en bienes de consumo, conveniencia, comparación y especialidad y bienes industriales, cada uno con características específicas que determinan su gestión comercial.
+          p.p-4.mb-0 La clasificación del producto permite organizar la oferta según su uso, comportamiento de compra o finalidad, facilitando la definición de estrategias comerciales diferenciadas. Esta clasificación es clave para entender cómo el consumidor toma decisiones y cómo la empresa debe estructurar variables como precio, promoción y distribución.
+          p.px-4 Los productos se clasifican principalmente en bienes de consumo, conveniencia, comparación y especialidad y bienes industriales, cada uno con características específicas que determinan su gestión comercial.
 
 
       .titulo-sexto.color-secundario(data-aos='fade-right')
@@ -211,7 +211,7 @@
         span Clasificación y caracterización de productos
 
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-9
+        .col-lg-9.mb-4
           .tabla-a
             table
               thead
@@ -237,10 +237,10 @@
                   td Industrial
                   td Bienes destinados a procesos productivos o comerciales; su compra es racional, técnica y basada en especificaciones.
                   td Maquinaria o insumos industriales.
-        .col-lg-3
+        .col-lg-3.col-7.col-md-5
           img(src="@/assets/curso/temas/Tema1/img07.png")
 
-      .cajon.color-primario.p-4.mb-4
+      .cajon.color-primario.p-4.mb-4(data-aos="zoom-in-left")
         p La clasificación de los productos puede observarse con claridad cuando se comparan ofertas orientadas al consumidor final con aquellas dirigidas a procesos técnicos y productivos. En el mercado de consumo, por ejemplo, una tienda deportiva puede ofrecer productos de conveniencia y comparación, como accesorios de uso frecuente, prendas de vestir o implementos para actividad física, cuya compra depende del precio, el diseño, la funcionalidad y la preferencia del consumidor. En contraste, en el mercado industrial se comercializan bienes orientados a procesos de fabricación, mantenimiento o soporte técnico, cuya adquisición se fundamenta en especificaciones, rendimiento, durabilidad y requerimientos operativos.
 
 
@@ -251,7 +251,7 @@
       p Los productos de consumo están dirigidos al usuario final y suelen diseñarse para satisfacer necesidades cotidianas, personales o familiares. Su compra puede estar influida por factores como la experiencia de uso, la presentación, la comodidad, la disponibilidad o la preferencia por una marca. Por su parte, los productos industriales se destinan a actividades productivas, comerciales o técnicas, por lo que su adquisición responde a criterios más racionales, como eficiencia, capacidad de trabajo, compatibilidad técnica, seguridad y cumplimiento de especificaciones.
 
 
-      .titulo-secundario.mb-4
+      .titulo-secundario.mb-4(data-aos="zoom-in-left")
         span.decorador
         h4.mb-0 Clasificación del producto según su finalidad
 
@@ -276,37 +276,175 @@
         span.decorador
         h4.mb-0 Características que fortalecen el valor del producto
 
+      AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="zoom-in-left")
+        .row.justify-content-center(titulo="Diseño")
+          .col-lg-7.mb-4.mb-md-0
+            p Se refiere a la forma, estilo y apariencia del producto, integrando aspectos estéticos y funcionales que facilitan su uso y generan atractivo para el consumidor.
+          .col-lg-4.col-10.col-md-8
+            figure
+              img(src='@/assets/curso/temas/Tema1/aco1.png', alt='')
+        .row.justify-content-center(titulo="Funcionalidad")
+          .col-lg-7.mb-4.mb-md-0
+            p Corresponde a la capacidad del producto para cumplir eficientemente con la necesidad para la cual fue creado, garantizando utilidad y desempeño.
+          .col-lg-4.col-10.col-md-8
+            figure
+              img(src='@/assets/curso/temas/Tema1/aco2.png', alt='')
+        .row.justify-content-center(titulo="Durabilidad")
+          .col-lg-7.mb-4.mb-md-0
+            p Hace referencia al tiempo de vida útil del producto y su resistencia al uso o desgaste, influyendo en la percepción de calidad.
+          .col-lg-4.col-10.col-md-8
+            figure
+              img(src='@/assets/curso/temas/Tema1/aco3.png', alt='')
+        .row.justify-content-center(titulo="Adaptabilidad")
+          .col-lg-7.mb-4.mb-md-0
+            p Es la capacidad del producto para ajustarse a diferentes usos, contextos o necesidades del consumidor, ampliando su aplicabilidad en el mercado.
+          .col-lg-4.col-10.col-md-8
+            figure
+              img(src='@/assets/curso/temas/Tema1/aco4.png', alt='')
+        .row.justify-content-center(titulo="Presentación")
+          .col-lg-7.mb-4.mb-md-0
+            p Corresponde a la forma en que el producto se muestra al consumidor, incluyendo empaque, etiqueta y apariencia, lo que impacta en la decisión de compra.
+          .col-lg-4.col-10.col-md-8
+            figure
+              img(src='@/assets/curso/temas/Tema1/aco5.png', alt='')  
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-7
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+            h3.bg1.py-3.w-card-text.text-white Referencias
 
 
+      .bloque-texto-g.bloque-texto-g--inverso.bg6.p-3.p-sm-4.p-md-5.mb-4
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require_src('@/assets/curso/temas/Tema1/img08.png')})`}"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-0 Las referencias del producto corresponden a las distintas versiones o presentaciones dentro de una misma categoría, permitiendo atender diversos segmentos de mercado.
+            br
+            br 
+            | Esta estrategia facilita ampliar la cobertura sin modificar la esencia del producto. Por ejemplo, Red Bull ofrece diferentes referencias como versiones sin azúcar, ediciones especiales y distintos tamaños, adaptándose a preferencias del consumidor.
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-7
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+            h3.bg1.py-3.w-card-text.text-white Tipos
+
+      p Los tipos de producto responden a su comportamiento en el mercado y al nivel de involucramiento del consumidor en la compra. Se clasifican de la siguiente manera:
+
+      .row.mb-4(data-aos="zoom-in-left")
+        .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
+          .tarjeta--boton.color-primario.p-4.h-100
+            .row.justify-content-center.mb-3
+              .col-lg-7.col-5
+                figure
+                  img(src='@/assets/curso/temas/Tema1/1.png', alt='')
+            h4.text-center Producto de conveniencia
+            p.mb-0 Corresponde a bienes de compra frecuente, de bajo costo y adquiridos con mínimo esfuerzo por parte del consumidor. Su disponibilidad y accesibilidad son factores clave. Ejemplo: bebidas de consumo diario.
+
+        .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
+          .tarjeta--boton.color-primario.p-4.h-100
+            .row.justify-content-center.mb-3
+              .col-lg-7.col-5
+                figure
+                  img(src='@/assets/curso/temas/Tema1/2.png', alt='')
+            h4.text-center Producto de comparación
+            p.mb-0 Implica un proceso de evaluación previa en aspectos como calidad, precio o diseño. El consumidor analiza diferentes opciones antes de tomar la decisión de compra. Ejemplo: televisores o electrodomésticos.
+
+        .col-sm-6.col-lg-3.mb-4.mb-sm-0.d-flex
+          .tarjeta--boton.color-primario.text-white--hover.p-4.h-100
+            .row.justify-content-center.mb-3
+              .col-lg-7.col-5
+                figure
+                  img(src='@/assets/curso/temas/Tema1/3.png', alt='')
+            h4.text-center Producto de especialidad
+            p.mb-0 Se caracteriza por un alto valor percibido, fuerte diferenciación y preferencia de marca. El consumidor está dispuesto a realizar un mayor esfuerzo para adquirirlo. Ejemplo: perfumes de lujo como los de Chanel.
+
+        .col-sm-6.col-lg-3.d-flex
+          .tarjeta--boton.color-primario.p-4.h-100
+            .row.justify-content-center.mb-3
+              .col-lg-7.col-5
+                figure
+                  img(src='@/assets/curso/temas/Tema1/4.png', alt='')
+            h4.text-center Producto industrial
+            p.mb-0 Está destinado a procesos productivos o comerciales y su compra es más racional, basada en especificaciones técnicas y necesidades empresariales. Ejemplo: equipos de construcción.
+
+      separador
+      #t_1_2.titulo-segundo.mb-4(data-aos="zoom-in-left")
+        h2 1.2  Mezcla de producto: concepto, estructura, categoría, línea de producto, portafolio y ciclo de vida
+
+      .bloque-texto-g.bg7.p-3.p-sm-4.p-md-5.mb-4
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require_src('@/assets/curso/temas/Tema1/img09.png')})`}"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-0 La mezcla de producto permite estructurar la oferta comercial de una empresa de manera estratégica, asegurando coherencia entre los productos y cobertura de diferentes segmentos de mercado. Su adecuada gestión incide directamente en la competitividad, rentabilidad y posicionamiento de la organización.
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-7
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+            h3.bg1.py-3.w-card-text.text-white Concepto
+
+      p La mezcla de producto se refiere al conjunto total de productos y líneas que una empresa ofrece al mercado. Esta mezcla constituye la base de la oferta comercial y permite atender diversas necesidades del consumidor mediante una propuesta organizada y diversificada.
+      p En el contexto empresarial, la mezcla de producto debe mantener coherencia en términos de calidad, mercado objetivo y posicionamiento. Por ejemplo, una empresa de consumo masivo puede gestionar múltiples líneas en categorías como cuidado personal, limpieza y productos para el hogar, manteniendo consistencia en su propuesta de valor.
 
 
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+          .col-sm-12.col-lg-7
+            .d-flex.align-items-center
+              img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+              h3.bg1.py-3.w-card-text.text-white Estructura
 
+      P La estructura de la mezcla de producto permite analizar la composición del portafolio y su nivel de diversificación, facilitando la toma de decisiones estratégicas.
 
+      .titulo-sexto.color-secundario(data-aos='fade-right')
+        h5 Tabla 3.
+        span Estructura de la mezcla de producto
 
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-9.mb-4
+          .tabla-a
+            table
+              caption Nota. Adaptada de Kotler y Armstrong (2017).
+              thead
+                tr
+                  th.bg4.w-25 Elemento
+                  th.bg4 Descripción
+                  th.bg4 Aplicación estratégica
+              tbody
+                tr
+                  td Amplitud
+                  td Número de líneas de producto que maneja la empresa.
+                  td Define el alcance en el mercado.
+                tr
+                  td Longitud
+                  td Cantidad total de productos dentro de todas las líneas.
+                  td Mide el tamaño del portafolio.
+                tr
+                  td Profundidad
+                  td Número de versiones o referencias por producto.
+                  td Permite segmentar el mercado.
+                tr
+                  td Consistencia
+                  td Relación o coherencia entre las líneas de producto.
+                  td Facilita posicionamiento y gestión.
+        .col-lg-3.col-7.col-md-5
+          img(src="@/assets/curso/temas/Tema1/img10.png")
 
+      .cajon.color-primario.p-4.mb-4(data-aos="zoom-in-left")
+        p Por ejemplo, una empresa de consumo masivo puede manejar varias líneas de producto, como alimentos empacados, productos de cuidado personal y artículos para el hogar. Esta variedad evidencia la amplitud de su mezcla. A su vez, cada línea puede incluir diferentes productos y presentaciones, como tamaños, sabores, usos o referencias específicas, lo que permite identificar la longitud y profundidad del portafolio. La consistencia se evidencia cuando todas las líneas guardan relación con el mercado objetivo, los canales de distribución y la propuesta de valor de la organización.
 
+      .titulo-secundario.mb-4(data-aos="zoom-in-left")
+        span.decorador
+        h4.mb-0 Ejemplo aplicado: análisis de la mezcla de producto
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      .row.justify-content-center.align-items-center.mb-5.bg5
+        .col-lg-5.d-none.d-lg-block
+          img.izq(src="@/assets/curso/temas/Tema1/img11.png")
+        .col-lg-7
+          p.p-3 Para comprender la estructura de la mezcla de producto, puede analizarse una empresa que ofrece productos de consumo masivo para el hogar. Su amplitud se reconoce en la cantidad de líneas que maneja, como limpieza, cuidado personal y alimentos empacados. La longitud se identifica en el número total de productos disponibles dentro de esas líneas. La profundidad se observa en las distintas versiones o referencias de un mismo producto, como tamaños, fragancias, presentaciones o usos. Finalmente, la consistencia se relaciona con la coherencia entre las líneas, el tipo de consumidor, los canales de venta y la estrategia comercial de la empresa.
 
 
 
