@@ -198,6 +198,114 @@
             img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
             h3.bg1.py-3.w-card-text.text-white Clasificación
 
+      .row.justify-content-center.align-items-center.mb-5.bg5
+        .col-lg-5
+          img.izq(src="@/assets/curso/temas/Tema1/img06.png")
+        .col-lg-7
+          p La clasificación del producto permite organizar la oferta según su uso, comportamiento de compra o finalidad, facilitando la definición de estrategias comerciales diferenciadas. Esta clasificación es clave para entender cómo el consumidor toma decisiones y cómo la empresa debe estructurar variables como precio, promoción y distribución.
+          p Los productos se clasifican principalmente en bienes de consumo, conveniencia, comparación y especialidad y bienes industriales, cada uno con características específicas que determinan su gestión comercial.
+
+
+      .titulo-sexto.color-secundario(data-aos='fade-right')
+        h5 Tabla 2.
+        span Clasificación y caracterización de productos
+
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-9
+          .tabla-a
+            table
+              thead
+              caption Nota. Adaptada de Kotler y Armstrong (2017).
+                tr
+                  th.bg4.w-25 Tipo de producto
+                  th.bg4 Caracterización
+                  th.bg4 Ejemplo aplicado
+              tbody
+                tr
+                  td Conveniencia
+                  td Productos de compra frecuente, bajo costo y mínima comparación; el consumidor busca rapidez y disponibilidad.
+                  td #[em Snacks] o bebidas de consumo inmediato.
+                tr
+                  td Comparación
+                  td Productos que requieren evaluación previa en aspectos como calidad, precio o diseño; implican mayor involucramiento.
+                  td Electrodomésticos o ropa.
+                tr
+                  td Especialidad
+                  td Productos con alto valor percibido, fuerte diferenciación y lealtad de marca; el consumidor realiza un esfuerzo adicional para adquirirlos.
+                  td Vehículos de lujo como Porsche.
+                tr
+                  td Industrial
+                  td Bienes destinados a procesos productivos o comerciales; su compra es racional, técnica y basada en especificaciones.
+                  td Maquinaria o insumos industriales.
+        .col-lg-3
+          img(src="@/assets/curso/temas/Tema1/img07.png")
+
+      .cajon.color-primario.p-4.mb-4
+        p La clasificación de los productos puede observarse con claridad cuando se comparan ofertas orientadas al consumidor final con aquellas dirigidas a procesos técnicos y productivos. En el mercado de consumo, por ejemplo, una tienda deportiva puede ofrecer productos de conveniencia y comparación, como accesorios de uso frecuente, prendas de vestir o implementos para actividad física, cuya compra depende del precio, el diseño, la funcionalidad y la preferencia del consumidor. En contraste, en el mercado industrial se comercializan bienes orientados a procesos de fabricación, mantenimiento o soporte técnico, cuya adquisición se fundamenta en especificaciones, rendimiento, durabilidad y requerimientos operativos.
+
+
+      .titulo-secundario.mb-4
+        span.decorador
+        h4.mb-0 Ejemplo aplicado: diferencias entre productos de consumo e industriales
+
+      p Los productos de consumo están dirigidos al usuario final y suelen diseñarse para satisfacer necesidades cotidianas, personales o familiares. Su compra puede estar influida por factores como la experiencia de uso, la presentación, la comodidad, la disponibilidad o la preferencia por una marca. Por su parte, los productos industriales se destinan a actividades productivas, comerciales o técnicas, por lo que su adquisición responde a criterios más racionales, como eficiencia, capacidad de trabajo, compatibilidad técnica, seguridad y cumplimiento de especificaciones.
+
+
+      .titulo-secundario.mb-4
+        span.decorador
+        h4.mb-0 Clasificación del producto según su finalidad
+
+      .row.justify-content-center.align-items-center.mb-0
+        .col-lg-12
+          TabsA.color-acento-botones.mb-5
+            .tarjeta.bgrosado.p-4(titulo="Producto de conveniencia")
+              p.mb-0 Es de compra frecuente, bajo costo y rápida decisión. El consumidor lo adquiere con poco esfuerzo de comparación y espera encontrarlo fácilmente.
+
+            .tarjeta.bgrosado.p-4(titulo="Producto de comparación")
+              p.mb-0 Requiere análisis previo por parte del consumidor, quien compara variables como precio, calidad, diseño, tamaño o funcionalidad antes de decidir.
+
+            .tarjeta.bgrosado.p-4(titulo="Producto de especialidad")
+              p.mb-0 Tiene un alto valor percibido y una fuerte diferenciación. El consumidor está dispuesto a invertir más tiempo, esfuerzo o dinero para obtenerlo.
+
+            .tarjeta.bgrosado.p-4(titulo="Producto industrial")
+              p.mb-0 Se dirige a empresas, talleres, fábricas o procesos técnicos. Su compra depende de especificaciones, desempeño, durabilidad y utilidad dentro de una actividad productiva.
+
+      p.mb-4 Las características del producto corresponden a los elementos que determinan su desempeño, calidad y aceptación en el mercado. Estas incluyen:
+
+      .titulo-secundario.mb-4
+        span.decorador
+        h4.mb-0 Características que fortalecen el valor del producto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
