@@ -446,6 +446,296 @@
         .col-lg-7
           p.p-3 Para comprender la estructura de la mezcla de producto, puede analizarse una empresa que ofrece productos de consumo masivo para el hogar. Su amplitud se reconoce en la cantidad de líneas que maneja, como limpieza, cuidado personal y alimentos empacados. La longitud se identifica en el número total de productos disponibles dentro de esas líneas. La profundidad se observa en las distintas versiones o referencias de un mismo producto, como tamaños, fragancias, presentaciones o usos. Finalmente, la consistencia se relaciona con la coherencia entre las líneas, el tipo de consumidor, los canales de venta y la estrategia comercial de la empresa.
 
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+          .col-sm-12.col-lg-7
+            .d-flex.align-items-center
+              img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+              h3.bg1.py-3.w-card-text.text-white Estructura de la mezcla de producto
+      .row.mb-4(data-aos="zoom-in-left")
+        .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
+          .tarjeta--boton.color-primario.p-4.h-100
+            .row.justify-content-center.mb-3
+              .col-lg-7.col-5
+                figure
+                  img(src='@/assets/curso/temas/Tema1/5.png', alt='')
+            h4.text-center Amplitud
+            p.mb-0 Número de líneas de producto que maneja la empresa. Define el alcance en el mercado.
+
+        .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
+          .tarjeta--boton.color-primario.p-4.h-100
+            .row.justify-content-center.mb-3
+              .col-lg-7.col-5
+                figure
+                  img(src='@/assets/curso/temas/Tema1/6.png', alt='')
+            h4.text-center Longitud
+            p.mb-0 Cantidad total de productos dentro de todas las líneas. Mide el tamaño del portafolio.
+
+        .col-sm-6.col-lg-3.mb-4.mb-sm-0.d-flex
+          .tarjeta--boton.color-primario.text-white--hover.p-4.h-100
+            .row.justify-content-center.mb-3
+              .col-lg-7.col-5
+                figure
+                  img(src='@/assets/curso/temas/Tema1/7.png', alt='')
+            h4.text-center Profundidad
+            p.mb-0 Número de versiones o referencias por producto. Permite segmentar el mercado.
+
+        .col-sm-6.col-lg-3.d-flex
+          .tarjeta--boton.color-primario.p-4.h-100
+            .row.justify-content-center.mb-3
+              .col-lg-7.col-5
+                figure
+                  img(src='@/assets/curso/temas/Tema1/8.png', alt='')
+            h4.text-center Consistencia
+            p.mb-0 Relación o coherencia entre las líneas de producto. Facilita el posicionamiento y la gestión.
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+          .col-sm-12.col-lg-7
+            .d-flex.align-items-center
+              img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+              h3.bg1.py-3.w-card-text.text-white Categoría
+
+      .bloque-texto-g.bg8.p-3.p-sm-4.p-md-5.mb-5
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require_src('@/assets/curso/temas/Tema1/img12.png')})`}"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-0 La categoría de producto agrupa bienes que satisfacen necesidades similares, permitiendo organizar la oferta y facilitar su gestión comercial. Esta clasificación contribuye a estructurar el portafolio y mejorar la toma de decisiones en el punto de venta.
+
+      .row.mb-4
+        .col-md-6.col-xl.mb-4.mb-xl-0.d-flex
+          .tarjeta-numerada.color-acento-contenido.p-4.h-100
+            .tarjeta-numerada__numero
+              .h2 1
+            p.text-center 
+              b Organización de la oferta
+            p.text-center La categorización permite agrupar productos de forma lógica, facilitando su ubicación, control y análisis dentro del portafolio comercial. Esto mejora la gestión interna y la planificación del surtido.
+
+        .col-md-6.col-xl.mb-4.mb-xl-0.d-flex
+          .tarjeta-numerada.color-secundario.p-4.h-100
+            .tarjeta-numerada__numero
+              .h2 2
+            p.text-center 
+              b Toma de decisiones comerciales
+            p.text-center Al identificar categorías, la empresa puede definir estrategias específicas de precio, promoción y exhibición según el comportamiento del consumidor en cada grupo de productos.
+        .col-md-6.col-xl.mb-4.mb-xl-0.d-flex
+          .tarjeta-numerada.color-primario.p-4.h-100
+            .tarjeta-numerada__numero
+              .h2 3
+            p.text-center 
+              b Gestión del surtido
+            p.text-center Permite determinar qué productos incluir, mantener o retirar dentro de una categoría, optimizando la rotación y evitando sobreoferta o desabastecimiento.
+
+        .col-md-6.col-xl.mb-4.mb-xl-0.d-flex
+          .tarjeta-numerada.color-acento-botones.p-4.h-100
+            .tarjeta-numerada__numero
+              .h2 4
+            p.text-center 
+              b Análisis del mercado
+            p.text-center Facilita el estudio del comportamiento del consumidor, la competencia y las tendencias dentro de cada categoría, permitiendo identificar oportunidades de crecimiento.
+
+      p Por ejemplo, en un supermercado, las categorías como alimentos orgánicos, bebidas no alcohólicas y productos especializados permiten segmentar la oferta y responder a consumidores con preferencias específicas.
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+          .col-sm-12.col-lg-7
+            .d-flex.align-items-center
+              img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+              h3.bg1.py-3.w-card-text.text-white Línea de producto
+
+      .row.justify-content-center.align-items-center.mb-5.bg5
+        .col-lg-5.d-none.d-lg-block
+          img.izq(src="@/assets/curso/temas/Tema1/img13.png")
+        .col-lg-7
+          p.p-3 Una línea de producto corresponde a un conjunto de productos relacionados entre sí porque cumplen funciones similares, atienden una misma necesidad o se dirigen a un segmento específico del mercado. Por ejemplo, una empresa dedicada al cuidado personal puede manejar una línea de higiene oral compuesta por crema dental, cepillos, seda dental y enjuague bucal; una línea de cuidado corporal con jabones, cremas y desodorantes; y una línea de limpieza del hogar con detergentes, desinfectantes y limpiadores multiusos.
+          p.px-3 Este ejemplo permite comprender que cada línea agrupa productos con características relacionadas, pero con funciones, presentaciones o referencias diferentes. La adecuada organización de las líneas facilita la gestión comercial, la exhibición, la comunicación de beneficios y la identificación de oportunidades para ampliar la oferta.
+
+      .titulo-secundario.mb-4(data-aos="zoom-in-left")
+        span.decorador
+        h4.mb-0 Ejemplo de líneas de producto
+
+      .fondo01.p-5.mb-4
+        .row.justify-content-center.align-items-center.mb-2
+          .col-lg-12
+            .tarjeta.fondosly.p-4
+              SlyderA(tipo="b")
+                .row.justify-content-center.align-items-center
+                  .col-lg-6.mb-4.mb-md-0
+                    h5 Línea de higiene oral
+                    p Agrupa productos relacionados con el cuidado de la boca, como crema dental, cepillo, seda dental y enjuague bucal.
+                  .col-lg-4.col-md-8
+                    figure
+                      img(src='@/assets/curso/temas/Tema1/sly1.png', alt='')
+                .row.justify-content-center.align-items-center
+                  .col-lg-6.mb-4.mb-md-0
+                    h5 Línea de cuidado corporal
+                    p Incluye productos orientados al aseo y bienestar personal, como jabones, cremas, desodorantes o productos para el cuidado de la piel.
+                  .col-lg-4.col-md-8
+                    figure
+                      img(src='@/assets/curso/temas/Tema1/sly2.png', alt='')
+                .row.justify-content-center.align-items-center
+                  .col-lg-6.mb-4.mb-md-0
+                    h5 Línea de limpieza del hogar
+                    p Integra productos destinados al aseo de espacios, como detergentes, desinfectantes, limpiadores y ambientadores.
+                  .col-lg-4.col-md-8
+                    figure
+                      img(src='@/assets/curso/temas/Tema1/sly3.png', alt='')
+                .row.justify-content-center.align-items-center
+                  .col-lg-6.mb-4.mb-md-0
+                    h5 Gestión comercial
+                    p La organización por líneas permite clasificar mejor la oferta, facilitar la exhibición, orientar promociones y responder a necesidades específicas del consumidor.
+                  .col-lg-4.col-md-8
+                    figure
+                      img(src='@/assets/curso/temas/Tema1/sly4.png', alt='')
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+          .col-sm-12.col-lg-7
+            .d-flex.align-items-center
+              img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+              h3.bg1.py-3.w-card-text.text-white Portafolio
+
+      .row.justify-content-center.mb-5
+        .col-lg-4.mb-3.col-8.col-md-6
+          img(src='@/assets/curso/temas/Tema1/img14.svg', alt='')
+        .col-lg-8
+          p El portafolio de productos integra el conjunto total de líneas y productos que ofrece una empresa, representando su capacidad para atender diferentes mercados.
+          .cajon.color-acento-contenido.p-5.mb-4
+            p Un portafolio equilibrado permite diversificar riesgos, aprovechar oportunidades y optimizar recursos comerciales. Por ejemplo, una empresa de alimentos puede contar con un portafolio conformado por líneas de productos lácteos, bebidas no alcohólicas, alimentos preparados y productos funcionales, dirigidos a distintos segmentos de consumidores según sus hábitos de compra, necesidades nutricionales, preferencias de consumo y momentos de uso.
+
+      .cajon.color-primario.p-4.mb-4
+        p.mb-0 Revise el video “Portafolio y características del producto” para reconocer la importancia de presentar información clara sobre los productos que integran un portafolio comercial.
+
+      figure.mb-4(data-aos="zoom-in-left")
+        .video
+          iframe(iframe width="560" height="315" src="https://www.youtube.com/embed/QrJ2hZkRpiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+        figcaption Video: Portafolio y características del producto 
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+          .col-sm-12.col-lg-7
+            .d-flex.align-items-center
+              img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+              h3.bg1.py-3.w-card-text.text-white Ciclo de vida
+
+      p El ciclo de vida del producto describe las etapas por las que atraviesa un producto desde su introducción hasta su salida del mercado, permitiendo ajustar estrategias en cada fase.
+      .titulo-sexto.color-secundario(data-aos='fade-right').mb-1
+        h5 Tabla 4.
+        span Ciclo de vida del producto
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-7.mb-3
+          .tabla-a
+            table
+              caption Nota. Adaptada de Kotler (2016).
+              thead
+                tr
+                  th.bg4.w-25 Etapa
+                  th.bg4 Característica
+                  th.bg4 Enfoque comercial
+              tbody
+                tr
+                  td Introducción
+                  td Lanzamiento y baja penetración.
+                  td Inversión en promoción.
+                tr
+                  td Crecimiento
+                  td Aumento de ventas y aceptación.
+                  td Expansión y posicionamiento.
+                tr
+                  td Madurez
+                  td Estabilidad y alta competencia.
+                  td Diferenciación y fidelización.
+                tr
+                  td Declive
+                  td Disminución de demanda.
+                  td Reducción o retiro del producto.
+        .col-lg-5
+          img(src='@/assets/curso/temas/Tema1/img15.png', alt='')
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+          .col-sm-12.col-lg-7
+            .d-flex.align-items-center
+              img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+              h3.bg1.py-3.w-card-text.text-white Ciclo de vida del producto
+
+      PasosA.color-acento-contenido.mb-3(tipo="n")(data-aos="zoom-in-left")
+        .row
+          .col-md-8.mb-4.mb-md-0
+            h4 Introducción
+            p El producto se lanza al mercado y presenta baja penetración. El enfoque comercial se centra en la inversión en promoción.
+          .col-md-3.col-8
+            figure
+              img(src='@/assets/curso/temas/Tema1/pas4.svg', alt='')
+
+
+        .row
+          .col-md-3.mb-4.mb-md-0.col-8
+            figure
+              img(src='@/assets/curso/temas/Tema1/pas5.svg', alt='')
+
+          .col-md-8
+            h4.text-izq Crecimiento
+            p.text-izq Las ventas aumentan y el producto logra mayor aceptación. El enfoque comercial se orienta a la expansión y el posicionamiento.      
+
+        .row
+          .col-md-8.mb-4.mb-md-0
+            h4 Madurez
+            p El producto alcanza estabilidad y enfrenta alta competencia. El enfoque comercial se dirige a la diferenciación y fidelización.     
+          .col-md-3.col-8
+            figure
+              img(src='@/assets/curso/temas/Tema1/pas6.svg', alt='')
+        
+        .row
+          .col-md-3.col-8
+            figure
+              img(src='@/assets/curso/temas/Tema1/pas7.svg', alt='')
+          .col-md-8.mb-4.mb-md-0
+            h4.text-izq Declive
+            p.text-izq La demanda disminuye. El enfoque comercial se orienta a la reducción o retiro del producto.
+          
+      separador
+      #t_1_3.titulo-segundo.mb-4(data-aos="zoom-in-left")
+        h2 1.3  Servicios: concepto, características, cultura y momentos de verdad
+      
+      .bloque-texto-g.bloque-texto-g--inverso.bg2.p-3.p-sm-4.p-md-5.mb-4
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require_src('@/assets/curso/temas/Tema1/img16.png')})`}"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-0 Los servicios constituyen una parte fundamental de la oferta comercial, especialmente en entornos donde el valor se genera a partir de experiencias y soluciones más que de bienes físicos. Su gestión exige un enfoque centrado en el cliente y en la calidad del proceso.
+            br
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+          .col-sm-12.col-lg-7
+            .d-flex.align-items-center
+              img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+              h3.bg1.py-3.w-card-text.text-white Concepto
+
+      .row.justify-content-center.align-items-center.mb-5.bg5
+        .col-lg-5.d-none.d-lg-block
+          img.izq(src="@/assets/curso/temas/Tema1/img18.png")
+        .col-lg-7
+          p.p-3 El servicio es una actividad o conjunto de actividades de naturaleza intangible que una empresa ofrece para satisfacer necesidades del cliente, sin implicar la transferencia de propiedad de un bien físico. 
+          p.px-3 En el contexto empresarial, los servicios se diseñan considerando la experiencia del usuario, la eficiencia operativa y la percepción de valor. Por ejemplo, una plataforma de contenido digital puede ofrecer acceso a música, cursos, videos o entretenimiento, donde el valor se centra en la personalización, la accesibilidad, la facilidad de uso y la disponibilidad continua del servicio.
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+          .col-sm-12.col-lg-7
+            .d-flex.align-items-center
+              img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+              h3.bg1.py-3.w-card-text.text-white Características de los servicios
+      p Los servicios presentan particularidades que los diferencian de los productos físicos y condicionan su gestión comercial:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
