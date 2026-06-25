@@ -24,32 +24,34 @@
             img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
             h3.bg1.py-3.w-card-text.text-white Ruta de la gestión estratégica del producto
       
-      PasosA.color-acento-contenido.mb-3(tipo="n")(data-aos="zoom-in-left")
-        .row
-          .col-md-8.mb-4.mb-md-0
-            h4 Producto
-            p Representa la base de la oferta comercial de una organización y permite generar valor en el mercado mediante atributos, características, referencias y tipos.
-          .col-md-3.col-8
-            figure
-              img(src='@/assets/curso/temas/Tema1/pas1.svg', alt='')
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-10
+          PasosA.color-acento-contenido.mb-3(tipo="n")(data-aos="zoom-in-left")
+            .row
+              .col-md-8.mb-4.mb-md-0
+                h4 Producto
+                p Representa la base de la oferta comercial de una organización y permite generar valor en el mercado mediante atributos, características, referencias y tipos.
+              .col-md-3.col-8
+                figure
+                  img(src='@/assets/curso/temas/Tema1/pas1.svg', alt='')
 
 
-        .row
-          .col-md-3.mb-4.mb-md-0.col-8
-            figure
-              img(src='@/assets/curso/temas/Tema1/pas2.svg', alt='')
+            .row
+              .col-md-3.mb-4.mb-md-0.col-8
+                figure
+                  img(src='@/assets/curso/temas/Tema1/pas2.svg', alt='')
 
-          .col-md-8
-            h4.text-izq Mezcla de producto
-            p.text-izq Permite estructurar la oferta comercial mediante líneas, categorías, portafolio y ciclo de vida, asegurando coherencia entre productos y segmentos de mercado.        
+              .col-md-8
+                h4.text-izq Mezcla de producto
+                p.text-izq Permite estructurar la oferta comercial mediante líneas, categorías, portafolio y ciclo de vida, asegurando coherencia entre productos y segmentos de mercado.        
 
-        .row
-          .col-md-8.mb-4.mb-md-0
-            h4 Servicios
-            p Complementan la oferta comercial mediante experiencias, soluciones, cultura de servicio y momentos de verdad que influyen en la percepción del cliente.      
-          .col-md-3.col-8
-            figure
-              img(src='@/assets/curso/temas/Tema1/pas3.svg', alt='')
+            .row
+              .col-md-8.mb-4.mb-md-0
+                h4 Servicios
+                p Complementan la oferta comercial mediante experiencias, soluciones, cultura de servicio y momentos de verdad que influyen en la percepción del cliente.      
+              .col-md-3.col-8
+                figure
+                  img(src='@/assets/curso/temas/Tema1/pas3.svg', alt='')
       
       separador
       #t_1_1.titulo-segundo.mb-4(data-aos="zoom-in-left")
@@ -403,7 +405,7 @@
         h5 Tabla 3.
         span Estructura de la mezcla de producto
 
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
         .col-lg-9.mb-4
           .tabla-a
             table
@@ -440,7 +442,7 @@
         span.decorador
         h4.mb-0 Ejemplo aplicado: análisis de la mezcla de producto
 
-      .row.justify-content-center.align-items-center.mb-5.bg5
+      .row.justify-content-center.align-items-center.mb-5.bg5(data-aos="zoom-in-left")
         .col-lg-5.d-none.d-lg-block
           img.izq(src="@/assets/curso/temas/Tema1/img11.png")
         .col-lg-7
@@ -501,7 +503,7 @@
         .bloque-texto-g__texto.p-4
           p.mb-0 La categoría de producto agrupa bienes que satisfacen necesidades similares, permitiendo organizar la oferta y facilitar su gestión comercial. Esta clasificación contribuye a estructurar el portafolio y mejorar la toma de decisiones en el punto de venta.
 
-      .row.mb-4
+      .row.mb-4(data-aos="zoom-in-left")
         .col-md-6.col-xl.mb-4.mb-xl-0.d-flex
           .tarjeta-numerada.color-acento-contenido.p-4.h-100
             .tarjeta-numerada__numero
@@ -541,7 +543,7 @@
               img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
               h3.bg1.py-3.w-card-text.text-white Línea de producto
 
-      .row.justify-content-center.align-items-center.mb-5.bg5
+      .row.justify-content-center.align-items-center.mb-5.bg5(data-aos="zoom-in-left")
         .col-lg-5.d-none.d-lg-block
           img.izq(src="@/assets/curso/temas/Tema1/img13.png")
         .col-lg-7
@@ -552,7 +554,7 @@
         span.decorador
         h4.mb-0 Ejemplo de líneas de producto
 
-      .fondo01.p-5.mb-4
+      .fondo01.p-5.mb-4(data-aos="zoom-in-left")
         .row.justify-content-center.align-items-center.mb-2
           .col-lg-12
             .tarjeta.fondosly.p-4
@@ -592,7 +594,7 @@
               img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
               h3.bg1.py-3.w-card-text.text-white Portafolio
 
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-3(data-aos="zoom-in-left")
         .col-lg-4.mb-3.col-8.col-md-6
           img(src='@/assets/curso/temas/Tema1/img14.svg', alt='')
         .col-lg-8
@@ -618,7 +620,7 @@
       .titulo-sexto.color-secundario(data-aos='fade-right').mb-1
         h5 Tabla 4.
         span Ciclo de vida del producto
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-3
         .col-lg-7.mb-3
           .tabla-a
             table
@@ -645,7 +647,7 @@
                   td Declive
                   td Disminución de demanda.
                   td Reducción o retiro del producto.
-        .col-lg-5
+        .col-lg-5.col-10.col-md-8
           img(src='@/assets/curso/temas/Tema1/img15.png', alt='')
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
@@ -653,41 +655,42 @@
             .d-flex.align-items-center
               img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
               h3.bg1.py-3.w-card-text.text-white Ciclo de vida del producto
+      .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
+        .col-lg-10
+          PasosA.color-acento-contenido.mb-0(tipo="n")(data-aos="zoom-in-left")
+            .row
+              .col-md-8.mb-4.mb-md-0
+                h4 Introducción
+                p El producto se lanza al mercado y presenta baja penetración. El enfoque comercial se centra en la inversión en promoción.
+              .col-md-3.col-8
+                figure
+                  img(src='@/assets/curso/temas/Tema1/pas4.svg', alt='')
 
-      PasosA.color-acento-contenido.mb-3(tipo="n")(data-aos="zoom-in-left")
-        .row
-          .col-md-8.mb-4.mb-md-0
-            h4 Introducción
-            p El producto se lanza al mercado y presenta baja penetración. El enfoque comercial se centra en la inversión en promoción.
-          .col-md-3.col-8
-            figure
-              img(src='@/assets/curso/temas/Tema1/pas4.svg', alt='')
 
+            .row
+              .col-md-3.mb-4.mb-md-0.col-8
+                figure
+                  img(src='@/assets/curso/temas/Tema1/pas5.svg', alt='')
 
-        .row
-          .col-md-3.mb-4.mb-md-0.col-8
-            figure
-              img(src='@/assets/curso/temas/Tema1/pas5.svg', alt='')
+              .col-md-8
+                h4.text-izq Crecimiento
+                p.text-izq Las ventas aumentan y el producto logra mayor aceptación. El enfoque comercial se orienta a la expansión y el posicionamiento.      
 
-          .col-md-8
-            h4.text-izq Crecimiento
-            p.text-izq Las ventas aumentan y el producto logra mayor aceptación. El enfoque comercial se orienta a la expansión y el posicionamiento.      
-
-        .row
-          .col-md-8.mb-4.mb-md-0
-            h4 Madurez
-            p El producto alcanza estabilidad y enfrenta alta competencia. El enfoque comercial se dirige a la diferenciación y fidelización.     
-          .col-md-3.col-8
-            figure
-              img(src='@/assets/curso/temas/Tema1/pas6.svg', alt='')
-        
-        .row
-          .col-md-3.col-8
-            figure
-              img(src='@/assets/curso/temas/Tema1/pas7.svg', alt='')
-          .col-md-8.mb-4.mb-md-0
-            h4.text-izq Declive
-            p.text-izq La demanda disminuye. El enfoque comercial se orienta a la reducción o retiro del producto.
+            .row
+              .col-md-8.mb-4.mb-md-0
+                h4 Madurez
+                p El producto alcanza estabilidad y enfrenta alta competencia. El enfoque comercial se dirige a la diferenciación y fidelización.     
+              .col-md-3.col-8
+                figure
+                  img(src='@/assets/curso/temas/Tema1/pas6.svg', alt='')
+            
+            .row
+              .col-md-3.col-8.mb-4
+                figure
+                  img(src='@/assets/curso/temas/Tema1/pas7.svg', alt='')
+              .col-md-8.mb-4.mb-md-0
+                h4.text-izq Declive
+                p.text-izq La demanda disminuye. El enfoque comercial se orienta a la reducción o retiro del producto.
           
       separador
       #t_1_3.titulo-segundo.mb-4(data-aos="zoom-in-left")
@@ -706,7 +709,7 @@
               img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
               h3.bg1.py-3.w-card-text.text-white Concepto
 
-      .row.justify-content-center.align-items-center.mb-5.bg5
+      .row.justify-content-center.align-items-center.mb-5.bg5(data-aos="zoom-in-left")
         .col-lg-5.d-none.d-lg-block
           img.izq(src="@/assets/curso/temas/Tema1/img18.png")
         .col-lg-7
@@ -720,6 +723,181 @@
               h3.bg1.py-3.w-card-text.text-white Características de los servicios
       p Los servicios presentan particularidades que los diferencian de los productos físicos y condicionan su gestión comercial:
 
+      .row.mb-4(data-aos="zoom-in-left")
+        .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
+          .tarjeta--boton.color-primario.p-4.h-100
+            .row.justify-content-center.mb-3
+              .col-lg-7.col-5
+                figure
+                  img(src='@/assets/curso/temas/Tema1/9.png', alt='')
+            h4.text-center Intangibilidad
+            p.mb-0 Los servicios no pueden percibirse físicamente antes de su consumo, lo que obliga a generar confianza mediante marca, evidencia física o reputación.
+
+        .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
+          .tarjeta--boton.color-primario.p-4.h-100
+            .row.justify-content-center.mb-3
+              .col-lg-7.col-5
+                figure
+                  img(src='@/assets/curso/temas/Tema1/10.png', alt='')
+            h4.text-center Inseparabilidad
+            p.mb-0 La producción y el consumo del servicio ocurren de manera simultánea, lo que implica interacción directa entre cliente y proveedor.
+
+        .col-sm-6.col-lg-3.mb-4.mb-sm-0.d-flex
+          .tarjeta--boton.color-primario.text-white--hover.p-4.h-100
+            .row.justify-content-center.mb-3
+              .col-lg-7.col-5
+                figure
+                  img(src='@/assets/curso/temas/Tema1/11.png', alt='')
+            h4.text-center Variabilidad
+            p.mb-0 La calidad del servicio puede variar dependiendo de quién lo presta, el momento y las condiciones, lo que exige procesos de estandarización.
+
+        .col-sm-6.col-lg-3.d-flex
+          .tarjeta--boton.color-primario.p-4.h-100
+            .row.justify-content-center.mb-3
+              .col-lg-7.col-5
+                figure
+                  img(src='@/assets/curso/temas/Tema1/12.png', alt='')
+            h4.text-center Perecibilidad
+            p.mb-0 Los servicios no pueden almacenarse, por lo que la capacidad no utilizada representa pérdida de oportunidad comercial.
+
+      .cajon.color-acento-contenido.p-4.mb-4(data-aos="zoom-in-left")
+        p Revise el video “Clasificación de los servicios” para reconocer distintas formas de clasificar los servicios y relacionarlas con ejemplos cotidianos como educación, atención médica, restaurantes, transporte, servicios contables, telefonía o entretenimiento.
+
+
+      figure.mb-4(data-aos="zoom-in-left")
+        .video
+          iframe(iframe width="560" height="315" src="https://www.youtube.com/embed/zTgk6ZaHVV0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+        figcaption Video: Clasificación de los servicios
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+          .col-sm-12.col-lg-7
+            .d-flex.align-items-center
+              img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+              h3.bg1.py-3.w-card-text.text-white Cultura
+
+      p La cultura de servicio se refiere al conjunto de valores, prácticas y comportamientos organizacionales orientados a garantizar la satisfacción del cliente en cada interacción.
+
+      .row.mb-4(data-aos="zoom-in-left")
+        .col-md-6.col-xl.mb-4.mb-xl-0.d-flex
+          .tarjeta-numerada.color-acento-contenido.p-4.h-100
+            .tarjeta-numerada__numero
+              .h2 1
+            p.text-center 
+              b Enfoque al cliente
+            p.text-center Las decisiones se orientan a responder necesidades y expectativas del usuario.
+
+        .col-md-6.col-xl.mb-4.mb-xl-0.d-flex
+          .tarjeta-numerada.color-secundario.p-4.h-100
+            .tarjeta-numerada__numero
+              .h2 2
+            p.text-center 
+              b Calidad en la atención
+            p.text-center Se busca consistencia en la experiencia ofrecida.
+        .col-md-6.col-xl.mb-4.mb-xl-0.d-flex
+          .tarjeta-numerada.color-primario.p-4.h-100
+            .tarjeta-numerada__numero
+              .h2 3
+            p.text-center 
+              b Compromiso organizacional
+            p.text-center Todos los niveles de la empresa participan en la prestación del servicio
+
+        .col-md-6.col-xl.mb-4.mb-xl-0.d-flex
+          .tarjeta-numerada.color-acento-botones.p-4.h-100
+            .tarjeta-numerada__numero
+              .h2 4
+            p.text-center 
+              b Mejora continua
+            p.text-center Se analizan procesos para optimizar la experiencia del cliente.
+
+      .cajon.color-primario.p-4.mb-4
+        p En el contexto comercial actual, la cultura de servicio también se evidencia en los canales digitales. Por ejemplo, una entidad que ofrece atención en línea puede fortalecer la experiencia del usuario mediante respuestas oportunas, navegación clara, acceso fácil a información, opciones de autogestión, seguimiento de solicitudes y acompañamiento durante el uso del servicio. Esto permite que el cliente perciba confianza, cercanía y eficiencia en cada punto de contacto.
+      
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+          .col-sm-12.col-lg-7
+            .d-flex.align-items-center
+              img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+              h3.bg1.py-3.w-card-text.text-white Cultura de servicio en canales digitales
+
+      TabsA.color-acento-botones.mb-3(data-aos="zoom-in-left")
+            .tarjeta.bgrosado.p-4(titulo="Atención centrada en el usuario")
+              p.mb-0 La organización reconoce las necesidades del cliente y orienta sus procesos para facilitar la atención, la solución de dudas y el acceso a la información.
+            .tarjeta.bgrosado.p-4(titulo="Canales claros y accesibles")
+              p.mb-0 Los medios digitales deben permitir que el usuario encuentre información, realice solicitudes o gestione servicios de forma sencilla y comprensible.
+            .tarjeta.bgrosado.p-4(titulo="Respuesta oportuna")
+              p.mb-0 La calidad del servicio se fortalece cuando la empresa responde en tiempos adecuados y brinda información clara sobre el estado de cada solicitud.
+            .tarjeta.bgrosado.p-4(titulo="Mejora de la experiencia")
+              p.mb-0 El análisis de comentarios, reclamos y necesidades permite ajustar procesos, mejorar la atención y fortalecer la relación con el cliente.
+
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+          .col-sm-12.col-lg-7
+            .d-flex.align-items-center
+              img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+              h3.bg1.py-3.w-card-text.text-white Momentos de verdad
+
+      p Los momentos de verdad son los puntos de contacto entre el cliente y la empresa que influyen directamente en la percepción del servicio.
+
+      .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
+        .col-lg-6
+          ul.lista-ul.lista-ul--separador
+            li
+              i.fas.fa-circle-check
+              | #[b Interacción inicial:] primer contacto con la empresa o plataforma.
+            li
+              i.fas.fa-circle-check
+              | #[b Prestación del servicio:] experiencia durante el uso del servicio.
+            li
+              i.fas.fa-circle-check
+              | #[b Atención de soporte:] solución de dudas o inconvenientes.
+            li
+              i.fas.fa-circle-check
+              | #[b Seguimiento:] acciones posteriores que fortalecen la relación con el cliente.
+        .col-lg-6.col-10.col-md-7
+          img(src="@/assets/curso/temas/Tema1/img19.png")
+
+      p Por ejemplo, en una aplicación de domicilios, momentos como la facilidad de uso de la app, la claridad en la información del pedido, el tiempo de entrega, el seguimiento del servicio y la atención al cliente determinan la experiencia del usuario.
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+          .col-sm-12.col-lg-7
+            .d-flex.align-items-center
+              img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+              h3.bg1.py-3.w-card-text.text-white Momentos de verdad en el servicio
+
+      .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+        .col-lg-10
+          PasosA.color-acento-contenido.mb-3(tipo="n")(data-aos="zoom-in-left")
+            .row
+              .col-md-8.mb-4.mb-md-0
+                h4 Introducción
+                p El producto se lanza al mercado y presenta baja penetración. El enfoque comercial se centra en la inversión en promoción.
+              .col-md-3.col-8
+                figure
+                  img(src='@/assets/curso/temas/Tema1/pas8.svg', alt='')
+
+
+            .row
+              .col-md-3.mb-4.mb-md-0.col-8
+                figure
+                  img(src='@/assets/curso/temas/Tema1/pas9.svg', alt='')
+
+              .col-md-8
+                h4.text-izq Prestación del servicio
+                p.text-izq Hace referencia a la experiencia durante el uso del servicio y al cumplimiento de lo ofrecido.   
+
+            .row
+              .col-md-8.mb-4.mb-md-0
+                h4 Atención de soporte
+                p Incluye la solución de dudas o inconvenientes que pueden presentarse durante la experiencia del cliente.    
+              .col-md-3.col-8
+                figure
+                  img(src='@/assets/curso/temas/Tema1/pas10.svg', alt='')
+            
+            .row
+              .col-md-3.col-8.mb-4
+                figure
+                  img(src='@/assets/curso/temas/Tema1/pas11.svg', alt='')
+              .col-md-8.mb-4.mb-md-0
+                h4.text-izq Seguimiento
+                p.text-izq Comprende las acciones posteriores que fortalecen la relación con el cliente y mejoran su percepción del servicio.
 
 
 
