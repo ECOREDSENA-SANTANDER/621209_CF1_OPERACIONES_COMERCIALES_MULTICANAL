@@ -7,7 +7,7 @@
         span 2
       h1 Construcción y posicionamiento de marca
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-lg-5.mb-3.col-10
         img(src='@/assets/curso/temas/Tema2/img01.png', alt='')
       .col-lg-7
@@ -75,41 +75,41 @@
               img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
               h3.bg1.py-3.w-card-text.text-white Marca en canales digitales
 
-      TabsC.color-primario.mb-4
+      TabsC.color-primario.mb-4(data-aos="zoom-in-left")
         .py-3.py-md-4(titulo="Identidad visual")
           .row.justify-content-center
-            .col-lg-4
+            .col-lg-4.mb-3.col-10.col-md-8
               figure
                 img(src='@/assets/curso/temas/Tema2/tabs1.png', alt='')
             .col-lg-6.mb-4.mb-md-0
-              .col-lg-2.mb-3
+              .col-lg-2.mb-3.col-2
                 img(src='@/assets/curso/temas/Tema2/ico1.png', alt='')
               p Integra elementos como colores, tipografía, símbolos, emblemas y estilo gráfico, los cuales facilitan el reconocimiento de la marca.
         .py-3.py-md-4(titulo="Comunicación coherente")
           .row.justify-content-center
-            .col-lg-4
+            .col-lg-4.mb-3.col-10.col-md-8
               figure
                 img(src='@/assets/curso/temas/Tema2/tabs2.png', alt='')
             .col-lg-6.mb-4.mb-md-0
-              .col-lg-2.mb-3
+              .col-lg-2.mb-3.col-2
                 img(src='@/assets/curso/temas/Tema2/ico2.png', alt='')
               p Permite que los mensajes publicados en canales digitales mantengan un tono claro, consistente y alineado con los valores de la organización.
         .py-3.py-md-4(titulo="Experiencia del usuario")
           .row.justify-content-center
-            .col-lg-4
+            .col-lg-4.mb-3.col-10.col-md-8
               figure
                 img(src='@/assets/curso/temas/Tema2/tabs3.png', alt='')
             .col-lg-6.mb-4.mb-md-0
-              .col-lg-2.mb-3
+              .col-lg-2.mb-3.col-2
                 img(src='@/assets/curso/temas/Tema2/ico3.png', alt='')
               p Incluye la facilidad de navegación, la claridad de la información y la posibilidad de encontrar productos, servicios o canales de atención de manera sencilla.
         .py-3.py-md-4(titulo="Reconocimiento comercial")
           .row.justify-content-center
-            .col-lg-4
+            .col-lg-4.col-10.col-md-8.mb-3
               figure
                 img(src='@/assets/curso/temas/Tema2/tabs4.png', alt='')
             .col-lg-6.mb-4.mb-md-0
-              .col-lg-2.mb-3
+              .col-lg-2.mb-3.col-2
                 img(src='@/assets/curso/temas/Tema2/ico4.png', alt='')
               p Se fortalece cuando el público identifica la marca, recuerda sus elementos distintivos y la asocia con una experiencia positiva.
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
@@ -118,8 +118,8 @@
               img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
               h3.bg1.py-3.w-card-text.text-white Símbolos
 
-      .row.justify-content-center.align-items-center.mb-5
-        .col-lg-4.mb-3
+      .row.justify-content-center.align-items-center.mb-3
+        .col-lg-4.mb-3.col-8.col-md-6
           img(src='@/assets/curso/temas/Tema2/img06.png', alt='')
         .col-lg-8
           p Los símbolos son representaciones gráficas que forman parte de la identidad visual de una marca y permiten identificarla fácilmente ante el público. Pueden estar representados por íconos o elementos gráficos asociados a la marca, los cuales ayudan a transmitir su personalidad y valores.
@@ -199,7 +199,7 @@
 
       .fondo02.p-5.mb-4
         .row.justify-content-center.align-items-center.fondosly
-          .col-lg-4.mb-3
+          .col-lg-4.mb-3.col-md-8
             img(src='@/assets/curso/temas/Tema2/img08.png', alt='')
           .col-lg-4.mb-3
             ul.lista-ul.lista-ul--separador
@@ -218,7 +218,7 @@
               li
                 i.fas.fa-circle-check
                 | Información legal o normativa.
-          .col-lg-3.mb-3
+          .col-lg-3.mb-3.col-9.col-md-8
             img(src='@/assets/curso/temas/Tema2/img09.png', alt='')
 
       p Además de informar, la etiqueta también cumple una función comercial y visual, ya que puede influir en la decisión de compra. Cumple funciones informativas, legales y comerciales dentro del proceso de compra.
@@ -262,7 +262,7 @@
 
       .fondo02.p-5.mb-4
         .row.justify-content-center.align-items-center.fondosly.p-4
-          .col-lg-4.mb-3
+          .col-lg-4.mb-4.col-md-9
             img(src='@/assets/curso/temas/Tema2/img10.png', alt='')
           .col-lg-8.mb-0
             h4 Lectura sugerida
@@ -321,7 +321,7 @@
               img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
               h3.bg1.py-3.w-card-text.text-white Concepto
 
-      .row.justify-content-center.align-items-center.mb-3
+      .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
         .col-lg-12
           img(src="@/assets/curso/temas/Tema2/img13.png")
       p El branding se refiere al conjunto de estrategias y acciones orientadas a construir, posicionar y fortalecer una marca en la mente de los consumidores. Su objetivo es generar reconocimiento, confianza y una conexión emocional con el público.
@@ -335,9 +335,9 @@
 
       p El diseño de marca corresponde al desarrollo de los elementos visuales que representan a una empresa. Estos elementos permiten transmitir la personalidad de la marca y facilitar su reconocimiento. Entre los aspectos más importantes del diseño de marca se encuentran:
 
-      .fondo02.p-5.mb-4
+      .fondo02.p-5.mb-4(data-aos="zoom-in-left")
         .row.justify-content-center.align-items-center.fondosly
-          .col-lg-4.mb-3
+          .col-lg-4.mb-3.col-10.col-md-8
             img(src='@/assets/curso/temas/Tema2/img15.png', alt='')
           .col-lg-4.mb-3
             ul.lista-ul.lista-ul--separador
@@ -356,11 +356,504 @@
               li
                 i.fas.fa-circle-check
                 | Diseño de productos o empaques.
-          .col-lg-3.mb-3
+          .col-lg-3.mb-3.col-10.col-md-8
             img(src='@/assets/curso/temas/Tema2/img14.png', alt='')
 
-      .cajon.color-primario.p-4.mb-4
+      .cajon.color-primario.p-4.mb-4(data-aos="zoom-in-left")
         p Un ejemplo de ello es una marca de bebidas no alcohólicas que utiliza de manera constante un color corporativo, una tipografía reconocible y un estilo visual coherente en sus empaques, piezas publicitarias y canales digitales. Esta consistencia permite fortalecer la recordación, transmitir personalidad de marca y facilitar que el consumidor identifique la empresa en diferentes contextos comerciales.
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+          .col-sm-12.col-lg-7
+            .d-flex.align-items-center
+              img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+              h3.bg1.py-3.w-card-text.text-white Elementos
+      
+      p El #[em branding] se compone de varios elementos que permiten construir una identidad sólida. Estos elementos permiten construir una identidad de marca coherente y facilitar el reconocimiento de la empresa por parte de los consumidores.
+
+    .titulo-sexto.color-secundario(data-aos='fade-right').mb-3
+      h5 Tabla 5.
+      span Elementos del #[em branding]
+    .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
+      .col-lg-7
+          .tabla-a
+            table
+              thead
+                tr
+                  th.bg4.w-25 Elemento
+                  th.bg4 Función
+              tbody
+                tr
+                  td Nombre de marca
+                  td Permite identificar y diferenciar una empresa o producto dentro del mercado.
+                tr
+                  td Logotipo
+                  td Representación visual que facilita el reconocimiento inmediato de la marca.
+                tr
+                  td Colores corporativos
+                  td Conjunto de colores que identifican visualmente a la marca y generan recordación.
+                tr
+                  td Tipografía
+                  td Estilo de letra utilizado para representar el nombre de la marca y transmitir su personalidad.
+                tr
+                  td Mensaje o eslogan
+                  td Frase que comunica el propósito o los valores de la marca mediante una frase breve y memorable.
+      .col-lg-5.col-10.col-md-8.d-none.d-lg-block
+        img(src='@/assets/curso/temas/Tema2/img16.png', alt='')
+
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-7
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+          h3.bg1.py-3.w-card-text.text-white Elementos que construyen una marca
+
+    .row.mb-4.justify-content-center
+        .col-md-6.col-lg.mb-5.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/temas/Tema2/01.png' alt='')
+            .tarjeta.bg9
+              .p-4
+                h4.text-center Nombre de marca
+                p.mb-0.text-center Nombre comercial creado para representar una empresa o una línea de productos.
+
+        .col-md-6.col-lg.mb-5.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/temas/Tema2/02.png' alt='')
+            .tarjeta.bg9
+              .p-4
+                h4.text-center Logotipo
+                p.mb-0.text-center Diseño gráfico propio que combina formas, letras o símbolos distintivos.
+
+        .col-md-6.col-lg.mb-5.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/temas/Tema2/03.png' alt='')
+            .tarjeta.bg9
+              .p-4
+                h4.text-center Colores corporativos
+                p.mb-0.text-center Paleta de colores definida para empaques, piezas publicitarias, sitio web y redes sociales.
+      
+    .row.mb-4.justify-content-center(data-aos="zoom-in-left")
+      .col-lg-4.mb-4.col-md-6
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/Tema2/04.png' alt='')
+          .tarjeta.bg9
+            .p-4
+              h4.text-center Tipografía
+              p.mb-0.text-center Tipo de letra formal, moderna, juvenil o tradicional, según la identidad de la empresa.
+
+      .col-lg-4.col-md-6
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/Tema2/05.png' alt='')
+          .tarjeta.bg9
+            .p-4
+              h4.text-center Mensaje o eslogan
+              p.mb-0.text-center Frase corta que resume la promesa de valor o el diferencial de la empresa.
+
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-7
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+          h3.bg1.py-3.w-card-text.text-white Estructura
+
+    p La estructura del branding se refiere a la forma en que se organizan y relacionan los diferentes elementos de la marca para crear una identidad coherente. Esta estructura suele incluir:
+
+    .fondo02.p-5.mb-4(data-aos="zoom-in-left")
+        .row.justify-content-center.align-items-center.fondosly.p-4
+          .col-lg-4.mb-3.col-10.col-md-8
+            img(src='@/assets/curso/temas/Tema2/img17.png', alt='')
+          .col-lg-4.mb-3
+            ul.lista-ul.lista-ul--separador
+              li
+                i.fas.fa-circle-check
+                | Identidad de marca.
+              li
+                i.fas.fa-circle-check
+                | Valores y propósito.
+              li
+                i.fas.fa-circle-check
+                | Comunicación de marca.
+              li
+                i.fas.fa-circle-check
+                | Experiencia del cliente.
+              li
+                i.fas.fa-circle-check
+                | Posicionamiento en el mercado.
+          .col-lg-3.mb-3.col-10.col-md-8
+            img(src='@/assets/curso/temas/Tema2/img18.png', alt='')
+
+    p Cuando estos elementos se integran correctamente, la marca logra transmitir un mensaje claro y consistente.
+
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-7
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+          h3.bg1.py-3.w-card-text.text-white Beneficios
+    p El branding aporta múltiples beneficios para las empresas y organizaciones, entre ellos:
+
+    .row.justify-content-center.align-items-center.mb-5.bg4(data-aos="zoom-in-left")
+        .col-lg-5.d-none.d-lg-block
+          img.izq(src="@/assets/curso/temas/Tema2/img19.png")
+        .col-lg-7
+          ul.lista-ul.lista-ul--separador.p-4
+              li
+                i.fas.fa-circle-check
+                | Mejora el reconocimiento de la marca.
+              li
+                i.fas.fa-circle-check
+                | Genera confianza y credibilidad en los consumidores.
+              li
+                i.fas.fa-circle-check
+                | Permite diferenciarse de la competencia.
+              li
+                i.fas.fa-circle-check
+                | Favorece la fidelización de clientes.
+              li
+                i.fas.fa-circle-check
+                | Contribuye al posicionamiento en el mercado.
+
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-7
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+          h3.bg1.py-3.w-card-text.text-white Beneficios del #[em branding]
+
+    SlyderF(columnas="col-lg-6 col-xl-4 col-md-6").mb-4(data-aos="zoom-in-left")
+      .tarjeta.bg10.p-4
+        .row.justify-content-center.mb-3
+          .col-6
+            img(src='@/assets/curso/temas/Tema2/tar1.png' alt='')
+        h4.text-center Reconocimiento de marca
+        p.text-center Mejora la identificación de la marca por parte del público y facilita su recordación.
+
+      .tarjeta.bg10.p-4
+        .row.justify-content-center.mb-3
+          .col-6
+            img(src='@/assets/curso/temas/Tema2/tar2.png' alt='')
+        h4.text-center Confianza y credibilidad
+        p.text-center Fortalece la percepción positiva que los consumidores tienen sobre la organización.
+
+
+      .tarjeta.bg10.p-4
+        .row.justify-content-center.mb-3
+          .col-6
+            img(src='@/assets/curso/temas/Tema2/tar3.png' alt='')
+        h4.text-center Diferenciación
+        p.text-center Permite destacar frente a la competencia mediante una identidad clara y coherente.
+      
+      .tarjeta.bg10.p-4
+        .row.justify-content-center.mb-3
+          .col-6
+            img(src='@/assets/curso/temas/Tema2/tar4.png' alt='')
+        h4.text-center Fidelización
+        p.text-center Favorece relaciones más duraderas con los clientes a partir de experiencias consistentes.
+      
+      .tarjeta.bg10.p-4(data-aos="zoom-in-left")
+        .row.justify-content-center.mb-3
+          .col-6
+            img(src='@/assets/curso/temas/Tema2/tar5.png' alt='')
+        h4.text-center  Posicionamiento
+        p.text-center Contribuye a ocupar un lugar claro y diferenciado en el mercado.
+
+    .cajon.color-primario.p-4.mb-4(data-aos="zoom-in-left")
+        p El #[em branding] permite construir una imagen de marca clara, coherente y reconocible. Este proceso integra elementos como símbolos, colores, formas de comunicación, experiencias y valores que ayudan a diferenciar la marca frente a la competencia y a generar confianza en los consumidores.
+        p Revise el video “#[em randing]” para reforzar la relación entre imagen corporativa, marca, comunicación y posicionamiento. Durante la visualización, identifique cómo los elementos visuales y comunicativos contribuyen a que una marca sea reconocida, recordada y diferenciada en el mercado.
+
+    figure.mb-4(data-aos="zoom-in-left")
+        .video
+          iframe(iframe width="560" height="315" src="https://www.youtube.com/embed/NfnrwqeWjgY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+        figcaption Video: #[em Branding]
+
+    separador
+    #t_2_3.titulo-segundo.mb-4(data-aos="zoom-in-left")
+      h2 2.3  Posicionamiento: concepto, estrategias y beneficios
+
+    .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
+      .col-lg-12
+        img(src='@/assets/curso/temas/Tema2/img20.png', alt='')
+    p El posicionamiento es una estrategia de mercadeo que busca ubicar una marca, producto o servicio en un lugar claro y diferenciado en la mente de los consumidores. Un buen posicionamiento permite que los clientes identifiquen fácilmente las características y beneficios que ofrece una empresa frente a la competencia.
+
+
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-7
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+          h3.bg1.py-3.w-card-text.text-white Concepto
+
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="zoom-in-left")
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require_src('@/assets/curso/temas/Tema2/img21.png')})`}"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-0 El posicionamiento es la estrategia mediante la cual una empresa busca que su producto, servicio o marca ocupe un lugar específico en la mente del consumidor, destacándose frente a otras opciones del mercado. Esta estrategia se construye a partir de atributos, beneficios, experiencias, precio, calidad, servicio, innovación, sostenibilidad o cualquier elemento que permita diferenciar la oferta.
+            br
+            br
+            | Por ejemplo, una empresa de transporte puede posicionarse por la puntualidad y seguridad de sus servicios; una marca de calzado puede posicionarse por comodidad y durabilidad; una empresa de alimentos saludables puede posicionarse por el uso de ingredientes naturales y prácticas responsables; y una tienda virtual puede posicionarse por la facilidad de compra, rapidez en la entrega y atención al cliente.
+
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-7
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+          h3.bg1.py-3.w-card-text.text-white Ejemplo aplicado: formas de construir posicionamiento
+
+    .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
+      .col-lg-4.mb-4.col-9
+        img(src="@/assets/curso/temas/Tema2/img22.png")
+      .col-lg-8
+        .row.bg11.p-4
+          .col-lg-2.mb-3.d-none.d-lg-block
+            img(src="@/assets/curso/temas/Tema2/img23.png")
+          .col-lg-12
+            p El posicionamiento no depende únicamente de lo que la empresa comunica, sino también de la experiencia que el consumidor vive con el producto o servicio. Si una marca promete seguridad, debe reflejarla en sus procesos, materiales, atención, garantías y comunicación. Si promete innovación, debe demostrarlo mediante diseños, funcionalidades, canales digitales o soluciones diferentes. Si promete cercanía, debe evidenciarlo en la atención, el lenguaje, el acompañamiento y la respuesta a las necesidades del cliente.
+
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-7
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+          h3.bg1.py-3.w-card-text.text-white Elementos que fortalecen el posicionamiento
+
+    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="zoom-in-left")
+        .row.justify-content-center(titulo="Atributo diferencial")
+          .col-lg-7.mb-4.mb-md-0
+            p Corresponde a la característica que hace que un producto, servicio o marca se distinga frente a otras alternativas del mercado.
+          .col-lg-4.col-10.col-md-8
+            figure
+              img(src='@/assets/curso/temas/Tema2/aco6.png', alt='')
+        .row.justify-content-center(titulo="Beneficio percibido")
+          .col-lg-7.mb-4.mb-md-0
+            p Representa el valor que el consumidor reconoce en la oferta, como seguridad, comodidad, ahorro, rapidez, calidad o confianza.
+          .col-lg-4.col-10.col-md-8
+            figure
+              img(src='@/assets/curso/temas/Tema2/aco7.png', alt='')
+        .row.justify-content-center(titulo="Experiencia del cliente")
+          .col-lg-7.mb-4.mb-md-0
+            p Incluye las interacciones que tiene el consumidor con la marca antes, durante y después de la compra o uso del servicio.
+          .col-lg-4.col-10.col-md-8
+            figure
+              img(src='@/assets/curso/temas/Tema2/aco8.png', alt='')
+
+        .row.justify-content-center(titulo="Coherencia de marca")
+          .col-lg-7.mb-4.mb-md-0
+            p Permite que lo que la empresa promete se refleje en sus productos, servicios, mensajes, canales de atención y acciones comerciales.
+          .col-lg-4.col-10.col-md-8
+            figure
+              img(src='@/assets/curso/temas/Tema2/aco9.png', alt='')
+        
+        .row.justify-content-center(titulo="Recordación")
+          .col-lg-7.mb-4.mb-md-0
+            p Se logra cuando el consumidor asocia la marca con una idea clara y diferenciada, facilitando su reconocimiento en el mercado.
+          .col-lg-4.col-10.col-md-8
+            figure
+              img(src='@/assets/curso/temas/Tema2/aco10.png', alt='')
+
+
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-7
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+          h3.bg1.py-3.w-card-text.text-white Estrategias
+    p Las empresas pueden aplicar diferentes estrategias para posicionar sus productos o servicios y diferenciarse frente a la competencia. Estas estrategias permiten destacar atributos, beneficios o características que facilitan el reconocimiento de la marca en el mercado.
+    
+    .titulo-sexto.color-secundario(data-aos='fade-right').mb-3
+      h5 Tabla 6.
+      span Estrategias de posicionamiento
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+      .col-lg-7
+        .tabla-a
+          table
+            caption Nota. Adaptada de Kotler y Keller (2016).
+            thead
+              tr
+                th.bg4.w-25 Estrategia
+                th.bg4 Descripción
+            tbody
+              tr(style="height: 60px;")
+                td Por atributo
+                td Destaca una característica específica del producto o servicio.
+              tr(style="height: 60px;")
+                td Por beneficio
+                td Resalta el beneficio principal que obtiene el consumidor.
+              tr(style="height: 60px;")
+                td Por precio
+                td Se posiciona el producto destacando su costo competitivo.
+              tr(style="height: 60px;")
+                td Por calidad
+                td Enfatiza la superioridad o nivel de calidad del producto.
+              tr(style="height: 60px;")
+                td Por uso o aplicación
+                td Se enfoca en la forma en que el producto es utilizado.
+              tr(style="height: 60px;")
+                td Por tipo de usuario
+                td Dirige el producto a un grupo específico de consumidores.
+              tr(style="height: 60px;")
+                td Frente a la competencia
+                td Compara el producto con otras marcas del mercado.
+      .col-lg-5.col-10.col-md-8.d-none.d-lg-block
+        img(src='@/assets/curso/temas/Tema2/img25.png', alt='')
+
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-7
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+          h3.bg1.py-3.w-card-text.text-white Estrategias
+
+    .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
+      .col-lg-3.mb-3.col-8.col-md-5
+        img(src='@/assets/curso/temas/Tema2/img26.png', alt='')
+      .col-lg-9
+        TabsA.color-acento-botones.mb-2
+          .tarjeta.bgrosado.p-4(titulo="Por atributo")
+              p.mb-0 Destaca una característica específica del producto o servicio.
+          .tarjeta.bgrosado.p-4(titulo="Por beneficio")
+              p.mb-0 Resalta el beneficio principal que obtiene el consumidor.
+          .tarjeta.bgrosado.p-4(titulo="Por precio")
+              p.mb-0 Posiciona el producto destacando su costo competitivo.
+          .tarjeta.bgrosado.p-4(titulo="Por calidad")
+              p.mb-0 Enfatiza la superioridad o nivel de calidad del producto.
+          .tarjeta.bgrosado.p-4(titulo="Por uso o aplicación")
+              p.mb-0 Se enfoca en la forma en que el producto es utilizado.
+          .tarjeta.bgrosado.p-4(titulo="Por tipo de usuario")
+              p.mb-0 Dirige el producto a un grupo específico de consumidores.
+          .tarjeta.bgrosado.p-4(titulo="Frente a la competencia")
+              p.mb-0 Compara el producto con otras marcas del mercado.
+
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-7
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+          h3.bg1.py-3.w-card-text.text-white Beneficios
+    p El posicionamiento genera diferentes beneficios para las organizaciones, ya que permite fortalecer la identidad de marca y mejorar su reconocimiento en el mercado. A continuación, se presentan algunos de los principales beneficios del posicionamiento.
+
+
+    .titulo-sexto.color-secundario(data-aos='fade-right').mb-3
+      h5 Tabla 7.
+      span Beneficios del posicionamiento
+    .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
+      .col-lg-7
+        .tabla-a
+          table
+            thead
+              tr
+                th.bg4.w-25 Beneficio
+                th.bg4 Descripción
+            tbody
+              tr(style="height: 60px;")
+                td Diferenciación
+                td Permite destacar frente a la competencia.
+              tr(style="height: 60px;")
+                td Reconocimiento de marca
+                td Facilita que los consumidores identifiquen la empresa.
+              tr(style="height: 60px;")
+                td Mayor recordación
+                td Ayuda a que el producto permanezca en la mente del consumidor.
+              tr(style="height: 60px;")
+                td Confianza del cliente
+                td Refuerza la percepción positiva de la marca.
+              tr(style="height: 60px;")
+                td Ventaja competitiva
+                td Permite fortalecer la presencia en el mercado.
+      .col-lg-5.col-10.col-md-8.d-none.d-lg-block
+        img(src='@/assets/curso/temas/Tema2/img27.png', alt='')
+
+
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-7
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+          h3.bg1.py-3.w-card-text.text-white Beneficios del posicionamiento
+
+    SlyderF(columnas="col-lg-6 col-xl-4 col-md-6").mb-4(data-aos="zoom-in-left")
+      .tarjeta.bg10.p-4
+        .row.justify-content-center.mb-3
+          .col-6
+            img(src='@/assets/curso/temas/Tema2/tar6.png' alt='')
+        h4.text-center Diferenciación
+        p.text-center Permite destacar frente a la competencia.
+
+      .tarjeta.bg10.p-4
+        .row.justify-content-center.mb-3
+          .col-6
+            img(src='@/assets/curso/temas/Tema2/tar7.png' alt='')
+        h4.text-center Reconocimiento de marca
+        p.text-center Facilita que los consumidores identifiquen la empresa.
+
+
+      .tarjeta.bg10.p-4(data-aos="zoom-in-left")
+        .row.justify-content-center.mb-3
+          .col-6
+            img(src='@/assets/curso/temas/Tema2/tar8.png' alt='')
+        h4.text-center Mayor recordación
+        p.text-center Ayuda a que el producto permanezca en la mente del consumidor.
+      
+      .tarjeta.bg10.p-4
+        .row.justify-content-center.mb-3
+          .col-6
+            img(src='@/assets/curso/temas/Tema2/tar9.png' alt='')
+        h4.text-center Confianza del cliente
+        p.text-center Refuerza la percepción positiva de la marca.
+
+      .tarjeta.bg10.p-4
+        .row.justify-content-center.mb-3
+          .col-6
+            img(src='@/assets/curso/temas/Tema2/tar10.png' alt='')
+        h4.text-center  Ventaja competitiva
+        p.text-center Permite fortalecer la presencia en el mercado.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
