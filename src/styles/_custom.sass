@@ -129,6 +129,11 @@ figcaption
 
 .cajon.color-primario 
   background-color: #E8EBF3
+.tarjeta.color-primario *
+  color: #12263F
+.tarjeta-audio.color-secundario .tarjeta-audio__texto 
+  color:  #12263F
+  font-style: normal !important
 
 .w-card-icon
   width: min-content
@@ -201,7 +206,7 @@ figcaption
 .izq
   margin-left: -0.7rem !important
 .izq2
-  margin-left: -1.4rem !important
+  margin-left: -1.5rem !important
 .acordion__accion__btn--a 
   background-color: #38CE65 !important
 .acordion .tarjeta--azul
@@ -210,6 +215,18 @@ figcaption
   background-color: #FFF3EA !important
 .fondo01
   background-image: url('../assets/curso/temas/Tema1/fondo1.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover
+.fondo02
+  background-image: url('../assets/curso/temas/Tema2/fondo2.png')
   background-position: center
   background-size: 100% 100%
   background-repeat: no-repeat
@@ -239,3 +256,12 @@ figcaption
 .fa-check-circle, .fa-circle-check 
   --fa: "\f058"
   color: #53BCED
+
+.tabs-c__tab 
+  border-bottom: 4px solid #FDC7A1
+  background-color: #FFF3EA
+.tabs-c.color-primario .tabs-c__tab--active 
+  border-bottom-color: #1E3A8A !important
+  background-color: #E8EBF3
+  font-weight: bold
+  

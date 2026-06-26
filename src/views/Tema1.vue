@@ -178,7 +178,7 @@
             p.mb-0 Corresponde a las características físicas que pueden percibirse, como diseño, materiales, tamaño o acabado.
 
         .col-sm-6.col-lg-3.mb-4.mb-sm-0.d-flex
-          .tarjeta--boton.color-primario.text-white--hover.p-4.h-100
+          .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
                 figure
