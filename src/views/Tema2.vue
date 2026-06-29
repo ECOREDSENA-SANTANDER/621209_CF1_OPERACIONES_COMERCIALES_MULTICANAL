@@ -432,16 +432,16 @@
                 p.mb-0.text-center Paleta de colores definida para empaques, piezas publicitarias, sitio web y redes sociales.
       
     .row.mb-4.justify-content-center(data-aos="zoom-in-left")
-      .col-lg-4.mb-4.col-md-6
-        .tarjeta-avatar
+      .col-lg-4.mb-4.col-md-6.h-100
+        .tarjeta-avatar.h-100
           img(src='@/assets/curso/temas/Tema2/04.png' alt='')
           .tarjeta.bg9
             .p-4
               h4.text-center Tipografía
               p.mb-0.text-center Tipo de letra formal, moderna, juvenil o tradicional, según la identidad de la empresa.
 
-      .col-lg-4.col-md-6
-        .tarjeta-avatar
+      .col-lg-4.col-md-6.h-100
+        .tarjeta-avatar.h-100
           img(src='@/assets/curso/temas/Tema2/05.png' alt='')
           .tarjeta.bg9
             .p-4
