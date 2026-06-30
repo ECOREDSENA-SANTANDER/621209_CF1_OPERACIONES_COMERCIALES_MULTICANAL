@@ -440,38 +440,426 @@
 
     p Por ejemplo, una empresa de productos tecnológicos puede utilizar empaques minimalistas, resistentes y organizados para proteger el producto, facilitar su apertura y reforzar una experiencia de compra asociada con calidad, innovación y cuidado en los detalles.
 
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-7
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+          h3.bg1.py-3.w-card-text.text-white Funciones y usos del empaque
+
+    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="zoom-in-left")
+        .row.justify-content-center(titulo="Protección")
+          .col-lg-7.mb-4.mb-md-0
+            p Resguarda el producto frente a impactos, humedad o contaminación.
+          .col-lg-4.col-10.col-md-8
+            figure
+              img(src='@/assets/curso/temas/Tema3/aco1.png', alt='')
+        .row.justify-content-center(titulo="Conservación")
+          .col-lg-7.mb-4.mb-md-0
+            p Mantiene las condiciones óptimas del producto durante su vida útil.
+          .col-lg-4.col-10.col-md-8
+            figure
+              img(src='@/assets/curso/temas/Tema3/aco2.png', alt='')
+        .row.justify-content-center(titulo="Comunicación")
+          .col-lg-7.mb-4.mb-md-0
+            p Transmite información relevante como marca, beneficios y características.
+          .col-lg-4.col-10.col-md-8
+            figure
+              img(src='@/assets/curso/temas/Tema3/aco3.png', alt='')
+
+        .row.justify-content-center(titulo="Diferenciación")
+          .col-lg-7.mb-4.mb-md-0
+            p Permite destacar el producto frente a la competencia en el punto de venta.
+          .col-lg-4.col-10.col-md-8
+            figure
+              img(src='@/assets/curso/temas/Tema3/aco4.png', alt='')
+        .row.justify-content-center(titulo="Uso comercial, logístico y estratégico")
+          .col-lg-7.mb-4.mb-md-0
+            p El empaque influye en la decisión de compra, optimiza procesos de almacenamiento y distribución, y fortalece la identidad de marca.
+          .col-lg-4.col-10.col-md-8
+            figure
+              img(src='@/assets/curso/temas/Tema3/aco5.png', alt='')
+
+    separador
+    #t_3_4.titulo-segundo.mb-4(data-aos="zoom-in-left")
+      h2 3.4  Envase: concepto, tipos, funciones y usos
+
+    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require_src('@/assets/curso/temas/Tema3/img07.png')})`}"
+        )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 El envase constituye el primer nivel de contacto físico con el producto, siendo clave en la conservación, dosificación y experiencia de uso.
+          br
+          br
+          | #[b Concepto]
+          br
+          br
+          | El envase es el recipiente que contiene directamente el producto, diseñado para protegerlo, conservarlo y facilitar su uso por parte del consumidor. Desde una perspectiva comercial, el envase debe responder a criterios de funcionalidad, ergonomía y sostenibilidad.
+
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-7
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+          h3.bg1.py-3.w-card-text.text-white Tipos
+
+    p Los envases se clasifican principalmente por material y funcionalidad:
+
+    .row.mb-4(data-aos="zoom-in-left")
+        .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
+          .tarjeta--boton.color-primario.p-4.h-100
+            .row.justify-content-center.mb-3
+              .col-5.col-lg-7
+                figure
+                  img(src='@/assets/curso/temas/Tema3/9.png', alt='')
+            h4.text-center Vidrio
+            p.mb-0 Alta protección, reutilizable y asociado a productos premium.
+
+        .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
+          .tarjeta--boton.color-primario.p-4.h-100
+            .row.justify-content-center.mb-3
+              .col-5.col-lg-7
+                figure
+                  img(src='@/assets/curso/temas/Tema3/10.png', alt='')
+            h4.text-center Plástico
+            p.mb-0 Versátil, ligero y de bajo costo.
+
+        .col-sm-6.col-lg-3.mb-4.mb-sm-0.d-flex
+          .tarjeta--boton.color-primario.p-4.h-100
+            .row.justify-content-center.mb-3
+              .col-5.col-lg-7
+                figure
+                  img(src='@/assets/curso/temas/Tema3/11.png', alt='')
+            h4.text-center Metal
+            p.mb-0 Resistente y adecuado para conservación prolongada.
+
+        .col-sm-6.col-lg-3.d-flex
+          .tarjeta--boton.color-primario.p-4.h-100
+            .row.justify-content-center.mb-3
+              .col-5.col-lg-7
+                figure
+                  img(src='@/assets/curso/temas/Tema3/12.png', alt='')
+            h4.text-center Cartón
+            p.mb-0 Ecológico y fácil de transportar.
+
+    p Por ejemplo, una empresa de productos de cuidado personal puede desarrollar diferentes tipos de envases, como frascos de vidrio, tubos plásticos, latas metálicas o cajas de cartón, adaptados a distintos usos, tamaños de presentación, canales de distribución y necesidades del consumidor.
+
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-7
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+          h3.bg1.py-3.w-card-text.text-white Funciones
+
+    p El envase cumple funciones fundamentales:
+
+    .row.mb-4.justify-content-center
+        .col-md-6.col-lg.mb-5.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/temas/Tema3/06.png' alt='')
+            .tarjeta.bg9
+              .p-4
+                h4.text-center Contener
+                p.mb-0.text-center Asegura que el producto se mantenga íntegro.
+
+        .col-md-6.col-lg.mb-5.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/temas/Tema3/07.png' alt='')
+            .tarjeta.bg9
+              .p-4
+                h4.text-center Proteger
+                p.mb-0.text-center Evita alteraciones externas.
+        .col-md-6.col-lg.mb-5.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/temas/Tema3/08.png' alt='')
+            .tarjeta.bg9
+              .p-4
+                h4.text-center  Dosificar
+                p.mb-0.text-center Facilita el uso adecuado del producto.
+      
+    .row.mb-4.justify-content-center(data-aos="zoom-in-left")
+      .col-lg-4.mb-4.col-md-6.h-100
+        .tarjeta-avatar.h-100
+          img(src='@/assets/curso/temas/Tema3/09.png' alt='')
+          .tarjeta.bg9
+            .p-4
+              h4.text-center Informar
+              p.mb-0.text-center Comunica características, instrucciones y normativas.
+
+      .col-lg-4.col-md-6.h-100
+        .tarjeta-avatar.h-100
+          img(src='@/assets/curso/temas/Tema3/010.png' alt='')
+          .tarjeta.bg9
+            .p-4
+              h4.text-center Generar experiencia
+              p.mb-0.text-center Influye en la percepción y comodidad del consumidor.
 
 
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-7
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+          h3.bg1.py-3.w-card-text.text-white Usos
+
+    p El envase se utiliza en diversos sectores:
+
+    .tarjeta--container.row.mb-3
+      .col-md.tarjeta.bg4.p-5      
+        h5.text-center Alimentos
+        p Conservación e higiene. Protege el producto de contaminación y mantiene su calidad durante almacenamiento y distribución.
+      
+      .col-md.tarjeta.bg12.p-5        
+        h5.text-center Farmacéutico
+        p Control y seguridad. Garantiza dosificación adecuada y cumplimiento de normas sanitarias.
+      
+      .col-md.tarjeta.bg4.p-5    
+        h5.text-center Cosmético
+        p Diferenciación y uso. Aporta valor estético y facilita la aplicación del producto.
+
+    p Por ejemplo, una empresa de productos cosméticos puede utilizar envases funcionales y reconocibles que faciliten la aplicación del producto, protejan el contenido, comuniquen atributos de cuidado personal y fortalezcan la confianza del consumidor.
+
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-7
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+          h3.bg1.py-3.w-card-text.text-white Funciones del envase
+
+    .fondo01.p-5.mb-4(data-aos="zoom-in-left")
+        .row.justify-content-center.align-items-center.mb-2
+          .col-lg-12
+            .tarjeta.fondosly.p-4
+              SlyderA(tipo="b")
+                .row.justify-content-center.align-items-center
+                  .col-lg-6.mb-4.mb-md-0
+                    h5 Contener
+                    p Asegura que el producto se mantenga íntegro.
+                    h5 Proteger
+                    p Evita alteraciones externas.
+                  .col-lg-4.col-md-8
+                    figure
+                      img(src='@/assets/curso/temas/Tema3/sly1.png', alt='')
+                .row.justify-content-center.align-items-center
+                  .col-lg-6.mb-4.mb-md-0
+                    h5 Dosificar
+                    p Facilita el uso adecuado del producto.
+                    h5 Informar
+                    p Comunica características, instrucciones y normativas.
+                  .col-lg-4.col-md-8
+                    figure
+                      img(src='@/assets/curso/temas/Tema3/sly2.png', alt='')
+                .row.justify-content-center.align-items-center
+                  .col-lg-6.mb-4.mb-md-0
+                    h5 Generar experiencia
+                    p Influye en la percepción y comodidad del consumidor.
+                  .col-lg-4.col-md-8
+                    figure
+                      img(src='@/assets/curso/temas/Tema3/sly3.png', alt='')
+              
+    separador
+    #t_3_5.titulo-segundo.mb-4(data-aos="zoom-in-left")
+      h2 3.5  Embalaje: concepto, tipos, funciones y usos
+
+    p El embalaje está enfocado en la protección del producto durante su manipulación, almacenamiento y transporte dentro de la cadena logística.
+    
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-7
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+          h3.bg1.py-3.w-card-text.text-white Concepto
+
+    .bloque-texto-g.bg7.p-3.p-sm-4.p-md-5.mb-4(data-aos="zoom-in-left")
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require_src('@/assets/curso/temas/Tema3/img08.png')})`}"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-0 El embalaje es el conjunto de materiales utilizados para agrupar, proteger y facilitar el transporte de productos desde su origen hasta su destino final.
+            br
+            br
+            | En el entorno empresarial, el embalaje es clave para garantizar la integridad del producto y optimizar costos logísticos. Por ejemplo, una plataforma de comercio electrónico puede diseñar embalajes adaptados al tamaño, peso y fragilidad del producto para reducir daños, optimizar el espacio de transporte y mejorar la eficiencia en la distribución.
+
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-7
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+          h3.bg1.py-3.w-card-text.text-white Tipos
+
+    p Los tipos de embalaje se clasifican según su función dentro de la logística y distribución:
+
+    .tarjeta--container.row.mb-3(data-aos="zoom-in-left")
+      .col-md.tarjeta.bg13.p-5      
+        h5.text-center Individual
+        p Protege una unidad específica del producto, evitando daños durante su manipulación y almacenamiento.
+      
+      .col-md.tarjeta.bg14.p-5        
+        h5.text-center Colectivo
+        p Agrupa varias unidades, facilitando su organización, conteo y manejo en procesos de almacenamiento y distribución.
+      
+      .col-md.tarjeta.bg13.p-5    
+        h5.text-center De transporte
+        p Permite movilizar grandes volúmenes de productos de forma eficiente, optimizando la carga, descarga y distribución en la cadena logística.
+
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-7
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+          h3.bg1.py-3.w-card-text.text-white Funciones
+    p El embalaje cumple funciones logísticas clave:
+
+    .row.mb-4(data-aos="zoom-in-left")
+        .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
+          .tarjeta--boton.color-secundario.p-4.h-100
+            .row.justify-content-center.mb-3
+              .col-5.col-lg-7
+                figure
+                  img(src='@/assets/curso/temas/Tema3/13.png', alt='')
+            h4.text-center Protección
+            p.mb-0 Evita daños durante el transporte, resguardando el producto frente a impactos, humedad o manipulación inadecuada.
+
+        .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
+          .tarjeta--boton.color-secundario.p-4.h-100
+            .row.justify-content-center.mb-3
+              .col-5.col-lg-7
+                figure
+                  img(src='@/assets/curso/temas/Tema3/14.png', alt='')
+            h4.text-center Almacenamiento
+            p.mb-0 Facilita la organización en bodegas, permitiendo optimizar el espacio y el control de inventarios.
+        .col-sm-6.col-lg-3.mb-4.mb-sm-0.d-flex
+          .tarjeta--boton.color-secundario.p-4.h-100
+            .row.justify-content-center.mb-3
+              .col-5.col-lg-7
+                figure
+                  img(src='@/assets/curso/temas/Tema3/15.png', alt='')
+            h4.text-center Manipulación
+            p.mb-0 Permite un manejo eficiente mediante sistemas de carga, descarga y movilización dentro de la cadena logística.
+
+        .col-sm-6.col-lg-3.d-flex
+          .tarjeta--boton.color-secundario.p-4.h-100
+            .row.justify-content-center.mb-3
+              .col-5.col-lg-7
+                figure
+                  img(src='@/assets/curso/temas/Tema3/16.png', alt='')
+            h4.text-center Optimización logística
+            p.mb-0 Reduce costos y tiempos al mejorar la eficiencia en el transporte, distribución y almacenamiento.
+
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-7
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+          h3.bg1.py-3.w-card-text.text-white Usos
+    p El embalaje se aplica en distintos contextos:
+
+    .row.justify-content-center.mb-5(data-aos="zoom-in-left")
+        .col-lg-9.position-relative
+          .avatar
+            figure
+              img(src="@/assets/curso/temas/Tema3/figura2.svg", alt="alt").img250
+          
+          .crd.crd--avatarHorizontal.crd--first.py-4
+            .row.align-items-center
+              .col-auto
+                figure
+                  img(src="@/assets/curso/temas/Tema3/azul1.png", alt="alt").img100
+              .col
+                h5 Distribución
+                p Traslado seguro de productos hacia puntos de venta o centros de consumo.
+          
+          .crd.crd--avatarHorizontal.py-4
+            .row.align-items-center
+              .col-auto
+                figure
+                  img(src="@/assets/curso/temas/Tema3/celeste1.png", alt="alt").img100
+              .col
+                h5 Exportación
+                p Protección en envíos internacionales, cumpliendo condiciones de transporte y normativas.
+          
+          .crd.crd--avatarHorizontal.crd--last.py-4
+            .row.align-items-center
+              .col-auto
+                figure
+                  img(src="@/assets/curso/temas/Tema3/marron1.png", alt="alt").img100
+              .col
+                h5 #[em E-commerce]
+                p Entrega segura al cliente final, garantizando la integridad del producto durante todo el proceso.
+
+    .cajon.color-primario.p-4.mb-4(data-aos="zoom-in-left")
+      p Por ejemplo, una empresa de transporte y distribución puede utilizar embalajes especializados para proteger productos en diferentes condiciones de manipulación, almacenamiento y traslado, asegurando que lleguen en buen estado al punto de venta o al cliente final.
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-7
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+          h3.bg1.py-3.w-card-text.text-white Uso del embalaje en la distribución de productos
+
+    .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
+        .col-lg-10
+          PasosA.color-acento-contenido.mb-0(tipo="n")(data-aos="zoom-in-left")
+            .row
+              .col-md-8.mb-4.mb-md-0
+                h4 Preparar el producto
+                p Se revisan sus características, como tamaño, peso, fragilidad, condiciones de conservación y riesgos durante el transporte.
+              .col-md-3.col-8
+                figure
+                  img(src='@/assets/curso/temas/Tema3/pas4.svg', alt='')
 
 
+            .row
+              .col-md-3.mb-4.mb-md-0.col-8
+                figure
+                  img(src='@/assets/curso/temas/Tema3/pas5.svg', alt='')
 
+              .col-md-8
+                h4.text-izq Seleccionar el embalaje
+                p.text-izq Se eligen materiales adecuados, como cajas, protectores, separadores, sellos o elementos de amortiguación, según el tipo de producto. 
 
+            .row
+              .col-md-8.mb-4.mb-md-0
+                h4 Proteger durante el traslado
+                p El embalaje reduce riesgos de golpes, humedad, presión, pérdida, deterioro o manipulación inadecuada durante la distribución.  
+              .col-md-3.col-8
+                figure
+                  img(src='@/assets/curso/temas/Tema3/pas6.svg', alt='')
+            
+            .row
+              .col-md-3.col-8.mb-4
+                figure
+                  img(src='@/assets/curso/temas/Tema3/pas7.svg', alt='')
+              .col-md-8.mb-4.mb-md-0
+                h4.text-izq Facilitar la entrega
+                p.text-izq Una adecuada identificación, rotulado y organización del embalaje permite entregar el producto de forma segura y oportuna.
 
+    .cajon.color-acento-contenido.p-4.mb-4(data-aos="zoom-in-left")
+      p Empaque, envase y embalaje son elementos complementarios dentro de la gestión del producto. Cada uno cumple funciones específicas que impactan la conservación, comercialización y distribución, integrándose como parte estratégica de la cadena de valor.
 
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-7
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+          h3.bg1.py-3.w-card-text.text-white Diferencias entre empaque, envase y embalaje
 
+    .row(data-aos="zoom-in-left")
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+        .tarjeta--boton.color-acento-botones.p-4
+          .row.justify-content-center.mb-3
+            .col-5
+              figure
+                img(src='@/assets/curso/temas/Tema3/tar1.svg', alt='')
+          h3.text-center Empaque
+          p Envuelve o contiene un producto para protegerlo, conservarlo, facilitar su comercialización y comunicar atributos, beneficios e identidad de marca.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+        .tarjeta--boton.color-acento-botones.p-4.h-100
+          .row.justify-content-center.mb-3
+            .col-5
+              figure
+                img(src='@/assets/curso/temas/Tema3/tar2.png', alt='')
+          h3.text-center Envase
+          p Contiene directamente el producto y permite protegerlo, conservarlo, dosificarlo y facilitar su uso por parte del consumidor.
+      
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+        .tarjeta--boton.color-acento-botones.p-4.h-100
+          .row.justify-content-center.mb-3
+            .col-5
+              figure
+                img(src='@/assets/curso/temas/Tema3/tar3.png', alt='')
+          h3.text-center Embalaje
+          p Agrupa, protege y facilita el transporte de productos desde su origen hasta su destino final.
 
 
 
