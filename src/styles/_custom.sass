@@ -57,9 +57,7 @@
   color: #fff !important  
 
 
-.boton *, .boton--sm *,
-.barra-avance__boton--regresar span
-  color: $white !important
+
 .banner-interno__titulo h1, .banner-interno__titulo h2, 
 .banner-interno__titulo h3, .banner-interno__titulo h4, 
 .banner-interno__titulo h5, .banner-interno__titulo h6
@@ -170,6 +168,8 @@ figcaption
 .bg11
   background-color: #FFF3EA
   border-radius: 20px
+.bg12
+  background-color: #FFF3EA
 .fa-chevron-right 
   --fa: "\f054"
   color: #38CE65
@@ -196,7 +196,8 @@ figcaption
     color: #12263F
 
     h4,
-    p
+    p,
+    em
       color: #12263F
 
 .tarjeta--boton.color-secundario
@@ -301,3 +302,43 @@ figcaption
   padding-top: 60px !important
   min-height: 180px
   width: 100%
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5
+    color: #12263F
+  p
+    margin-bottom: 0
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #EDF8FD
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first
+  &::before
+    background-color: #A5B0D0 !important
+.crd--last
+  &::before
+    background-color: #FDC7A1 !important
+.crd--first
+  &::before
+    border-top-left-radius: 30px
+.crd--last
+  &::before
+    border-bottom-left-radius: 30px
