@@ -298,7 +298,7 @@
             :audio="require_src('@/assets/curso/temas/Tema2/podcast.svg')"
         )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-            p Para complementar este tema, se dispone del pódcast “Marca y emprendimiento: identidad que diferencia”. Este recurso permite reconocer, mediante una conversación aplicada, cómo la propuesta de valor, la identidad de marca, el branding, el posicionamiento, el marketing digital y la protección legal contribuyen al fortalecimiento de un emprendimiento.
+            p Para complementar este tema, se dispone del pódcast “Marca y emprendimiento: identidad que diferencia”. Este recurso permite reconocer, mediante una conversación aplicada, cómo la propuesta de valor, la identidad de marca, el #[em branding], el posicionamiento, el #[em marketing digital] y la protección legal contribuyen al fortalecimiento de un emprendimiento.
             p Durante la revisión del pódcast, identifique cómo los elementos visuales, comunicativos y estratégicos de una marca pueden ayudar a generar confianza, diferenciación y recordación en el mercado.
 
       separador
@@ -310,10 +310,10 @@
           :style="{'background-image': `url(${require_src('@/assets/curso/temas/Tema2/img12.png')})`}"
         )
         .bloque-texto-g__texto.p-4
-          p.mb-0 El #[em branding] es el proceso mediante el cual una empresa construye y gestiona su marca con el objetivo de crear una identidad clara y diferenciada en el mercado. A través del branding se desarrollan elementos visuales, comunicativos y emocionales que permiten que los consumidores identifiquen, recuerden y confíen en una marca.
+          p.mb-0 El #[em branding] es el proceso mediante el cual una empresa construye y gestiona su marca con el objetivo de crear una identidad clara y diferenciada en el mercado. A través del #[em branding] se desarrollan elementos visuales, comunicativos y emocionales que permiten que los consumidores identifiquen, recuerden y confíen en una marca.
           br 
           br 
-          | El branding no se limita únicamente al logotipo o al diseño visual, sino que también incluye la forma en que la marca se comunica, los valores que transmite y la experiencia que ofrece a sus clientes.
+          | El #[em branding] no se limita únicamente al logotipo o al diseño visual, sino que también incluye la forma en que la marca se comunica, los valores que transmite y la experiencia que ofrece a sus clientes.
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
           .col-sm-12.col-lg-7
@@ -324,8 +324,8 @@
       .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
         .col-lg-12
           img(src="@/assets/curso/temas/Tema2/img13.png")
-      p El branding se refiere al conjunto de estrategias y acciones orientadas a construir, posicionar y fortalecer una marca en la mente de los consumidores. Su objetivo es generar reconocimiento, confianza y una conexión emocional con el público.
-      p Una estrategia de branding busca que la marca sea fácilmente identificable y que se diferencie de sus competidores dentro del mercado. Por ejemplo, la marca Apple ha construido su branding alrededor de la innovación, el diseño minimalista y la tecnología de alta calidad.
+      p El #[em branding] se refiere al conjunto de estrategias y acciones orientadas a construir, posicionar y fortalecer una marca en la mente de los consumidores. Su objetivo es generar reconocimiento, confianza y una conexión emocional con el público.
+      p Una estrategia de #[em branding] busca que la marca sea fácilmente identificable y que se diferencie de sus competidores dentro del mercado. Por ejemplo, la marca Apple ha construido su #[em branding] alrededor de la innovación, el diseño minimalista y la tecnología de alta calidad.
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
           .col-sm-12.col-lg-7
@@ -454,7 +454,7 @@
           img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
           h3.bg1.py-3.w-card-text.text-white Estructura
 
-    p La estructura del branding se refiere a la forma en que se organizan y relacionan los diferentes elementos de la marca para crear una identidad coherente. Esta estructura suele incluir:
+    p La estructura del #[em branding] se refiere a la forma en que se organizan y relacionan los diferentes elementos de la marca para crear una identidad coherente. Esta estructura suele incluir:
 
     .fondo02.p-5.mb-4(data-aos="zoom-in-left")
         .row.justify-content-center.align-items-center.fondosly.p-4
@@ -487,7 +487,7 @@
         .d-flex.align-items-center
           img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
           h3.bg1.py-3.w-card-text.text-white Beneficios
-    p El branding aporta múltiples beneficios para las empresas y organizaciones, entre ellos:
+    p El #[em branding] aporta múltiples beneficios para las empresas y organizaciones, entre ellos:
 
     .row.justify-content-center.align-items-center.mb-5.bg4(data-aos="zoom-in-left")
         .col-lg-5.d-none.d-lg-block

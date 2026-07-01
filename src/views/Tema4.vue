@@ -15,7 +15,7 @@
           p.mb-0 El mercadeo responsable y la normativa comercial permiten comprender que la gestión del producto no depende únicamente de su diseño, presentación o promoción, sino también de su impacto ambiental, el cumplimiento legal y la protección de los activos intangibles de la organización. Por esta razón, las estrategias comerciales deben considerar criterios de sostenibilidad, transparencia, propiedad intelectual y protección al consumidor.
             br
             br
-            | En este apartado se aborda el marketing green o mercadeo verde como una estrategia orientada a integrar prácticas sostenibles en la oferta comercial. Además, se revisa la normativa relacionada con legislación comercial vigente, propiedad intelectual, patentes e invenciones, con el fin de reconocer su importancia en la gestión ética, legal y competitiva de productos, servicios y marcas.
+            | En este apartado se aborda el #[em marketing green] o mercadeo verde como una estrategia orientada a integrar prácticas sostenibles en la oferta comercial. Además, se revisa la normativa relacionada con legislación comercial vigente, propiedad intelectual, patentes e invenciones, con el fin de reconocer su importancia en la gestión ética, legal y competitiva de productos, servicios y marcas.
     
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-sm-12.col-lg-7

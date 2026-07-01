@@ -30,7 +30,7 @@
             .row
               .col-md-8.mb-4.mb-md-0
                 h4 Identificar el producto
-                p Se reconocen herramientas como códigos de barras y etiquetas RFID, que permiten registrar, controlar y hacer seguimiento a los productos en procesos comerciales y logísticos.
+                p Se reconocen herramientas como códigos de barras y etiquetas #[em RFID], que permiten registrar, controlar y hacer seguimiento a los productos en procesos comerciales y logísticos.
               .col-md-3.col-8
                 figure
                   img(src='@/assets/curso/temas/Tema3/pas1.svg', alt='')
@@ -110,7 +110,7 @@
                 figure
                   img(src='@/assets/curso/temas/Tema3/2.png', alt='')
             h4.text-center UPC
-            p.mb-0 Es un código utilizado principalmente en Estados Unidos. Se emplea en retail y supermercados.
+            p.mb-0 Es un código utilizado principalmente en Estados Unidos. Se emplea en #[em retail] y supermercados.
 
         .col-sm-6.col-lg-3.mb-4.mb-sm-0.d-flex
           .tarjeta--boton.color-primario.p-4.h-100
@@ -229,7 +229,7 @@
         .d-flex.align-items-center
           img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
           h3.bg1.py-3.w-card-text.text-white Tipos
-    p Los tipos de etiquetas RFID se diferencian principalmente por su fuente de energía y su forma de funcionamiento, lo que determina su alcance, costo y aplicación en los procesos comerciales y logísticos.
+    p Los tipos de etiquetas #[em RFID] se diferencian principalmente por su fuente de energía y su forma de funcionamiento, lo que determina su alcance, costo y aplicación en los procesos comerciales y logísticos.
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
         .d-flex.align-items-center
@@ -295,7 +295,7 @@
             h4.text-center Experiencia del cliente
             p.mb-0 Agiliza procesos de compra y pago en tiendas.
 
-    p Por ejemplo, una tienda deportiva puede utilizar tecnología RFID para mejorar la gestión de inventarios, conocer la disponibilidad de productos en tiempo real y reducir tiempos en la caja mediante sistemas de autopago o verificación rápida.
+    p Por ejemplo, una tienda deportiva puede utilizar tecnología #[em RFID] para mejorar la gestión de inventarios, conocer la disponibilidad de productos en tiempo real y reducir tiempos en la caja mediante sistemas de autopago o verificación rápida.
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
