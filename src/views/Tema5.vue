@@ -25,8 +25,8 @@
         .tarjeta--boton.color-acento-botones.p-4
           .row.justify-content-center.mb-3
             .col-5
-              figure
-                img(src='@/assets/curso/temas/Tema5/1.png', alt='')
+              .icono2
+                img(src='@/assets/curso/temas/Tema5/1.svg', alt='')
           h3.text-center #[em Marketing digital]
           p Integra estrategias comerciales desarrolladas en entornos digitales para atraer, convertir y fidelizar clientes mediante plataformas, tecnologías y análisis de datos.
 
@@ -34,8 +34,8 @@
         .tarjeta--boton.color-acento-botones.p-4.h-100
           .row.justify-content-center.mb-3
             .col-5
-              figure
-                img(src='@/assets/curso/temas/Tema5/2.png', alt='')
+              .icono2
+                img(src='@/assets/curso/temas/Tema5/2.svg', alt='')
           h3.text-center #[em Social media marketing]
           p Utiliza redes sociales para promover productos, servicios o marcas, generar interacción con los usuarios y construir comunidades digitales.
       
@@ -43,8 +43,8 @@
         .tarjeta--boton.color-acento-botones.p-4.h-100
           .row.justify-content-center.mb-3
             .col-5
-              figure
-                img(src='@/assets/curso/temas/Tema5/3.png', alt='')
+              .icono2
+                img(src='@/assets/curso/temas/Tema5/3.svg', alt='')
           h3.text-center #[em E-business]
           p Permite gestionar actividades empresariales mediante internet y tecnologías digitales, incluyendo ventas, atención al cliente, datos, comunicación y operaciones.
 
@@ -431,22 +431,22 @@
           img.izq(src="@/assets/curso/temas/Tema5/img07.png")
         .col-lg-7
           ul.lista-ul.p-4
-            li
+            li.mb-0
               i.fas •
               | Publicaciones con imágenes.
-            li
+            li.mb-0
               i.fas • 
               | Videos cortos o #[em reels].
-            li
+            li.mb-0
               i.fas •
               | Historias (#[em stories]).
-            li
+            li.mb-0
               i.fas •
               | Transmisiones en vivo.
-            li
+            li.mb-0
               i.fas •
               | Infografías.
-            li
+            li.mb-0
               i.fas •
               | Contenido interactivo como encuestas o preguntas.
 

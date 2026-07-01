@@ -163,8 +163,8 @@
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema1/1.svg', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema1/13.svg', alt='')
             h4.text-center Atributo funcional
             p.mb-0 Está relacionado con el desempeño, la utilidad y la solución que ofrece el producto frente a una necesidad específica.
 
@@ -172,8 +172,8 @@
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema1/2.svg', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema1/14.svg', alt='')
             h4.text-center Atributo tangible
             p.mb-0 Corresponde a las características físicas que pueden percibirse, como diseño, materiales, tamaño o acabado.
 
@@ -181,8 +181,8 @@
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema1/3.svg', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema1/15.svg', alt='')
             h4.text-center Atributo intangible
             p.mb-0 Se relaciona con el valor percibido de la marca, su reputación o el prestigio que el consumidor asocia con el producto.
 
@@ -190,8 +190,8 @@
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema1/4.svg', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema1/16.svg', alt='')
             h4.text-center Atributo emocional
             p.mb-0 Incluye las sensaciones, experiencias o conexiones que el producto genera en el consumidor.
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
@@ -339,36 +339,36 @@
         .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
-              .col-lg-7.col-5
-                figure
-                  img(src='@/assets/curso/temas/Tema1/1.png', alt='')
+              .col-lg-7.col-5.d-flex.justify-content-center
+                .icono
+                  img(src='@/assets/curso/temas/Tema1/svg.svg', alt='')
             h4.text-center Producto de conveniencia
             p.mb-0 Corresponde a bienes de compra frecuente, de bajo costo y adquiridos con mínimo esfuerzo por parte del consumidor. Su disponibilidad y accesibilidad son factores clave. Ejemplo: bebidas de consumo diario.
 
         .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
-              .col-lg-7.col-5
-                figure
-                  img(src='@/assets/curso/temas/Tema1/2.png', alt='')
+              .col-lg-7.col-5.d-flex.justify-content-center
+                .icono
+                  img(src='@/assets/curso/temas/Tema1/svg2.svg', alt='')
             h4.text-center Producto de comparación
             p.mb-0 Implica un proceso de evaluación previa en aspectos como calidad, precio o diseño. El consumidor analiza diferentes opciones antes de tomar la decisión de compra. Ejemplo: televisores o electrodomésticos.
 
         .col-sm-6.col-lg-3.mb-4.mb-sm-0.d-flex
-          .tarjeta--boton.color-primario.text-white--hover.p-4.h-100
+          .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
-              .col-lg-7.col-5
-                figure
-                  img(src='@/assets/curso/temas/Tema1/3.png', alt='')
+              .col-lg-7.col-5.d-flex.justify-content-center
+                .icono
+                  img(src='@/assets/curso/temas/Tema1/svg3.svg', alt='')
             h4.text-center Producto de especialidad
             p.mb-0 Se caracteriza por un alto valor percibido, fuerte diferenciación y preferencia de marca. El consumidor está dispuesto a realizar un mayor esfuerzo para adquirirlo. Ejemplo: perfumes de lujo como los de Chanel.
 
         .col-sm-6.col-lg-3.d-flex
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
-              .col-lg-7.col-5
-                figure
-                  img(src='@/assets/curso/temas/Tema1/4.png', alt='')
+              .col-lg-7.col-5.d-flex.justify-content-center
+                .icono
+                  img(src='@/assets/curso/temas/Tema1/svg4.svg', alt='')
             h4.text-center Producto industrial
             p.mb-0 Está destinado a procesos productivos o comerciales y su compra es más racional, basada en especificaciones técnicas y necesidades empresariales. Ejemplo: equipos de construcción.
 
@@ -458,8 +458,8 @@
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-lg-7.col-5
-                figure
-                  img(src='@/assets/curso/temas/Tema1/5.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema1/5.svg', alt='')
             h4.text-center Amplitud
             p.mb-0 Número de líneas de producto que maneja la empresa. Define el alcance en el mercado.
 
@@ -467,17 +467,17 @@
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-lg-7.col-5
-                figure
-                  img(src='@/assets/curso/temas/Tema1/6.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema1/6.svg', alt='')
             h4.text-center Longitud
             p.mb-0 Cantidad total de productos dentro de todas las líneas. Mide el tamaño del portafolio.
 
         .col-sm-6.col-lg-3.mb-4.mb-sm-0.d-flex
-          .tarjeta--boton.color-primario.text-white--hover.p-4.h-100
+          .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-lg-7.col-5
-                figure
-                  img(src='@/assets/curso/temas/Tema1/7.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema1/7.svg', alt='')
             h4.text-center Profundidad
             p.mb-0 Número de versiones o referencias por producto. Permite segmentar el mercado.
 
@@ -485,8 +485,8 @@
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-lg-7.col-5
-                figure
-                  img(src='@/assets/curso/temas/Tema1/8.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema1/8.svg', alt='')
             h4.text-center Consistencia
             p.mb-0 Relación o coherencia entre las líneas de producto. Facilita el posicionamiento y la gestión.
 
@@ -728,8 +728,8 @@
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-lg-7.col-5
-                figure
-                  img(src='@/assets/curso/temas/Tema1/9.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema1/9.svg', alt='')
             h4.text-center Intangibilidad
             p.mb-0 Los servicios no pueden percibirse físicamente antes de su consumo, lo que obliga a generar confianza mediante marca, evidencia física o reputación.
 
@@ -737,17 +737,17 @@
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-lg-7.col-5
-                figure
-                  img(src='@/assets/curso/temas/Tema1/10.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema1/10.svg', alt='')
             h4.text-center Inseparabilidad
             p.mb-0 La producción y el consumo del servicio ocurren de manera simultánea, lo que implica interacción directa entre cliente y proveedor.
 
         .col-sm-6.col-lg-3.mb-4.mb-sm-0.d-flex
-          .tarjeta--boton.color-primario.text-white--hover.p-4.h-100
+          .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-lg-7.col-5
-                figure
-                  img(src='@/assets/curso/temas/Tema1/11.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema1/11.svg', alt='')
             h4.text-center Variabilidad
             p.mb-0 La calidad del servicio puede variar dependiendo de quién lo presta, el momento y las condiciones, lo que exige procesos de estandarización.
 
@@ -755,8 +755,8 @@
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-lg-7.col-5
-                figure
-                  img(src='@/assets/curso/temas/Tema1/12.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema1/12.svg', alt='')
             h4.text-center Perecibilidad
             p.mb-0 Los servicios no pueden almacenarse, por lo que la capacidad no utilizada representa pérdida de oportunidad comercial.
 

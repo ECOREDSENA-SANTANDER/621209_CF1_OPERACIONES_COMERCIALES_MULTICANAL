@@ -98,8 +98,8 @@
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema3/1.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema3/1.svg', alt='')
             h4.text-center EAN-13
             p.mb-0 Es un código de 13 dígitos de estándar internacional. Su uso común se relaciona con productos de consumo masivo.
 
@@ -107,8 +107,8 @@
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema3/2.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema3/2.svg', alt='')
             h4.text-center UPC
             p.mb-0 Es un código utilizado principalmente en Estados Unidos. Se emplea en #[em retail] y supermercados.
 
@@ -116,8 +116,8 @@
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema3/3.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema3/3.svg', alt='')
             h4.text-center Code 39
             p.mb-0 Permite incluir letras y números. Su uso es frecuente en industria y logística.
 
@@ -125,8 +125,8 @@
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema3/4.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema3/4.svg', alt='')
             h4.text-center QR (2D)
             p.mb-0 Almacena mayor cantidad de información. Se utiliza en #[em marketing] y acceso digital.
 
@@ -263,8 +263,8 @@
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema3/5.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema3/5.svg', alt='')
             h4.text-center Gestión de inventarios
             p.mb-0 Permite conocer en tiempo real la ubicación y cantidad de productos.
 
@@ -272,8 +272,8 @@
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema3/6.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema3/6.svg', alt='')
             h4.text-center Control logístico
             p.mb-0 Facilita el seguimiento de mercancías durante transporte y almacenamiento.
 
@@ -281,8 +281,8 @@
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema3/7.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema3/7.svg', alt='')
             h4.text-center Seguridad
             p.mb-0 Ayuda a prevenir pérdidas y controlar accesos en productos o activos.
 
@@ -290,8 +290,8 @@
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema3/8.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema3/8.svg', alt='')
             h4.text-center Experiencia del cliente
             p.mb-0 Agiliza procesos de compra y pago en tiendas.
 
@@ -509,17 +509,17 @@
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema3/9.png', alt='')
+                .icono
+                  img.imgta(src='@/assets/curso/temas/Tema3/9.svg', alt='')
             h4.text-center Vidrio
             p.mb-0 Alta protección, reutilizable y asociado a productos premium.
 
-        .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
+        .col-sm-6.col-lg-3.mb-4.mb-lg-0
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
-              .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema3/10.png', alt='')
+              .col-5.col-lg-7.h-100
+                .icono
+                  img(src='@/assets/curso/temas/Tema3/10.svg', alt='')
             h4.text-center Plástico
             p.mb-0 Versátil, ligero y de bajo costo.
 
@@ -527,17 +527,17 @@
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema3/11.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema3/11.svg', alt='')
             h4.text-center Metal
             p.mb-0 Resistente y adecuado para conservación prolongada.
 
-        .col-sm-6.col-lg-3.d-flex
+        .col-sm-6.col-lg-3
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema3/12.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema3/12.svg', alt='')
             h4.text-center Cartón
             p.mb-0 Ecológico y fácil de transportar.
 
@@ -708,8 +708,8 @@
           .tarjeta--boton.color-secundario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema3/13.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema3/13.svg', alt='')
             h4.text-center Protección
             p.mb-0 Evita daños durante el transporte, resguardando el producto frente a impactos, humedad o manipulación inadecuada.
 
@@ -717,16 +717,16 @@
           .tarjeta--boton.color-secundario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema3/14.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema3/14.svg', alt='')
             h4.text-center Almacenamiento
             p.mb-0 Facilita la organización en bodegas, permitiendo optimizar el espacio y el control de inventarios.
         .col-sm-6.col-lg-3.mb-4.mb-sm-0.d-flex
           .tarjeta--boton.color-secundario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema3/15.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema3/15.svg', alt='')
             h4.text-center Manipulación
             p.mb-0 Permite un manejo eficiente mediante sistemas de carga, descarga y movilización dentro de la cadena logística.
 
@@ -734,8 +734,8 @@
           .tarjeta--boton.color-secundario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema3/16.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema3/16.svg', alt='')
             h4.text-center Optimización logística
             p.mb-0 Reduce costos y tiempos al mejorar la eficiencia en el transporte, distribución y almacenamiento.
 
@@ -838,8 +838,8 @@
         .tarjeta--boton.color-acento-botones.p-4
           .row.justify-content-center.mb-3
             .col-5
-              figure
-                img(src='@/assets/curso/temas/Tema3/tar1.svg', alt='')
+              .icono2
+                img(src='@/assets/curso/temas/Tema3/01.svg', alt='')
           h3.text-center Empaque
           p Envuelve o contiene un producto para protegerlo, conservarlo, facilitar su comercialización y comunicar atributos, beneficios e identidad de marca.
 
@@ -847,8 +847,8 @@
         .tarjeta--boton.color-acento-botones.p-4.h-100
           .row.justify-content-center.mb-3
             .col-5
-              figure
-                img(src='@/assets/curso/temas/Tema3/tar2.png', alt='')
+              .icono2
+                img(src='@/assets/curso/temas/Tema3/02.svg', alt='')
           h3.text-center Envase
           p Contiene directamente el producto y permite protegerlo, conservarlo, dosificarlo y facilitar su uso por parte del consumidor.
       
@@ -856,8 +856,8 @@
         .tarjeta--boton.color-acento-botones.p-4.h-100
           .row.justify-content-center.mb-3
             .col-5
-              figure
-                img(src='@/assets/curso/temas/Tema3/tar3.png', alt='')
+              .icono2
+                img.imgta(src='@/assets/curso/temas/Tema3/03.svg', alt='')
           h3.text-center Embalaje
           p Agrupa, protege y facilita el transporte de productos desde su origen hasta su destino final.
 

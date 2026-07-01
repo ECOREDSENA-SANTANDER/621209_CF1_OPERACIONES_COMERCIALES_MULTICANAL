@@ -156,8 +156,8 @@
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema2/1.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema2/1.svg', alt='')
             h4.text-center Nombre de la marca
             p.mb-0 Permite identificar verbalmente a la empresa, producto o servicio dentro del diseño gráfico del emblema.
 
@@ -165,8 +165,8 @@
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema2/2.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema2/2.svg', alt='')
             h4.text-center Elemento visual
             p.mb-0 Puede incluir una figura, símbolo, ícono o ilustración asociada con la identidad, el origen o la personalidad de la marca.
 
@@ -174,8 +174,8 @@
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema2/3.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema2/3.svg', alt='')
             h4.text-center Forma estructurada
             p.mb-0 Integra los elementos en una composición cerrada, como un sello, escudo, círculo o marco, para fortalecer la unidad visual.
 
@@ -183,8 +183,8 @@
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema2/4.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema2/4.svg', alt='')
             h4.text-center Valor de reconocimiento
             p.mb-0 Ayuda a que el público recuerde la marca y la asocie con atributos como tradición, confianza, calidad o trayectoria.
 

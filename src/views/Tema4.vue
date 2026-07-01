@@ -65,8 +65,8 @@
           .tarjeta--boton.color-secundario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema4/1.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema4/1.svg', alt='')
             h4.text-center Producto
             p.mb-0 Diseño ecológico, uso de materiales reciclables o biodegradables.
 
@@ -74,16 +74,16 @@
           .tarjeta--boton.color-secundario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema4/2.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema4/2.svg', alt='')
             h4.text-center Precio
             p.mb-0 Puede reflejar costos asociados a procesos sostenibles, pero también valor percibido por el consumidor.
         .col-sm-6.col-lg-3.mb-4.mb-sm-0.d-flex
           .tarjeta--boton.color-secundario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema4/3.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema4/3.svg', alt='')
             h4.text-center Plaza
             p.mb-0 Distribución eficiente que reduzca impacto ambiental, también llamada logística verde.
 
@@ -91,8 +91,8 @@
           .tarjeta--boton.color-secundario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema4/4.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema4/4.svg', alt='')
             h4.text-center Promoción
             p.mb-0 Comunicación transparente sobre prácticas sostenibles, evitando el #[em greenwashing].
 
@@ -234,8 +234,8 @@
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema4/5.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema4/5.svg', alt='')
             h4.text-center Diseño sostenible
             p.mb-0 Desarrollo de productos con menor impacto ambiental.
 
@@ -243,8 +243,8 @@
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema4/6.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema4/6.svg', alt='')
             h4.text-center Producción limpia
             p.mb-0 Uso eficiente de recursos y reducción de residuos.
 
@@ -252,8 +252,8 @@
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema4/7.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema4/7.svg', alt='')
             h4.text-center Logística verde
             p.mb-0 Optimización del transporte y distribución.
 
@@ -261,8 +261,8 @@
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
               .col-5.col-lg-7
-                figure
-                  img(src='@/assets/curso/temas/Tema4/8.png', alt='')
+                .icono
+                  img(src='@/assets/curso/temas/Tema4/8.svg', alt='')
             h4.text-center Consumo responsable
             p.mb-0 Promoción de hábitos sostenibles en el cliente.
 
