@@ -49,9 +49,9 @@
       .row.justify-content-center.align-items-center.mb-5.bg5(data-aos="zoom-in-left")
         .col-lg-5.d-none.d-lg-block
           img.izq2(src="@/assets/curso/temas/Tema2/img02.png")
-        .col-lg-7
-          p.p-3 La marca constituye uno de los activos más importantes de una organización, ya que representa la forma en que una empresa, producto o servicio es percibido por el público. No se limita únicamente al nombre o a los elementos gráficos, sino que incluye valores, emociones, experiencias y percepciones que los consumidores asocian con la empresa.
-          p.px-3 La construcción de identidad de marca implica desarrollar elementos visuales, conceptuales y simbólicos que permitan diferenciar a la organización dentro del mercado y fortalecer su posicionamiento, lo que permite generar valor y diferenciación.
+        .col-lg-7.p-4.p-lg-0
+          p La marca constituye uno de los activos más importantes de una organización, ya que representa la forma en que una empresa, producto o servicio es percibido por el público. No se limita únicamente al nombre o a los elementos gráficos, sino que incluye valores, emociones, experiencias y percepciones que los consumidores asocian con la empresa.
+          p La construcción de identidad de marca implica desarrollar elementos visuales, conceptuales y simbólicos que permitan diferenciar a la organización dentro del mercado y fortalecer su posicionamiento, lo que permite generar valor y diferenciación.
       
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
           .col-sm-12.col-lg-7
@@ -197,12 +197,13 @@
       p La etiqueta es el elemento informativo que se coloca en los productos para comunicar información relevante al consumidor.
       p La etiqueta puede incluir datos como:     
 
-      .fondo02.p-5.mb-4
-        .row.justify-content-center.align-items-center.fondosly
-          .col-lg-4.mb-3.col-md-8
-            img(src='@/assets/curso/temas/Tema2/img08.png', alt='')
-          .col-lg-4.mb-3
-            ul.lista-ul.lista-ul--separador
+      .fondo02.p-4.mb-4
+        .row.justify-content-center.align-items-stretch.fondosly
+          .col-lg-4.col-md-8.p-0.d-none.d-lg-block
+            img.img-ras(src='@/assets/curso/temas/Tema2/img08.png', alt='')
+
+          .col-lg-4.mb-3.d-flex.align-items-center.p-4
+            ul.lista-ul.lista-ul--separador.mb-0
               li
                 i.fas.fa-circle-check
                 | Nombre de la marca.
@@ -218,8 +219,9 @@
               li
                 i.fas.fa-circle-check
                 | Información legal o normativa.
-          .col-lg-3.mb-3.col-9.col-md-8
-            img(src='@/assets/curso/temas/Tema2/img09.png', alt='')
+
+          .col-lg-3.col-9.col-md-8.d-flex.align-items-center
+            img.w-100.d-none.d-lg-block(src='@/assets/curso/temas/Tema2/img09.png', alt='')
 
       p Además de informar, la etiqueta también cumple una función comercial y visual, ya que puede influir en la decisión de compra. Cumple funciones informativas, legales y comerciales dentro del proceso de compra.
 
@@ -262,7 +264,7 @@
 
       .fondo02.p-5.mb-4
         .row.justify-content-center.align-items-center.fondosly.p-4
-          .col-lg-4.mb-4.col-md-9
+          .col-lg-4.mb-4.col-md-9.d-none.d-lg-block
             img(src='@/assets/curso/temas/Tema2/img10.png', alt='')
           .col-lg-8.mb-0
             h4 Lectura sugerida
@@ -336,11 +338,12 @@
       p El diseño de marca corresponde al desarrollo de los elementos visuales que representan a una empresa. Estos elementos permiten transmitir la personalidad de la marca y facilitar su reconocimiento. Entre los aspectos más importantes del diseño de marca se encuentran:
 
       .fondo02.p-5.mb-4(data-aos="zoom-in-left")
-        .row.justify-content-center.align-items-center.fondosly
-          .col-lg-4.mb-3.col-10.col-md-8
-            img(src='@/assets/curso/temas/Tema2/img15.png', alt='')
-          .col-lg-4.mb-3
-            ul.lista-ul.lista-ul--separador
+        .row.justify-content-center.align-items-stretch.fondosly
+          .col-lg-4.col-10.col-md-8.p-0.d-none.d-lg-block
+            img.img-ras(src='@/assets/curso/temas/Tema2/img15.png', alt='')
+
+          .col-lg-4.d-flex.align-items-center.p-4
+            ul.lista-ul.lista-ul--separador.mb-0
               li
                 i.fas.fa-circle-check
                 | Logotipo.
@@ -356,8 +359,9 @@
               li
                 i.fas.fa-circle-check
                 | Diseño de productos o empaques.
-          .col-lg-3.mb-3.col-10.col-md-8
-            img(src='@/assets/curso/temas/Tema2/img14.png', alt='')
+
+          .col-lg-3.col-10.col-md-8.d-flex.align-items-center
+            img.w-100.d-none.d-lg-block(src='@/assets/curso/temas/Tema2/img14.png', alt='')
 
       .cajon.color-primario.p-4.mb-4(data-aos="zoom-in-left")
         p Un ejemplo de ello es una marca de bebidas no alcohólicas que utiliza de manera constante un color corporativo, una tipografía reconocible y un estilo visual coherente en sus empaques, piezas publicitarias y canales digitales. Esta consistencia permite fortalecer la recordación, transmitir personalidad de marca y facilitar que el consumidor identifique la empresa en diferentes contextos comerciales.
@@ -457,28 +461,30 @@
     p La estructura del #[em branding] se refiere a la forma en que se organizan y relacionan los diferentes elementos de la marca para crear una identidad coherente. Esta estructura suele incluir:
 
     .fondo02.p-5.mb-4(data-aos="zoom-in-left")
-        .row.justify-content-center.align-items-center.fondosly.p-4
-          .col-lg-4.mb-3.col-10.col-md-8
-            img(src='@/assets/curso/temas/Tema2/img17.png', alt='')
-          .col-lg-4.mb-3
-            ul.lista-ul.lista-ul--separador
-              li
-                i.fas.fa-circle-check
-                | Identidad de marca.
-              li
-                i.fas.fa-circle-check
-                | Valores y propósito.
-              li
-                i.fas.fa-circle-check
-                | Comunicación de marca.
-              li
-                i.fas.fa-circle-check
-                | Experiencia del cliente.
-              li
-                i.fas.fa-circle-check
-                | Posicionamiento en el mercado.
-          .col-lg-3.mb-3.col-10.col-md-8
-            img(src='@/assets/curso/temas/Tema2/img18.png', alt='')
+      .row.justify-content-center.align-items-stretch.fondosly
+        .col-lg-4.col-10.col-md-8.p-0.d-none.d-lg-block
+          img.img-ras(src='@/assets/curso/temas/Tema2/img17.png', alt='')
+
+        .col-lg-4.d-flex.align-items-center.p-4
+          ul.lista-ul.lista-ul--separador.mb-0
+            li
+              i.fas.fa-circle-check
+              | Identidad de marca.
+            li
+              i.fas.fa-circle-check
+              | Valores y propósito.
+            li
+              i.fas.fa-circle-check
+              | Comunicación de marca.
+            li
+              i.fas.fa-circle-check
+              | Experiencia del cliente.
+            li
+              i.fas.fa-circle-check
+              | Posicionamiento en el mercado.
+
+        .col-lg-3.col-10.col-md-8.d-flex.align-items-center
+          img.w-100.d-none.d-lg-block(src='@/assets/curso/temas/Tema2/img16.png', alt='')
 
     p Cuando estos elementos se integran correctamente, la marca logra transmitir un mensaje claro y consistente.
 
@@ -490,10 +496,10 @@
     p El #[em branding] aporta múltiples beneficios para las empresas y organizaciones, entre ellos:
 
     .row.justify-content-center.align-items-center.mb-5.bg4(data-aos="zoom-in-left")
-        .col-lg-5.d-none.d-lg-block
-          img.izq(src="@/assets/curso/temas/Tema2/img19.png")
-        .col-lg-7
-          ul.lista-ul.lista-ul--separador.p-4
+        .col-lg-5
+          img.izq.d-none.d-lg-block(src="@/assets/curso/temas/Tema2/img19.png")
+        .col-lg-7.p-3
+          ul.lista-ul.lista-ul--separador
               li
                 i.fas.fa-circle-check
                 | Mejora el reconocimiento de la marca.

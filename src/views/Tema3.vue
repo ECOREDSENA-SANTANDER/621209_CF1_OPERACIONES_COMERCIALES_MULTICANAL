@@ -512,7 +512,7 @@
                 .icono
                   img.imgta(src='@/assets/curso/temas/Tema3/9.svg', alt='')
             h4.text-center Vidrio
-            p.mb-0 Alta protección, reutilizable y asociado a productos premium.
+            p.mb-0 Alta protección, reutilizable y asociado a productos #[em premium].
 
         .col-sm-6.col-lg-3.mb-4.mb-lg-0
           .tarjeta--boton.color-primario.p-4.h-100

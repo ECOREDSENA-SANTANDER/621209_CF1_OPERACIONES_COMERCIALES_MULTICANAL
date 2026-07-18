@@ -10,9 +10,9 @@
     .row.justify-content-center.align-items-center.mb-5.bg14(data-aos="zoom-in-left")
         .col-lg-5.d-none.d-lg-block
           img.izq(src="@/assets/curso/temas/Tema5/img01.png")
-        .col-lg-7
-          p.p-4.mb-0 Las estrategias digitales permiten fortalecer la gestión comercial mediante el uso de tecnologías, plataformas digitales, redes sociales y análisis de datos. En los entornos actuales, las organizaciones no solo necesitan promocionar productos o servicios, sino también atraer, convertir, fidelizar y relacionarse con los consumidores mediante acciones medibles y orientadas al rendimiento.
-          p.px-4 En este apartado se abordan tres temas centrales: el #[em marketing digital], como base de las acciones comerciales en entornos digitales; el #[em social media marketing], como estrategia para gestionar la presencia en redes sociales; y el #[em e-business], como modelo que integra procesos empresariales mediante internet y tecnologías digitales.
+        .col-lg-7.p-4.p-lg-0
+          p Las estrategias digitales permiten fortalecer la gestión comercial mediante el uso de tecnologías, plataformas digitales, redes sociales y análisis de datos. En los entornos actuales, las organizaciones no solo necesitan promocionar productos o servicios, sino también atraer, convertir, fidelizar y relacionarse con los consumidores mediante acciones medibles y orientadas al rendimiento.
+          p En este apartado se abordan tres temas centrales: el #[em marketing digital], como base de las acciones comerciales en entornos digitales; el #[em social media marketing], como estrategia para gestionar la presencia en redes sociales; y el #[em e-business], como modelo que integra procesos empresariales mediante internet y tecnologías digitales.
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
@@ -218,33 +218,30 @@
     p Entre las tácticas más relevantes se encuentran:
     
     .fondo02.p-5.mb-4(data-aos="zoom-in-left")
-        .row.justify-content-center.align-items-center.fondosly.p-4
-          .col-lg-4.mb-3.col-10.col-md-8
-            img(src='@/assets/curso/temas/Tema5/img05.png', alt='')
-          .col-lg-7.mb-3
-            ul.lista-ul.lista-ul--separador
-              li
-                i.fas.fa-circle-check
-                | Campañas de anuncios segmentados en redes sociales.
+      .row.justify-content-center.align-items-stretch.fondosly
+        .col-lg-4.col-10.col-md-8.p-0.d-none.d-lg-block
+          img.img-ras(src='@/assets/curso/temas/Tema5/img05.png', alt='')
 
-              li
-                i.fas.fa-circle-check
-                | Optimización para motores de búsqueda (#[em SEO]).
-
-              li
-                i.fas.fa-circle-check
-                | Publicidad pagada en buscadores (#[em SEM]).
-
-              li
-                i.fas.fa-circle-check
-                | #[em Email marketing] automatizado.
-
-              li
-                i.fas.fa-circle-check
-                | #[em Remarketing] dirigido a usuarios que ya interactuaron con la marca.
-              li
-                i.fas.fa-circle-check
-                | Gestión estratégica de redes sociales.
+        .col-lg-7.d-flex.align-items-center.p-4
+          ul.lista-ul.lista-ul--separador.mb-0.w-100
+            li
+              i.fas.fa-circle-check
+              | Campañas de anuncios segmentados en redes sociales.
+            li
+              i.fas.fa-circle-check
+              | Optimización para motores de búsqueda (#[em SEO]).
+            li
+              i.fas.fa-circle-check
+              | Publicidad pagada en buscadores (#[em SEM]).
+            li
+              i.fas.fa-circle-check
+              | #[em Email marketing] automatizado.
+            li
+              i.fas.fa-circle-check
+              | #[em Remarketing] dirigido a usuarios que ya interactuaron con la marca.
+            li
+              i.fas.fa-circle-check
+              | Gestión estratégica de redes sociales.
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
@@ -602,7 +599,7 @@
 
     .row.mb-4(data-aos="zoom-in-left")
         .col-md-6.col-xl.mb-4.mb-xl-0.d-flex
-          .tarjeta-numerada.color-acento-contenido.p-5.h-100
+          .tarjeta-numerada.color-acento-contenido.p-4.h-100
             .tarjeta-numerada__numero
               .h2 1
             p.text-center 
@@ -610,14 +607,14 @@
             p.text-center Corresponde a transacciones electrónicas entre empresas. 
 
         .col-md-6.col-xl.mb-4.mb-xl-0.d-flex
-          .tarjeta-numerada.color-secundario.p-5.h-100
+          .tarjeta-numerada.color-secundario.p-4.h-100
             .tarjeta-numerada__numero
               .h2 2
             p.text-center 
               b #[em B2C (Business to Consumer)]
             p.text-center Corresponde a la venta directa de empresas a consumidores finales a través de internet.
         .col-md-6.col-xl.mb-4.mb-xl-0.d-flex
-          .tarjeta-numerada.color-primario.p-5.h-100
+          .tarjeta-numerada.color-primario.p-4.h-100
             .tarjeta-numerada__numero
               .h2 3
             p.text-center 
@@ -625,7 +622,7 @@
             p.text-center Corresponde al intercambio o venta de productos entre consumidores mediante plataformas digitales. 
 
         .col-md-6.col-xl.mb-4.mb-xl-0.d-flex
-          .tarjeta-numerada.color-acento-botones.p-5.h-100
+          .tarjeta-numerada.color-acento-botones.p-4.h-100
             .tarjeta-numerada__numero
               .h2 4
             p.text-center 

@@ -24,7 +24,7 @@
             img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
             h3.bg1.py-3.w-card-text.text-white Ruta de la gestión estratégica del producto
       
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-0
         .col-lg-10
           PasosA.color-acento-contenido.mb-3(tipo="n")(data-aos="zoom-in-left")
             .row
@@ -92,7 +92,7 @@
         .col-lg-3.col-8.mb-4.col-md-5
           img(src='@/assets/curso/temas/Tema1/img04.png', alt='')
         .col-lg-9
-          TabsA.color-acento-botones.mb-5
+          TabsA.color-acento-botones.mb-3
             .tarjeta.bgrosado.p-4(titulo="Categoría")
               p.mb-0 Agrupa productos que cumplen una función similar o responden a una misma necesidad del consumidor, como muebles para sala, dormitorio u oficina.
             .tarjeta.bgrosado.p-4(titulo="Producto")
@@ -123,10 +123,10 @@
         h5 Tabla 1.
         span Atributos del producto
 
-      .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
-        .col-lg-9.mb-4
-          .tabla-a
-            table
+      .row.justify-content-center.align-items-stretch.mb-4(data-aos="zoom-in-left")
+        .col-lg-9.mb-4.mb-lg-0.d-flex
+          .tabla-a.w-100
+            table.h-100
               thead
                 tr
                   th.bg4 Tipo de atributo
@@ -149,8 +149,8 @@
                   td Emocional
                   td Sensaciones, experiencias o conexiones que el producto genera en el consumidor.
                   td Sentido de pertenencia al usar una marca deportiva.
-        .col-lg-3.col-7.col-md-5
-          img(src="@/assets/curso/temas/Tema1/img05.png")
+        .col-lg-3.col-7.col-md-5.d-flex
+          img.img-tabla(src='@/assets/curso/temas/Tema1/img05.png', alt='')
 
       p Un caso representativo es el de los juegos de construcción, donde el producto trasciende el objeto físico e incorpora creatividad, aprendizaje y experiencia lúdica.
 
@@ -194,13 +194,13 @@
                   img(src='@/assets/curso/temas/Tema1/16.svg', alt='')
             h4.text-center Atributo emocional
             p.mb-0 Incluye las sensaciones, experiencias o conexiones que el producto genera en el consumidor.
-      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .row.justify-content-start.mb-3(data-aos="zoom-in-left")
         .col-sm-12.col-lg-7
           .d-flex.align-items-center
             img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
             h3.bg1.py-3.w-card-text.text-white Clasificación
 
-      .row.justify-content-center.align-items-center.mb-5.bg5(data-aos="zoom-in-left")
+      .row.justify-content-center.align-items-center.mb-3.bg5(data-aos="zoom-in-left")
         .col-lg-5.d-none.d-lg-block
           img.izq(src="@/assets/curso/temas/Tema1/img06.png")
         .col-lg-7
@@ -212,8 +212,8 @@
         h5 Tabla 2.
         span Clasificación y caracterización de productos
 
-      .row.justify-content-center.align-items-center.mb-5
-        .col-lg-9.mb-4
+      .row.justify-content-center.align-items-center.mb-3
+        .col-lg-9.mb-3
           .tabla-a
             table
               thead
@@ -445,8 +445,8 @@
       .row.justify-content-center.align-items-center.mb-5.bg5(data-aos="zoom-in-left")
         .col-lg-5.d-none.d-lg-block
           img.izq(src="@/assets/curso/temas/Tema1/img11.png")
-        .col-lg-7
-          p.p-3 Para comprender la estructura de la mezcla de producto, puede analizarse una empresa que ofrece productos de consumo masivo para el hogar. Su amplitud se reconoce en la cantidad de líneas que maneja, como limpieza, cuidado personal y alimentos empacados. La longitud se identifica en el número total de productos disponibles dentro de esas líneas. La profundidad se observa en las distintas versiones o referencias de un mismo producto, como tamaños, fragancias, presentaciones o usos. Finalmente, la consistencia se relaciona con la coherencia entre las líneas, el tipo de consumidor, los canales de venta y la estrategia comercial de la empresa.
+        .col-lg-7.p-3.p-lg-0
+          p Para comprender la estructura de la mezcla de producto, puede analizarse una empresa que ofrece productos de consumo masivo para el hogar. Su amplitud se reconoce en la cantidad de líneas que maneja, como limpieza, cuidado personal y alimentos empacados. La longitud se identifica en el número total de productos disponibles dentro de esas líneas. La profundidad se observa en las distintas versiones o referencias de un mismo producto, como tamaños, fragancias, presentaciones o usos. Finalmente, la consistencia se relaciona con la coherencia entre las líneas, el tipo de consumidor, los canales de venta y la estrategia comercial de la empresa.
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
           .col-sm-12.col-lg-7
