@@ -290,14 +290,14 @@
 
       p La marca es un elemento clave para que un emprendimiento sea reconocido, recordado y diferenciado en el mercado. Su construcción implica definir una propuesta de valor, una identidad visual, una forma de comunicación coherente y una estrategia de posicionamiento acorde con las necesidades del público objetivo.
     
-    img(src='@/assets/curso/temas/Tema2/podcast.svg', alt='Texto que describa la imagen')
+    img(src='@/assets/curso/temas/Tema2/podcast.svg', alt='')
     .row.justify-content-center.g-0(data-aos="fade-right")
       .col-lg-12
         .tarjeta.clr--pink.p-4.rounded-0.h-100.color-primario
           .tarjeta.bg-white.p-4
             TarjetaAudio.color-secundario.mb-4.p-3(
             texto="Pódcast: Marca y emprendimiento: identidad que diferencia"
-            :audio="require_src('@/assets/curso/temas/Tema2/podcast.svg')"
+            :audio="require_src('@/assets/curso/temas/Tema2/podcast.mp3')"
         )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
             p Para complementar este tema, se dispone del pódcast “Marca y emprendimiento: identidad que diferencia”. Este recurso permite reconocer, mediante una conversación aplicada, cómo la propuesta de valor, la identidad de marca, el #[em branding], el posicionamiento, el #[em marketing digital] y la protección legal contribuyen al fortalecimiento de un emprendimiento.

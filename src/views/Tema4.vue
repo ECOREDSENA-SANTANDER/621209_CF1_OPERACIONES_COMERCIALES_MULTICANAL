@@ -447,14 +447,14 @@
       p Esto incentiva la innovación y el desarrollo tecnológico, ya que protege las inversiones en investigación. 
       p Las patentes permiten proteger invenciones, productos o procesos que aportan valor al mercado. En el contexto del emprendimiento, comprender este proceso ayuda a reconocer cuándo una idea puede convertirse en un activo protegido y cómo la propiedad industrial puede fortalecer la competitividad de un negocio.
     
-    img(src='@/assets/curso/temas/Tema4/podcast.svg', alt='Texto que describa la imagen')
+    img(src='@/assets/curso/temas/Tema4/podcast.svg', alt='')
     .row.justify-content-center.g-0(data-aos="fade-right")
       .col-lg-12
         .tarjeta.clr--pink.p-4.rounded-0.h-100.color-primario
           .tarjeta.bg-white.p-4
             TarjetaAudio.color-secundario.mb-4.p-3(
             texto="Pódcast: Patentes y emprendimiento: proteger una invención para crecer"
-            :audio="require_src('@/assets/curso/temas/Tema2/podcast.svg')"
+            :audio="require_src('@/assets/curso/temas/Tema2/podcast.mp4')"
         )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
             p Para complementar este tema, se dispone del pódcast “Patentes y emprendimiento: proteger una invención para crecer”. Este recurso permite reconocer, mediante una conversación aplicada, cuáles son los requisitos generales que debe cumplir una invención, por qué es importante revisar antecedentes antes de iniciar una solicitud y cuál es el papel de la Superintendencia de Industria y Comercio en el proceso de protección de una patente en Colombia.

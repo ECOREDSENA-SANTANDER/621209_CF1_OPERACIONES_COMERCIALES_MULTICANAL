@@ -409,13 +409,13 @@
         .col-lg-9.position-relative
           .avatar
             figure
-              img(src="@/assets/curso/temas/Tema3/figura.svg", alt="alt").img250
+              img(src="@/assets/curso/temas/Tema3/figura.svg", alt="").img250
           
           .crd.crd--avatarHorizontal.crd--first.py-4
             .row.align-items-center
               .col-auto
                 figure
-                  img(src="@/assets/curso/temas/Tema3/azul.png", alt="alt").img100
+                  img(src="@/assets/curso/temas/Tema3/azul.png", alt="").img100
               .col
                 h5 Comercial
                 p Influye en la decisión de compra y en la percepción de calidad.
@@ -424,7 +424,7 @@
             .row.align-items-center
               .col-auto
                 figure
-                  img(src="@/assets/curso/temas/Tema3/celeste.png", alt="alt").img100
+                  img(src="@/assets/curso/temas/Tema3/celeste.png", alt="").img100
               .col
                 h5 Logístico
                 p Permite optimizar procesos de almacenamiento y distribución.
@@ -433,7 +433,7 @@
             .row.align-items-center
               .col-auto
                 figure
-                  img(src="@/assets/curso/temas/Tema3/marron.png", alt="alt").img100
+                  img(src="@/assets/curso/temas/Tema3/marron.png", alt="").img100
               .col
                 h5 Estratégico
                 p Fortalece la identidad de marca y el posicionamiento.
@@ -750,13 +750,13 @@
         .col-lg-9.position-relative
           .avatar
             figure
-              img(src="@/assets/curso/temas/Tema3/figura2.svg", alt="alt").img250
+              img(src="@/assets/curso/temas/Tema3/figura2.svg", alt="").img250
           
           .crd.crd--avatarHorizontal.crd--first.py-4
             .row.align-items-center
               .col-auto
                 figure
-                  img(src="@/assets/curso/temas/Tema3/azul1.png", alt="alt").img100
+                  img(src="@/assets/curso/temas/Tema3/azul1.png", alt="").img100
               .col
                 h5 Distribución
                 p Traslado seguro de productos hacia puntos de venta o centros de consumo.
@@ -765,7 +765,7 @@
             .row.align-items-center
               .col-auto
                 figure
-                  img(src="@/assets/curso/temas/Tema3/celeste1.png", alt="alt").img100
+                  img(src="@/assets/curso/temas/Tema3/celeste1.png", alt="").img100
               .col
                 h5 Exportación
                 p Protección en envíos internacionales, cumpliendo condiciones de transporte y normativas.
@@ -774,7 +774,7 @@
             .row.align-items-center
               .col-auto
                 figure
-                  img(src="@/assets/curso/temas/Tema3/marron1.png", alt="alt").img100
+                  img(src="@/assets/curso/temas/Tema3/marron1.png", alt="").img100
               .col
                 h5 #[em E-commerce]
                 p Entrega segura al cliente final, garantizando la integridad del producto durante todo el proceso.
