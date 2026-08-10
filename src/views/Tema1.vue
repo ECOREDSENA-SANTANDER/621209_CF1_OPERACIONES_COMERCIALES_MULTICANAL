@@ -109,7 +109,7 @@
       figure.mb-4(data-aos="zoom-in-left")
         .video
           iframe(iframe width="560" height="315" src="https://www.youtube.com/embed/LN1eBcD5H4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-        figcaption Video: El producto
+        figcaption Video. El producto
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-sm-12.col-lg-7
@@ -608,7 +608,7 @@
       figure.mb-4(data-aos="zoom-in-left")
         .video
           iframe(iframe width="560" height="315" src="https://www.youtube.com/embed/QrJ2hZkRpiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-        figcaption Video: Portafolio y características del producto 
+        figcaption Video. Portafolio y características del producto 
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
           .col-sm-12.col-lg-7
@@ -855,7 +855,7 @@
         .col-lg-6.col-10.col-md-7
           img(src="@/assets/curso/temas/Tema1/img19.png")
 
-      p Por ejemplo, en una aplicación de domicilios, momentos como la facilidad de uso de la app, la claridad en la información del pedido, el tiempo de entrega, el seguimiento del servicio y la atención al cliente determinan la experiencia del usuario.
+      p Por ejemplo, en una aplicación de domicilios, momentos como la facilidad de uso de la #[em app], la claridad en la información del pedido, el tiempo de entrega, el seguimiento del servicio y la atención al cliente determinan la experiencia del usuario.
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
           .col-sm-12.col-lg-7
             .d-flex.align-items-center

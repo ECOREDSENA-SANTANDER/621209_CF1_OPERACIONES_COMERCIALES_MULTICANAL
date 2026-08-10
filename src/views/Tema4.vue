@@ -323,7 +323,7 @@
     figure.mb-4(data-aos="zoom-in-left")
         .video
           iframe(iframe width="560" height="315" src="https://www.youtube.com/embed/PbdVwChb71Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-        figcaption Video: ¿Qué es mercadeo verde (#[em Green Marketing])? Ejemplos de mercadeo verde en el mundo
+        figcaption Video. ¿Qué es mercadeo verde (#[em Green Marketing])? Ejemplos de mercadeo verde en el mundo
 
 
     separador
@@ -453,7 +453,7 @@
         .tarjeta.clr--pink.p-4.rounded-0.h-100.color-primario
           .tarjeta.bg-white.p-4
             TarjetaAudio.color-secundario.mb-4.p-3(
-            texto="Pódcast: Patentes y emprendimiento: proteger una invención para crecer"
+            texto="Pódcast. Patentes y emprendimiento: proteger una invención para crecer"
             :audio="require_src('@/assets/curso/temas/Tema2/podcast.mp4')"
         )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")

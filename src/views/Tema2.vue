@@ -296,7 +296,7 @@
         .tarjeta.clr--pink.p-4.rounded-0.h-100.color-primario
           .tarjeta.bg-white.p-4
             TarjetaAudio.color-secundario.mb-4.p-3(
-            texto="Pódcast: Marca y emprendimiento: identidad que diferencia"
+            texto="Pódcast. Marca y emprendimiento: identidad que diferencia"
             :audio="require_src('@/assets/curso/temas/Tema2/podcast.mp3')"
         )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -561,12 +561,12 @@
 
     .cajon.color-primario.p-4.mb-4(data-aos="zoom-in-left")
         p El #[em branding] permite construir una imagen de marca clara, coherente y reconocible. Este proceso integra elementos como símbolos, colores, formas de comunicación, experiencias y valores que ayudan a diferenciar la marca frente a la competencia y a generar confianza en los consumidores.
-        p Revise el video “#[em randing]” para reforzar la relación entre imagen corporativa, marca, comunicación y posicionamiento. Durante la visualización, identifique cómo los elementos visuales y comunicativos contribuyen a que una marca sea reconocida, recordada y diferenciada en el mercado.
+        p Revise el video “#[em Branding]” para reforzar la relación entre imagen corporativa, marca, comunicación y posicionamiento. Durante la visualización, identifique cómo los elementos visuales y comunicativos contribuyen a que una marca sea reconocida, recordada y diferenciada en el mercado.
 
     figure.mb-4(data-aos="zoom-in-left")
         .video
           iframe(iframe width="560" height="315" src="https://www.youtube.com/embed/NfnrwqeWjgY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-        figcaption Video: #[em Branding]
+        figcaption Video. #[em Branding]
 
     separador
     #t_2_3.titulo-segundo.mb-4(data-aos="zoom-in-left")

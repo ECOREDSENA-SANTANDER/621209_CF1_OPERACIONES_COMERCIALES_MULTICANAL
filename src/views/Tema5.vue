@@ -558,7 +558,7 @@
     figure.mb-4(data-aos="zoom-in-left")
         .video
           iframe(iframe width="560" height="315" src="https://www.youtube.com/embed/WTJGT2cMkQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-        figcaption Video: Métricas del #[em marketing digital]
+        figcaption Video. Métricas del #[em marketing digital]
 
     separador
     #t_5_3.titulo-segundo.mb-4(data-aos="zoom-in-left")

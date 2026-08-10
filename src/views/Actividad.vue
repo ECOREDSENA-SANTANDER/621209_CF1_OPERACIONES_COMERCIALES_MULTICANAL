@@ -557,7 +557,7 @@ export default {
             },
             {
               id: 'b',
-              texto: '<em>LinkedIn</em>.',
+              texto: 'LinkedIn.',
               esCorrecta: true,
             },
             {
@@ -610,28 +610,28 @@ export default {
         {
           id: 19,
           texto:
-            'Una transacción electrónica realizada entre empresas corresponde al tipo de <em>e-business</em>:',
+            'Una transacción electrónica realizada entre empresas corresponde al tipo de <i>e-business</i>:',
           imagen: '@/assets/actividad/imagen9.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'B2B.',
+              texto: '<i>B2B.</i>',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'B2C.',
+              texto: '<i>B2C.</i>',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'C2C.',
+              texto: '<i>C2C.</i>',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'C2B.',
+              texto: '<i>C2B.</i>',
               esCorrecta: false,
             },
           ],
@@ -641,7 +641,7 @@ export default {
 
         {
           id: 20,
-          texto: 'El <em>target</em> o mercado objetivo corresponde a:',
+          texto: 'El <i>target</i> o mercado objetivo corresponde a:',
           imagen: '@/assets/actividad/imagen10.png',
           barajarRespuestas: true,
           opciones: [

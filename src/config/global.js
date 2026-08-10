@@ -271,7 +271,7 @@ export default {
         'Estrategias de promoción, comunicación y comercialización desarrolladas a través de medios, tecnologías y plataformas digitales.',
     },
     {
-      termino: '<i>Marketing verde</i>',
+      termino: '<i>Marketing</i> verde',
       significado:
         'Estrategia de mercadeo orientada a promover productos, servicios y procesos ambientalmente sostenibles.',
     },
@@ -349,12 +349,12 @@ export default {
   referencias: [
     {
       referencia:
-        'Aaker, D. A. (2014). Construir marcas fuertes. Editorial Gestión 2000.',
+        'Aaker, D. A. (2014). Construir marcas fuertes. Gestión 2000.',
       link: '',
     },
     {
       referencia:
-        'Chaffey, D., & Ellis-Chadwick, F. (2019). Marketing digital: estrategia, implementación y práctica (7.ª ed.). Pearson Educación.',
+        'Chaffey, D., & Ellis-Chadwick, F. (2019). <i>Marketing digital</i>: estrategia, implementación y práctica (7.ª ed.). Pearson Educación.',
       link: '',
     },
     {
@@ -364,22 +364,22 @@ export default {
     },
     {
       referencia:
-        'GS1 Colombia. (s. f.). ¿Qué significan los números en los códigos de barras?.',
+        'GS1 Colombia. (s. f.). ¿Qué significan los números en los códigos de barras?',
       link: '',
     },
     {
       referencia:
-        'Kotler, P., & Armstrong, G. (2017). Fundamentos de marketing (13.ª ed.). Pearson Educación.',
+        'Kotler, P., & Armstrong, G. (2017). Fundamentos de <i>marketing</i> (13.ª ed.). Pearson Educación.',
       link: '',
     },
     {
       referencia:
-        'Kotler, P., Kartajaya, H., & Setiawan, I. (2021). Marketing 5.0: tecnología para la humanidad. LID Editorial.',
+        'Kotler, P., Kartajaya, H., & Setiawan, I. (2021). <i>Marketing</i> 5.0: tecnología para la humanidad. LID Editorial.',
       link: '',
     },
     {
       referencia:
-        'Kotler, P., & Keller, K. L. (2016). Dirección de marketing (15.ª ed.). Pearson Educación.',
+        'Kotler, P., & Keller, K. L. (2016). Dirección de <i>marketing</i> (15.ª ed.). Pearson Educación.',
       link: '',
     },
     {
@@ -394,17 +394,17 @@ export default {
     },
     {
       referencia:
-        'Rivera Camino, J., Arellano Cueva, R., & Molero Ayala, V. (2013). Conducta del consumidor: estrategias y políticas aplicadas al marketing. ESIC Editorial.',
+        'Rivera Camino, J., Arellano Cueva, R., & Molero Ayala, V. (2013). Conducta del consumidor: estrategias y políticas aplicadas al <i>marketing</i>. ESIC Editorial.',
       link: '',
     },
     {
       referencia:
-        'Sainz de Vicuña, J. M. (2020). El plan de marketing en la práctica (23.ª ed.). ESIC Editorial.',
+        'Sainz de Vicuña, J. M. (2020). El plan de <i>marketing</i> en la práctica (23.ª ed.). ESIC Editorial.',
       link: '',
     },
     {
       referencia:
-        'Selman, H. (2017). Marketing digital: estrategias para atraer clientes a tu negocio. Alfaomega.',
+        'Selman, H. (2017). <i>Marketing digital</i>: estrategias para atraer clientes a tu negocio. Alfaomega.',
       link: '',
     },
     {
@@ -414,7 +414,7 @@ export default {
     },
     {
       referencia:
-        'Stanton, W. J., Etzel, M. J., & Walker, B. J. (2007). Fundamentos de marketing (14.ª ed.). McGraw-Hill Interamericana.',
+        'Stanton, W. J., Etzel, M. J., & Walker, B. J. (2007). Fundamentos de <i>marketing</i> (14.ª ed.). McGraw-Hill Interamericana.',
       link: '',
     },
     {
@@ -471,7 +471,7 @@ export default {
         {
           nombre: 'Maria Alejandra Vera Briceño',
           cargo: 'Animadora y productora multimedia',
-          centro: 'Centro Agroturísticod - Regional Santander',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
