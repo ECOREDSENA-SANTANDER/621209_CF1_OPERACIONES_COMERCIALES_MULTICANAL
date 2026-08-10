@@ -607,7 +607,7 @@
 
       figure.mb-4(data-aos="zoom-in-left")
         .video
-          iframe(iframe width="560" height="315" src="https://www.youtube.com/embed/QrJ2hZkRpiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+          iframe(iframe width="560" height="315" src="https://www.youtube.com/embed/XKpdJD9ftIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
         figcaption Video. Portafolio y características del producto 
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
@@ -766,8 +766,8 @@
 
       figure.mb-4(data-aos="zoom-in-left")
         .video
-          iframe(iframe width="560" height="315" src="https://www.youtube.com/embed/zTgk6ZaHVV0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-        figcaption Video: Clasificación de los servicios
+          iframe(iframe width="560" height="315" src="https://www.youtube.com/embed/xH9iEuXTkH8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+        figcaption Video. Clasificación de los servicios
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
           .col-sm-12.col-lg-7
