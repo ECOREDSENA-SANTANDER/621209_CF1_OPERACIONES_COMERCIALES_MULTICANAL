@@ -194,11 +194,12 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h4.mb-3 ¿Qué significan los números en los códigos de barras?
-              p.mb-0 Para fortalecer la comprensión sobre la estructura y utilidad de los códigos de barras en la identificación de productos, consulte el recurso “¿Qué significan los números en los códigos de barras?”. Durante la revisión, identifique qué información contiene un código de barras, cómo se interpreta su composición y por qué este sistema facilita la comercialización, trazabilidad y gestión de los productos en el mercado.
+              h4.mb-3 Manual sobre fundamentos y manejo del código de barras
+              p.mb-0 Para ampliar la comprensión sobre la identificación de productos mediante códigos de barras, se invita a consultar el Manual sobre fundamentos y manejo del código de barras. Este recurso presenta conceptos relacionados con su estructura, codificación, lectura y aplicación en los procesos comerciales.
+              p Durante la consulta, se recomienda identificar cómo se estructura un código de barras, qué función cumplen sus diferentes componentes y de qué manera este sistema facilita la identificación, el control y la gestión de los productos.
             .col-sm-auto
-              a.boton.color-acento-botones(:href="('https://gs1co.org/blog/que-significan-los-numeros-en-los-codigos-de-barras')" target="_blank")
-                span Enlace web
+              a.boton.color-acento-botones(:href="obtenerLink('public/downloads/Anexo_2_Manual_fundamentos_manejo_codigo_de_barras.pdf')" target="_blank")
+                span Descarga PDF
                 i.fas.fa-file-code
 
     separador
