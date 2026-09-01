@@ -60,44 +60,8 @@
           h3.bg1.py-3.w-card-text.text-white Mezcla
 
     p El mercadeo verde adapta la mezcla de mercadeo tradicional a criterios de sostenibilidad:
-    .row.mb-4(data-aos="zoom-in-left")
-        .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-          .tarjeta--boton.color-secundario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-5.col-lg-7
-                .icono
-                  img(src='@/assets/curso/temas/Tema4/1.svg', alt='')
-            h4.text-center Producto
-            p.mb-0 Diseño ecológico, uso de materiales reciclables o biodegradables.
-
-        .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-          .tarjeta--boton.color-secundario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-5.col-lg-7
-                .icono
-                  img(src='@/assets/curso/temas/Tema4/2.svg', alt='')
-            h4.text-center Precio
-            p.mb-0 Puede reflejar costos asociados a procesos sostenibles, pero también valor percibido por el consumidor.
-        .col-sm-6.col-lg-3.mb-4.mb-sm-0.d-flex
-          .tarjeta--boton.color-secundario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-5.col-lg-7
-                .icono
-                  img(src='@/assets/curso/temas/Tema4/3.svg', alt='')
-            h4.text-center Plaza
-            p.mb-0 Distribución eficiente que reduzca impacto ambiental, también llamada logística verde.
-
-        .col-sm-6.col-lg-3.d-flex
-          .tarjeta--boton.color-secundario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-5.col-lg-7
-                .icono
-                  img(src='@/assets/curso/temas/Tema4/4.svg', alt='')
-            h4.text-center Promoción
-            p.mb-0 Comunicación transparente sobre prácticas sostenibles, evitando el #[em greenwashing].
-
-    .cajon.color-primario.p-4.mb-4(data-aos="zoom-in-left")
-      p.mb-0 Por ejemplo, una empresa del sector textil puede integrar sostenibilidad en toda su mezcla de mercadeo verde, desde el uso de fibras recicladas o materiales de menor impacto ambiental hasta campañas educativas enfocadas en el consumo responsable, la durabilidad de las prendas, la reparación, la reutilización y la reducción de residuos.
+    
+    
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
@@ -131,7 +95,8 @@
             figure
               img(src='@/assets/curso/temas/Tema4/aco4.png', alt='')
 
-
+    .cajon.color-primario.p-4.mb-4(data-aos="zoom-in-left")
+      p.mb-0 Por ejemplo, una empresa del sector textil puede integrar sostenibilidad en toda su mezcla de mercadeo verde, desde el uso de fibras recicladas o materiales de menor impacto ambiental hasta campañas educativas enfocadas en el consumo responsable, la durabilidad de las prendas, la reparación, la reutilización y la reducción de residuos.
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
         .d-flex.align-items-center
@@ -229,42 +194,7 @@
           h3.bg1.py-3.w-card-text.text-white Procesos
 
     p El mercadeo verde implica la integración de prácticas sostenibles en toda la cadena de valor:
-    .row.mb-4(data-aos="zoom-in-left")
-        .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-          .tarjeta--boton.color-primario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-5.col-lg-7
-                .icono
-                  img(src='@/assets/curso/temas/Tema4/5.svg', alt='')
-            h4.text-center Diseño sostenible
-            p.mb-0 Desarrollo de productos con menor impacto ambiental.
-
-        .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-          .tarjeta--boton.color-primario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-5.col-lg-7
-                .icono
-                  img(src='@/assets/curso/temas/Tema4/6.svg', alt='')
-            h4.text-center Producción limpia
-            p.mb-0 Uso eficiente de recursos y reducción de residuos.
-
-        .col-sm-6.col-lg-3.mb-4.mb-sm-0.d-flex
-          .tarjeta--boton.color-primario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-5.col-lg-7
-                .icono
-                  img(src='@/assets/curso/temas/Tema4/7.svg', alt='')
-            h4.text-center Logística verde
-            p.mb-0 Optimización del transporte y distribución.
-
-        .col-sm-6.col-lg-3.d-flex
-          .tarjeta--boton.color-primario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-5.col-lg-7
-                .icono
-                  img(src='@/assets/curso/temas/Tema4/8.svg', alt='')
-            h4.text-center Consumo responsable
-            p.mb-0 Promoción de hábitos sostenibles en el cliente.
+   
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7

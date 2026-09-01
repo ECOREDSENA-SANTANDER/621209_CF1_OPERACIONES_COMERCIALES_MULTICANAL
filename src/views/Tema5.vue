@@ -85,49 +85,8 @@
           h3.bg1.py-3.w-card-text.text-white Características
 
     p El #[em marketing digital] se sostiene en principios que garantizan coherencia estratégica y efectividad operativa:
-    .row.mb-4.justify-content-center(data-aos="zoom-in-left")
-        .col-md-6.col-lg.mb-5.mb-lg-0
-          .tarjeta-avatar
-            img(src='@/assets/curso/temas/Tema5/01.png' alt='')
-            .tarjeta.bg9
-              .p-4
-                h4.text-center Orientación al consumidor digital
-                p.mb-0.text-center Análisis de comportamientos, intereses y recorrido del cliente en línea.
+   
 
-        .col-md-6.col-lg.mb-5.mb-lg-0
-          .tarjeta-avatar
-            img(src='@/assets/curso/temas/Tema5/02.png' alt='')
-            .tarjeta.bg9
-              .p-4
-                h4.text-center Segmentación avanzada
-                p.mb-0.text-center Clasificación de audiencias según variables demográficas, psicográficas y conductuales.
-
-        .col-md-6.col-lg.mb-5.mb-lg-0
-          .tarjeta-avatar
-            img(src='@/assets/curso/temas/Tema5/03.png' alt='')
-            .tarjeta.bg9
-              .p-4
-                h4.text-center Medición constante
-                p.mb-0.text-center Uso de indicadores como tasa de clics, conversión y retorno de inversión.
-      
-    .row.mb-4.justify-content-center(data-aos="zoom-in-left")
-      .col-lg-4.mb-4.col-md-6.h-100
-        .tarjeta-avatar.h-100
-          img(src='@/assets/curso/temas/Tema5/04.png' alt='')
-          .tarjeta.bg9
-            .p-4
-              h4.text-center Personalización del mensaje
-              p.mb-4.text-center Adaptación del contenido según perfil y etapa del proceso de compra.
-
-      .col-lg-4.col-md-6.h-100
-        .tarjeta-avatar.h-100
-          img(src='@/assets/curso/temas/Tema5/05.png' alt='')
-          .tarjeta.bg9
-            .p-4.mb-5
-              h4.text-center Optimización continua 
-              p.mb-0.text-center  Ajustes basados en resultados analíticos.
-
-    p Un ejemplo claro es una plataforma de contenido digital que segmenta a los usuarios según sus intereses, búsquedas, historial de navegación o preferencias de consumo. A partir de esta información, puede recomendar contenidos personalizados, organizar listas sugeridas o presentar opciones relacionadas con el comportamiento del usuario. Esta personalización fortalece la permanencia en la plataforma, mejora la experiencia digital y aumenta la probabilidad de que el usuario continúe interactuando con el servicio.
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
@@ -166,7 +125,7 @@
           .col-lg-4.col-10.col-md-8
             figure
               img(src='@/assets/curso/temas/Tema5/aco5.png', alt='')
-
+    p Un ejemplo claro es una plataforma de contenido digital que segmenta a los usuarios según sus intereses, búsquedas, historial de navegación o preferencias de consumo. A partir de esta información, puede recomendar contenidos personalizados, organizar listas sugeridas o presentar opciones relacionadas con el comportamiento del usuario. Esta personalización fortalece la permanencia en la plataforma, mejora la experiencia digital y aumenta la probabilidad de que el usuario continúe interactuando con el servicio.
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
         .d-flex.align-items-center
@@ -637,42 +596,6 @@
 
     p Dentro del #[em e-business] existen diferentes clases de modelos digitales que las organizaciones utilizan para operar en internet. Entre las principales se encuentran:
 
-    .fondo01.p-5.mb-4(data-aos="zoom-in-left")
-        .row.justify-content-center.align-items-center.mb-2
-          .col-lg-12
-            .tarjeta.fondosly.p-4
-              SlyderA(tipo="b")
-                .row.justify-content-center.align-items-center
-                  .col-lg-6.mb-4.mb-md-0
-                    h5 Tiendas en línea
-                    p Plataformas digitales que permiten vender productos o servicios directamente a los consumidores.
-                  .col-lg-4.col-md-8
-                    figure
-                      img(src='@/assets/curso/temas/Tema5/sly5.png', alt='')
-                .row.justify-content-center.align-items-center
-                  .col-lg-6.mb-4.mb-md-0
-                    h5 #[em Marketplaces]
-                    p Plataformas que conectan múltiples vendedores con compradores dentro de un mismo sitio web.
-                  .col-lg-4.col-md-8
-                    figure
-                      img(src='@/assets/curso/temas/Tema5/sly6.png', alt='')
-                .row.justify-content-center.align-items-center
-                  .col-lg-6.mb-4.mb-md-0
-                    h5 Servicios digitales
-                    p Empresas que ofrecen productos intangibles a través de internet, como #[em streaming], #[em software] o educación en línea.
-                  .col-lg-4.col-md-8
-                    figure
-                      img(src='@/assets/curso/temas/Tema5/sly7.png', alt='')
-                .row.justify-content-center.align-items-center
-                  .col-lg-6.mb-4.mb-md-0
-                    h5 Plataformas colaborativas
-                    p Sistemas que facilitan la interacción entre usuarios para compartir bienes o servicios.
-                  .col-lg-4.col-md-8
-                    figure
-                      img(src='@/assets/curso/temas/Tema5/sly8.png', alt='')
-
-    .cajon.color-acento-contenido.p-4.mb-3
-      p Por ejemplo, una plataforma de entretenimiento digital puede ofrecer contenidos mediante transmisión en línea, permitiendo que los usuarios accedan a películas, series, música o videos desde diferentes dispositivos. Asimismo, una plataforma colaborativa puede conectar a personas que ofrecen un servicio con usuarios que lo necesitan, como alojamiento, transporte, asesorías o experiencias turísticas, facilitando la interacción entre ambas partes en distintos lugares.
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
@@ -707,6 +630,8 @@
               img(src='@/assets/curso/temas/Tema5/aco9.png', alt='')
       
 
+    .cajon.color-acento-contenido.p-4.mb-3
+      p Por ejemplo, una plataforma de entretenimiento digital puede ofrecer contenidos mediante transmisión en línea, permitiendo que los usuarios accedan a películas, series, música o videos desde diferentes dispositivos. Asimismo, una plataforma colaborativa puede conectar a personas que ofrecen un servicio con usuarios que lo necesitan, como alojamiento, transporte, asesorías o experiencias turísticas, facilitando la interacción entre ambas partes en distintos lugares.
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
         .d-flex.align-items-center

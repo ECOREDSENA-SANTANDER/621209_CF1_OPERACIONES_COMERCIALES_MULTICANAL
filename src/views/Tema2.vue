@@ -374,36 +374,7 @@
       
       p El #[em branding] se compone de varios elementos que permiten construir una identidad sólida. Estos elementos permiten construir una identidad de marca coherente y facilitar el reconocimiento de la empresa por parte de los consumidores.
 
-    .titulo-sexto.color-secundario(data-aos='fade-right').mb-3
-      h5 Tabla 5.
-      span Elementos del #[em branding]
-    .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
-      .col-lg-7
-          .tabla-a
-            table
-              thead
-                tr
-                  th.bg4.w-25 Elemento
-                  th.bg4 Función
-              tbody
-                tr
-                  td Nombre de marca
-                  td Permite identificar y diferenciar una empresa o producto dentro del mercado.
-                tr
-                  td Logotipo
-                  td Representación visual que facilita el reconocimiento inmediato de la marca.
-                tr
-                  td Colores corporativos
-                  td Conjunto de colores que identifican visualmente a la marca y generan recordación.
-                tr
-                  td Tipografía
-                  td Estilo de letra utilizado para representar el nombre de la marca y transmitir su personalidad.
-                tr
-                  td Mensaje o eslogan
-                  td Frase que comunica el propósito o los valores de la marca mediante una frase breve y memorable.
-      .col-lg-5.col-10.col-md-8.d-none.d-lg-block
-        img(src='@/assets/curso/temas/Tema2/img16.png', alt='')
-
+  
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
         .d-flex.align-items-center
@@ -495,26 +466,7 @@
           h3.bg1.py-3.w-card-text.text-white Beneficios
     p El #[em branding] aporta múltiples beneficios para las empresas y organizaciones, entre ellos:
 
-    .row.justify-content-center.align-items-center.mb-5.bg4(data-aos="zoom-in-left")
-        .col-lg-5
-          img.izq.d-none.d-lg-block(src="@/assets/curso/temas/Tema2/img19.png")
-        .col-lg-7.p-3
-          ul.lista-ul.lista-ul--separador
-              li
-                i.fas.fa-circle-check
-                | Mejora el reconocimiento de la marca.
-              li
-                i.fas.fa-circle-check
-                | Genera confianza y credibilidad en los consumidores.
-              li
-                i.fas.fa-circle-check
-                | Permite diferenciarse de la competencia.
-              li
-                i.fas.fa-circle-check
-                | Favorece la fidelización de clientes.
-              li
-                i.fas.fa-circle-check
-                | Contribuye al posicionamiento en el mercado.
+   
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
@@ -657,49 +609,14 @@
           img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
           h3.bg1.py-3.w-card-text.text-white Estrategias
     p Las empresas pueden aplicar diferentes estrategias para posicionar sus productos o servicios y diferenciarse frente a la competencia. Estas estrategias permiten destacar atributos, beneficios o características que facilitan el reconocimiento de la marca en el mercado.
-    
-    .titulo-sexto.color-secundario(data-aos='fade-right').mb-3
-      h5 Tabla 6.
-      span Estrategias de posicionamiento
-    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
-      .col-lg-7
-        .tabla-a
-          table
-            caption Nota. Adaptada de Kotler y Keller (2016).
-            thead
-              tr
-                th.bg4.w-25 Estrategia
-                th.bg4 Descripción
-            tbody
-              tr(style="height: 60px;")
-                td Por atributo
-                td Destaca una característica específica del producto o servicio.
-              tr(style="height: 60px;")
-                td Por beneficio
-                td Resalta el beneficio principal que obtiene el consumidor.
-              tr(style="height: 60px;")
-                td Por precio
-                td Se posiciona el producto destacando su costo competitivo.
-              tr(style="height: 60px;")
-                td Por calidad
-                td Enfatiza la superioridad o nivel de calidad del producto.
-              tr(style="height: 60px;")
-                td Por uso o aplicación
-                td Se enfoca en la forma en que el producto es utilizado.
-              tr(style="height: 60px;")
-                td Por tipo de usuario
-                td Dirige el producto a un grupo específico de consumidores.
-              tr(style="height: 60px;")
-                td Frente a la competencia
-                td Compara el producto con otras marcas del mercado.
-      .col-lg-5.col-10.col-md-8.d-none.d-lg-block
-        img(src='@/assets/curso/temas/Tema2/img25.png', alt='')
+
+   
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
         .d-flex.align-items-center
           img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
-          h3.bg1.py-3.w-card-text.text-white Estrategias
+          h3.bg1.py-3.w-card-text.text-white Estrategias para posicionar una marca
 
     .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
       .col-lg-3.mb-3.col-8.col-md-5
@@ -729,35 +646,7 @@
     p El posicionamiento genera diferentes beneficios para las organizaciones, ya que permite fortalecer la identidad de marca y mejorar su reconocimiento en el mercado. A continuación, se presentan algunos de los principales beneficios del posicionamiento.
 
 
-    .titulo-sexto.color-secundario(data-aos='fade-right').mb-3
-      h5 Tabla 7.
-      span Beneficios del posicionamiento
-    .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
-      .col-lg-7
-        .tabla-a
-          table
-            thead
-              tr
-                th.bg4.w-25 Beneficio
-                th.bg4 Descripción
-            tbody
-              tr(style="height: 60px;")
-                td Diferenciación
-                td Permite destacar frente a la competencia.
-              tr(style="height: 60px;")
-                td Reconocimiento de marca
-                td Facilita que los consumidores identifiquen la empresa.
-              tr(style="height: 60px;")
-                td Mayor recordación
-                td Ayuda a que el producto permanezca en la mente del consumidor.
-              tr(style="height: 60px;")
-                td Confianza del cliente
-                td Refuerza la percepción positiva de la marca.
-              tr(style="height: 60px;")
-                td Ventaja competitiva
-                td Permite fortalecer la presencia en el mercado.
-      .col-lg-5.col-10.col-md-8.d-none.d-lg-block
-        img(src='@/assets/curso/temas/Tema2/img27.png', alt='')
+   
 
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")

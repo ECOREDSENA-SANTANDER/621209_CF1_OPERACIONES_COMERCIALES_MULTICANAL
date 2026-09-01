@@ -77,7 +77,7 @@
         p.mb-0 El código de barras es un sistema de identificación automática que utiliza una serie de líneas y espacios de diferentes grosores para representar información codificada de un producto, la cual puede ser leída mediante dispositivos electrónicos.
           br
           br
-          | En el contexto empresarial, los códigos de barras permiten agilizar procesos como facturación, inventario y trazabilidad de productos. Por ejemplo, en supermercados, tiendas de autoservicio o puntos de venta, el uso de códigos de barras permite registrar productos en caja de forma rápida, actualizar inventarios y reducir errores en precios o referencias.
+          | En el contexto empresarial, los códigos de barras permiten agilizar procesos como facturación, inventario y trazabilidad de productos. Por ejemplo, en supermercados, tiendas de autoservicio o puntos de venta, el uso de códigos de barras permite registrar productos en la caja de forma rápida, actualizar inventarios y reducir errores en precios o referencias.
     
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
@@ -149,7 +149,7 @@
         .col-md-6.col-lg.mb-5.mb-lg-0
           .tarjeta-avatar
             img(src='@/assets/curso/temas/Tema3/01.png' alt='')
-            .tarjeta.bg9
+            .tarjeta.bg9.h-100
               .p-4
                 h4.text-center Automatización
                 p.mb-0.text-center Permiten registrar productos de forma rápida mediante escaneo, reduciendo tiempos en procesos operativos.
@@ -157,31 +157,31 @@
         .col-md-6.col-lg.mb-5.mb-lg-0
           .tarjeta-avatar
             img(src='@/assets/curso/temas/Tema3/02.png' alt='')
-            .tarjeta.bg9
+            .tarjeta.bg9.h-100
               .p-4
                 h4.text-center Precisión
                 p.mb-0.text-center Minimizan errores humanos en la digitación de información, especialmente en inventarios y ventas.
         .col-md-6.col-lg.mb-5.mb-lg-0
           .tarjeta-avatar
             img(src='@/assets/curso/temas/Tema3/03.png' alt='')
-            .tarjeta.bg9
+            .tarjeta.bg9.h-100
               .p-4
                 h4.text-center  Estandarización
                 p.mb-0.text-center Siguen normas internacionales que garantizan su uso global y compatibilidad entre sistemas.
       
     .row.mb-4.justify-content-center(data-aos="zoom-in-left")
       .col-lg-4.mb-4.col-md-6.h-100
-        .tarjeta-avatar.h-100
+        .tarjeta-avatar.h-100.tarjetaprueba
           img(src='@/assets/curso/temas/Tema3/04.png' alt='')
-          .tarjeta.bg9
+          .tarjeta.bg9.h-100
             .p-4
               h4.text-center Rapidez
               p.mb-0.text-center Facilitan procesos en puntos de venta, mejorando la experiencia del cliente.
 
       .col-lg-4.col-md-6.h-100
-        .tarjeta-avatar.h-100
+        .tarjeta-avatar.h-100.tarjetaprueba
           img(src='@/assets/curso/temas/Tema3/05.png' alt='')
-          .tarjeta.bg9
+          .tarjeta.bg9.h-100
             .p-4
               h4.text-center Trazabilidad
               p.mb-0.text-center Permiten hacer seguimiento del producto desde su origen hasta su comercialización.
@@ -256,47 +256,9 @@
           img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
           h3.bg1.py-3.w-card-text.text-white Usos
 
-    p El uso de #[em RFID] se ha extendido en diferentes sectores debido a su capacidad de automatizar procesos y mejorar la precisión de la información.
+    p El uso de #[em RFID] se ha extendido en diferentes sectores debido a su capacidad de automatizar procesos y mejorar la precisión de la información. 
+    p Por ejemplo, una tienda deportiva puede utilizar tecnología #[em RFID] para mejorar la gestión de inventarios, conocer la disponibilidad de productos en tiempo real y reducir tiempos en caja mediante sistemas de autopago o verificación rápida. 
 
-
-    .row.mb-4(data-aos="zoom-in-left")
-        .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-          .tarjeta--boton.color-primario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-5.col-lg-7
-                .icono
-                  img(src='@/assets/curso/temas/Tema3/5.svg', alt='')
-            h4.text-center Gestión de inventarios
-            p.mb-0 Permite conocer en tiempo real la ubicación y cantidad de productos.
-
-        .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-          .tarjeta--boton.color-primario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-5.col-lg-7
-                .icono
-                  img(src='@/assets/curso/temas/Tema3/6.svg', alt='')
-            h4.text-center Control logístico
-            p.mb-0 Facilita el seguimiento de mercancías durante transporte y almacenamiento.
-
-        .col-sm-6.col-lg-3.mb-4.mb-sm-0.d-flex
-          .tarjeta--boton.color-primario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-5.col-lg-7
-                .icono
-                  img(src='@/assets/curso/temas/Tema3/7.svg', alt='')
-            h4.text-center Seguridad
-            p.mb-0 Ayuda a prevenir pérdidas y controlar accesos en productos o activos.
-
-        .col-sm-6.col-lg-3.d-flex
-          .tarjeta--boton.color-primario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-5.col-lg-7
-                .icono
-                  img(src='@/assets/curso/temas/Tema3/8.svg', alt='')
-            h4.text-center Experiencia del cliente
-            p.mb-0 Agiliza procesos de compra y pago en tiendas.
-
-    p Por ejemplo, una tienda deportiva puede utilizar tecnología #[em RFID] para mejorar la gestión de inventarios, conocer la disponibilidad de productos en tiempo real y reducir tiempos en la caja mediante sistemas de autopago o verificación rápida.
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
@@ -360,21 +322,7 @@
           | En el contexto comercial, el empaque se diseña considerando el segmento de mercado, el canal de distribución y el posicionamiento del producto. Por ejemplo, un producto alimenticio tipo pasabocas puede utilizar un empaque rígido, compacto y fácil de manipular, que proteja el contenido, facilite su almacenamiento y permita diferenciarlo frente a otras alternativas ubicadas en el punto de venta.
 
 
-    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-7
-        .d-flex.align-items-center
-          img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
-          h3.bg1.py-3.w-card-text.text-white Funciones estratégicas del empaque
-
-    TabsA.color-acento-botones.mb-2
-      .tarjeta.bgrosado.p-4(titulo="Protección")
-        p.mb-0 El empaque ayuda a conservar el producto, evitar daños, mantener sus condiciones de uso y reducir riesgos durante la manipulación.
-      .tarjeta.bgrosado.p-4(titulo="Comunicación")
-        p.mb-0 Permite presentar información sobre la marca, los atributos, los beneficios, el contenido, el uso y las condiciones del producto.
-      .tarjeta.bgrosado.p-4(titulo="Diferenciación")
-        p.mb-0 Contribuye a que el producto se distinga frente a otras opciones mediante diseño, forma, colores, materiales o presentación.
-      .tarjeta.bgrosado.p-4(titulo="Experiencia del consumidor")
-        p.mb-0 Facilita la manipulación, apertura, almacenamiento y uso del producto, influyendo en la percepción de calidad y valor.
+    
      
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7

@@ -242,35 +242,12 @@
         .col-lg-3.col-7.col-md-5
           img(src="@/assets/curso/temas/Tema1/img07.png")
 
-      .cajon.color-primario.p-4.mb-4(data-aos="zoom-in-left")
-        p La clasificación de los productos puede observarse con claridad cuando se comparan ofertas orientadas al consumidor final con aquellas dirigidas a procesos técnicos y productivos. En el mercado de consumo, por ejemplo, una tienda deportiva puede ofrecer productos de conveniencia y comparación, como accesorios de uso frecuente, prendas de vestir o implementos para actividad física, cuya compra depende del precio, el diseño, la funcionalidad y la preferencia del consumidor. En contraste, en el mercado industrial se comercializan bienes orientados a procesos de fabricación, mantenimiento o soporte técnico, cuya adquisición se fundamenta en especificaciones, rendimiento, durabilidad y requerimientos operativos.
-
-
-      .titulo-secundario.mb-4
-        span.decorador
-        h4.mb-0 Ejemplo aplicado: diferencias entre productos de consumo e industriales
-
-      p Los productos de consumo están dirigidos al usuario final y suelen diseñarse para satisfacer necesidades cotidianas, personales o familiares. Su compra puede estar influida por factores como la experiencia de uso, la presentación, la comodidad, la disponibilidad o la preferencia por una marca. Por su parte, los productos industriales se destinan a actividades productivas, comerciales o técnicas, por lo que su adquisición responde a criterios más racionales, como eficiencia, capacidad de trabajo, compatibilidad técnica, seguridad y cumplimiento de especificaciones.
-
-
-      .titulo-secundario.mb-4(data-aos="zoom-in-left")
-        span.decorador
-        h4.mb-0 Clasificación del producto según su finalidad
-
-      .row.justify-content-center.align-items-center.mb-0
-        .col-lg-12
-          TabsA.color-acento-botones.mb-5
-            .tarjeta.bgrosado.p-4(titulo="Producto de conveniencia")
-              p.mb-0 Es de compra frecuente, bajo costo y rápida decisión. El consumidor lo adquiere con poco esfuerzo de comparación y espera encontrarlo fácilmente.
-
-            .tarjeta.bgrosado.p-4(titulo="Producto de comparación")
-              p.mb-0 Requiere análisis previo por parte del consumidor, quien compara variables como precio, calidad, diseño, tamaño o funcionalidad antes de decidir.
-
-            .tarjeta.bgrosado.p-4(titulo="Producto de especialidad")
-              p.mb-0 Tiene un alto valor percibido y una fuerte diferenciación. El consumidor está dispuesto a invertir más tiempo, esfuerzo o dinero para obtenerlo.
-
-            .tarjeta.bgrosado.p-4(titulo="Producto industrial")
-              p.mb-0 Se dirige a empresas, talleres, fábricas o procesos técnicos. Su compra depende de especificaciones, desempeño, durabilidad y utilidad dentro de una actividad productiva.
+    
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-7
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+            h3.bg1.py-3.w-card-text.text-white Características
 
       p.mb-4 Las características del producto corresponden a los elementos que determinan su desempeño, calidad y aceptación en el mercado. Estas incluyen:
 
@@ -835,27 +812,9 @@
               img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
               h3.bg1.py-3.w-card-text.text-white Momentos de verdad
 
-      p Los momentos de verdad son los puntos de contacto entre el cliente y la empresa que influyen directamente en la percepción del servicio.
+      p Los momentos de verdad son los puntos de contacto entre el cliente y la empresa que influyen directamente en la percepción del servicio. 
+      p Por ejemplo, en una aplicación de domicilios, momentos como la facilidad de uso de la app, la claridad en la información del pedido, el tiempo de entrega, el seguimiento del servicio y la atención al cliente determinan la experiencia del usuario. 
 
-      .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
-        .col-lg-6
-          ul.lista-ul.lista-ul--separador
-            li
-              i.fas.fa-circle-check
-              | #[b Interacción inicial:] primer contacto con la empresa o plataforma.
-            li
-              i.fas.fa-circle-check
-              | #[b Prestación del servicio:] experiencia durante el uso del servicio.
-            li
-              i.fas.fa-circle-check
-              | #[b Atención de soporte:] solución de dudas o inconvenientes.
-            li
-              i.fas.fa-circle-check
-              | #[b Seguimiento:] acciones posteriores que fortalecen la relación con el cliente.
-        .col-lg-6.col-10.col-md-7
-          img(src="@/assets/curso/temas/Tema1/img19.png")
-
-      p Por ejemplo, en una aplicación de domicilios, momentos como la facilidad de uso de la #[em app], la claridad en la información del pedido, el tiempo de entrega, el seguimiento del servicio y la atención al cliente determinan la experiencia del usuario.
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
           .col-sm-12.col-lg-7
             .d-flex.align-items-center
@@ -868,7 +827,7 @@
             .row
               .col-md-8.mb-4.mb-md-0
                 h4 Introducción
-                p El producto se lanza al mercado y presenta baja penetración. El enfoque comercial se centra en la inversión en promoción.
+                p Corresponde al primer contacto del cliente con la empresa a la plataforma y puede influir en la percepción inicial del servicio.
               .col-md-3.col-8
                 figure
                   img(src='@/assets/curso/temas/Tema1/pas8.svg', alt='')
