@@ -274,7 +274,7 @@
     p La legislación comercial comprende el conjunto de normas que regulan las actividades empresariales, incluyendo la comercialización de productos, la protección al consumidor y las prácticas de mercado. Estas normas buscan garantizar transparencia, equidad y seguridad en las relaciones comerciales.
     
     .titulo-sexto.color-secundario(data-aos='fade-right').mb-3
-      h5 Tabla 5.
+      h5 Tabla 5. HOLA
       span Normatividad comercial y de protección al consumidor en Colombia
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
