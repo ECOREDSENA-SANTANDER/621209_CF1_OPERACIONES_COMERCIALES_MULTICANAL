@@ -366,17 +366,17 @@
       .cajon.color-primario.p-4.mb-4(data-aos="zoom-in-left")
         p Un ejemplo de ello es una marca de bebidas no alcohólicas que utiliza de manera constante un color corporativo, una tipografía reconocible y un estilo visual coherente en sus empaques, piezas publicitarias y canales digitales. Esta consistencia permite fortalecer la recordación, transmitir personalidad de marca y facilitar que el consumidor identifique la empresa en diferentes contextos comerciales.
 
-      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
-          .col-sm-12.col-lg-7
-            .d-flex.align-items-center
-              img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
-              h3.bg1.py-3.w-card-text.text-white Elementos
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-12
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+          h3.bg1.py-3.w-card-text.text-white Elementos 
       
-      p El #[em branding] se compone de varios elementos que permiten construir una identidad sólida. Estos elementos permiten construir una identidad de marca coherente y facilitar el reconocimiento de la empresa por parte de los consumidores.
+    p El #[em branding] se compone de varios elementos que permiten construir una identidad sólida. Estos elementos permiten construir una identidad de marca coherente y facilitar el reconocimiento de la empresa por parte de los consumidores.
 
   
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-7
+      .col-sm-12.col-lg-12
         .d-flex.align-items-center
           img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
           h3.bg1.py-3.w-card-text.text-white Elementos que construyen una marca
