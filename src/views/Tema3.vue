@@ -492,55 +492,7 @@
 
     p Por ejemplo, una empresa de productos de cuidado personal puede desarrollar diferentes tipos de envases, como frascos de vidrio, tubos plásticos, latas metálicas o cajas de cartón, adaptados a distintos usos, tamaños de presentación, canales de distribución y necesidades del consumidor.
 
-    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-7
-        .d-flex.align-items-center
-          img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
-          h3.bg1.py-3.w-card-text.text-white Funciones
-
-    p El envase cumple funciones fundamentales:
-
-    .row.mb-4.justify-content-center
-        .col-md-6.col-lg.mb-5.mb-lg-0
-          .tarjeta-avatar
-            img(src='@/assets/curso/temas/Tema3/06.png' alt='')
-            .tarjeta.bg9
-              .p-4
-                h4.text-center Contener
-                p.mb-0.text-center Asegura que el producto se mantenga íntegro.
-
-        .col-md-6.col-lg.mb-5.mb-lg-0
-          .tarjeta-avatar
-            img(src='@/assets/curso/temas/Tema3/07.png' alt='')
-            .tarjeta.bg9
-              .p-4
-                h4.text-center Proteger
-                p.mb-0.text-center Evita alteraciones externas.
-        .col-md-6.col-lg.mb-5.mb-lg-0
-          .tarjeta-avatar
-            img(src='@/assets/curso/temas/Tema3/08.png' alt='')
-            .tarjeta.bg9
-              .p-4
-                h4.text-center  Dosificar
-                p.mb-0.text-center Facilita el uso adecuado del producto.
-      
-    .row.mb-4.justify-content-center(data-aos="zoom-in-left")
-      .col-lg-4.mb-4.col-md-6.h-100
-        .tarjeta-avatar.h-100
-          img(src='@/assets/curso/temas/Tema3/09.png' alt='')
-          .tarjeta.bg9
-            .p-4
-              h4.text-center Informar
-              p.mb-0.text-center Comunica características, instrucciones y normativas.
-
-      .col-lg-4.col-md-6.h-100
-        .tarjeta-avatar.h-100
-          img(src='@/assets/curso/temas/Tema3/010.png' alt='')
-          .tarjeta.bg9
-            .p-4
-              h4.text-center Generar experiencia
-              p.mb-0.text-center Influye en la percepción y comodidad del consumidor.
-
+    
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
