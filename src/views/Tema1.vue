@@ -382,7 +382,7 @@
         h5 Tabla 3.
         span Estructura de la mezcla de producto
 
-      .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+      .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
         .col-lg-9.mb-4
           .tabla-a
             table
@@ -419,53 +419,13 @@
         span.decorador
         h4.mb-0 Ejemplo aplicado: análisis de la mezcla de producto
 
-      .row.justify-content-center.align-items-center.mb-5.bg5(data-aos="zoom-in-left")
+      .row.justify-content-center.align-items-center.mb-4.bg5(data-aos="zoom-in-left")
         .col-lg-5.d-none.d-lg-block
           img.izq(src="@/assets/curso/temas/Tema1/img11.png")
         .col-lg-7.p-3.p-lg-0
           p Para comprender la estructura de la mezcla de producto, puede analizarse una empresa que ofrece productos de consumo masivo para el hogar. Su amplitud se reconoce en la cantidad de líneas que maneja, como limpieza, cuidado personal y alimentos empacados. La longitud se identifica en el número total de productos disponibles dentro de esas líneas. La profundidad se observa en las distintas versiones o referencias de un mismo producto, como tamaños, fragancias, presentaciones o usos. Finalmente, la consistencia se relaciona con la coherencia entre las líneas, el tipo de consumidor, los canales de venta y la estrategia comercial de la empresa.
 
-      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
-          .col-sm-12.col-lg-7
-            .d-flex.align-items-center
-              img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
-              h3.bg1.py-3.w-card-text.text-white Estructura de la mezcla de producto
-      .row.mb-4(data-aos="zoom-in-left")
-        .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-          .tarjeta--boton.color-primario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-lg-7.col-5
-                .icono
-                  img(src='@/assets/curso/temas/Tema1/5.svg', alt='')
-            h4.text-center Amplitud
-            p.mb-0 Número de líneas de producto que maneja la empresa. Define el alcance en el mercado.
 
-        .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-          .tarjeta--boton.color-primario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-lg-7.col-5
-                .icono
-                  img(src='@/assets/curso/temas/Tema1/6.svg', alt='')
-            h4.text-center Longitud
-            p.mb-0 Cantidad total de productos dentro de todas las líneas. Mide el tamaño del portafolio.
-
-        .col-sm-6.col-lg-3.mb-4.mb-sm-0.d-flex
-          .tarjeta--boton.color-primario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-lg-7.col-5
-                .icono
-                  img(src='@/assets/curso/temas/Tema1/7.svg', alt='')
-            h4.text-center Profundidad
-            p.mb-0 Número de versiones o referencias por producto. Permite segmentar el mercado.
-
-        .col-sm-6.col-lg-3.d-flex
-          .tarjeta--boton.color-primario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-lg-7.col-5
-                .icono
-                  img(src='@/assets/curso/temas/Tema1/8.svg', alt='')
-            h4.text-center Consistencia
-            p.mb-0 Relación o coherencia entre las líneas de producto. Facilita el posicionamiento y la gestión.
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
           .col-sm-12.col-lg-7
