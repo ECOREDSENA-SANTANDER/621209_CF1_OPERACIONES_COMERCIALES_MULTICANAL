@@ -152,48 +152,9 @@
         .col-lg-3.col-7.col-md-5.d-flex
           img.img-tabla(src='@/assets/curso/temas/Tema1/img05.png', alt='')
 
-      p Un caso representativo es el de los juegos de construcción, donde el producto trasciende el objeto físico e incorpora creatividad, aprendizaje y experiencia lúdica.
+      p Un caso representativo es el de los juegos de construcción, donde el producto trasciende el objeto físico e incorpora creatividad, aprendizaje y experiencia lúdica. 
 
-      .titulo-secundario.mb-4
-        span.decorador
-        h4.mb-0 Atributos que diferencian un producto
-
-      .row.mb-4(data-aos="zoom-in-left")
-        .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-          .tarjeta--boton.color-primario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-5.col-lg-7
-                .icono
-                  img(src='@/assets/curso/temas/Tema1/13.svg', alt='')
-            h4.text-center Atributo funcional
-            p.mb-0 Está relacionado con el desempeño, la utilidad y la solución que ofrece el producto frente a una necesidad específica.
-
-        .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-          .tarjeta--boton.color-primario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-5.col-lg-7
-                .icono
-                  img(src='@/assets/curso/temas/Tema1/14.svg', alt='')
-            h4.text-center Atributo tangible
-            p.mb-0 Corresponde a las características físicas que pueden percibirse, como diseño, materiales, tamaño o acabado.
-
-        .col-sm-6.col-lg-3.mb-4.mb-sm-0.d-flex
-          .tarjeta--boton.color-primario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-5.col-lg-7
-                .icono
-                  img(src='@/assets/curso/temas/Tema1/15.svg', alt='')
-            h4.text-center Atributo intangible
-            p.mb-0 Se relaciona con el valor percibido de la marca, su reputación o el prestigio que el consumidor asocia con el producto.
-
-        .col-sm-6.col-lg-3.d-flex
-          .tarjeta--boton.color-primario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-5.col-lg-7
-                .icono
-                  img(src='@/assets/curso/temas/Tema1/16.svg', alt='')
-            h4.text-center Atributo emocional
-            p.mb-0 Incluye las sensaciones, experiencias o conexiones que el producto genera en el consumidor.
+    
       .row.justify-content-start.mb-3(data-aos="zoom-in-left")
         .col-sm-12.col-lg-7
           .d-flex.align-items-center
@@ -597,7 +558,7 @@
           PasosA.color-acento-contenido.mb-0(tipo="n")(data-aos="zoom-in-left")
             .row
               .col-md-8.mb-4.mb-md-0
-                h4 Introducción
+                h4 Interacción inicial
                 p El producto se lanza al mercado y presenta baja penetración. El enfoque comercial se centra en la inversión en promoción.
               .col-md-3.col-8
                 figure
