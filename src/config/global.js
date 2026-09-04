@@ -185,7 +185,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/621209_CFA_01_DU.zip',
+        download: 'downloads/621209_CF01_CFA.zip',
       },
       {
         icono: 'fas fa-download',
@@ -449,7 +449,7 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Angélica Varon Quintero',
+          nombre: 'Angélica Varón Quintero',
           cargo: 'Evaluadora instruccional',
           centro: 'Centro Agroturístico - Regional Santander',
         },

@@ -403,44 +403,7 @@
 
     p Por ejemplo, una empresa de productos tecnológicos puede utilizar empaques minimalistas, resistentes y organizados para proteger el producto, facilitar su apertura y reforzar una experiencia de compra asociada con calidad, innovación y cuidado en los detalles.
 
-    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-7
-        .d-flex.align-items-center
-          img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
-          h3.bg1.py-3.w-card-text.text-white Funciones y usos del empaque
-
-    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="zoom-in-left")
-        .row.justify-content-center(titulo="Protección")
-          .col-lg-7.mb-4.mb-md-0
-            p Resguarda el producto frente a impactos, humedad o contaminación.
-          .col-lg-4.col-10.col-md-8
-            figure
-              img(src='@/assets/curso/temas/Tema3/aco1.png', alt='')
-        .row.justify-content-center(titulo="Conservación")
-          .col-lg-7.mb-4.mb-md-0
-            p Mantiene las condiciones óptimas del producto durante su vida útil.
-          .col-lg-4.col-10.col-md-8
-            figure
-              img(src='@/assets/curso/temas/Tema3/aco2.png', alt='')
-        .row.justify-content-center(titulo="Comunicación")
-          .col-lg-7.mb-4.mb-md-0
-            p Transmite información relevante como marca, beneficios y características.
-          .col-lg-4.col-10.col-md-8
-            figure
-              img(src='@/assets/curso/temas/Tema3/aco3.png', alt='')
-
-        .row.justify-content-center(titulo="Diferenciación")
-          .col-lg-7.mb-4.mb-md-0
-            p Permite destacar el producto frente a la competencia en el punto de venta.
-          .col-lg-4.col-10.col-md-8
-            figure
-              img(src='@/assets/curso/temas/Tema3/aco4.png', alt='')
-        .row.justify-content-center(titulo="Uso comercial, logístico y estratégico")
-          .col-lg-7.mb-4.mb-md-0
-            p El empaque influye en la decisión de compra, optimiza procesos de almacenamiento y distribución, y fortalece la identidad de marca.
-          .col-lg-4.col-10.col-md-8
-            figure
-              img(src='@/assets/curso/temas/Tema3/aco5.png', alt='')
+    
 
     separador
     #t_3_4.titulo-segundo.mb-4(data-aos="zoom-in-left")
@@ -506,31 +469,6 @@
 
     p Por ejemplo, una empresa de productos de cuidado personal puede desarrollar diferentes tipos de envases, como frascos de vidrio, tubos plásticos, latas metálicas o cajas de cartón, adaptados a distintos usos, tamaños de presentación, canales de distribución y necesidades del consumidor.
 
-    
-
-    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-7
-        .d-flex.align-items-center
-          img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
-          h3.bg1.py-3.w-card-text.text-white Usos
-
-    p El envase se utiliza en diversos sectores:
-
-    .tarjeta--container.row.mb-3
-      .col-md.tarjeta.bg4.p-5      
-        h5.text-center Alimentos
-        p Conservación e higiene. Protege el producto de contaminación y mantiene su calidad durante almacenamiento y distribución.
-      
-      .col-md.tarjeta.bg12.p-5        
-        h5.text-center Farmacéutico
-        p Control y seguridad. Garantiza dosificación adecuada y cumplimiento de normas sanitarias.
-      
-      .col-md.tarjeta.bg4.p-5    
-        h5.text-center Cosmético
-        p Diferenciación y uso. Aporta valor estético y facilita la aplicación del producto.
-
-    p Por ejemplo, una empresa de productos cosméticos puede utilizar envases funcionales y reconocibles que faciliten la aplicación del producto, protejan el contenido, comuniquen atributos de cuidado personal y fortalezcan la confianza del consumidor.
-
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
         .d-flex.align-items-center
@@ -567,6 +505,31 @@
                   .col-lg-4.col-md-8
                     figure
                       img(src='@/assets/curso/temas/Tema3/sly3.png', alt='')
+
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-7
+        .d-flex.align-items-center
+          img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
+          h3.bg1.py-3.w-card-text.text-white Usos
+
+    p El envase se utiliza en diversos sectores:
+
+    .tarjeta--container.row.mb-3
+      .col-md.tarjeta.bg4.p-5      
+        h5.text-center Alimentos
+        p Conservación e higiene. Protege el producto de contaminación y mantiene su calidad durante almacenamiento y distribución.
+      
+      .col-md.tarjeta.bg12.p-5        
+        h5.text-center Farmacéutico
+        p Control y seguridad. Garantiza dosificación adecuada y cumplimiento de normas sanitarias.
+      
+      .col-md.tarjeta.bg4.p-5    
+        h5.text-center Cosmético
+        p Diferenciación y uso. Aporta valor estético y facilita la aplicación del producto.
+
+    p Por ejemplo, una empresa de productos cosméticos puede utilizar envases funcionales y reconocibles que faciliten la aplicación del producto, protejan el contenido, comuniquen atributos de cuidado personal y fortalezcan la confianza del consumidor.
+
+    
               
     separador
     #t_3_5.titulo-segundo.mb-4(data-aos="zoom-in-left")
