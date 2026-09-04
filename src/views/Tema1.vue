@@ -747,7 +747,7 @@
           PasosA.color-acento-contenido.mb-3(tipo="n")(data-aos="zoom-in-left")
             .row
               .col-md-8.mb-4.mb-md-0
-                h4 interacción inicial 
+                h4 Interacción inicial 
                 p Corresponde al primer contacto del cliente con la empresa a la plataforma y puede influir en la percepción inicial del servicio.
               .col-md-3.col-8
                 figure

@@ -473,7 +473,8 @@
       .col-sm-12.col-lg-7
         .d-flex.align-items-center
           img.w-card-icon(src="@/assets/curso/temas/Tema1/subt.svg")
-          h3.bg1.py-3.w-card-text.text-white Funciones del envase
+          h3.bg1.py-3.w-card-text.text-white Funciones
+    p El envase cumple funciones fundamentales: 
 
     .fondo01.p-5.mb-4(data-aos="zoom-in-left")
         .row.justify-content-center.align-items-center.mb-2
